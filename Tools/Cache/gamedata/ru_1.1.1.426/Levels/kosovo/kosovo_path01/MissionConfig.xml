@@ -1,0 +1,5 @@
+<SubMissionConfig>
+    <ParameterSet difficulty="easy" kind="pass" mission_type="default" mission_flow="passage" time_limit="1000" score="100" start_teleport="Kosovo_Path1_Start" finish_teleport="Kosovo_Path1_End"/>
+	<ParameterSet difficulty="normal" kind="pass" mission_type="default" mission_flow="passage" time_limit="1000" score="100" start_teleport="Kosovo_Path1_Start" finish_teleport="Kosovo_Path1_End"/>
+	<ParameterSet difficulty="hard" kind="pass" mission_type="default" mission_flow="passage" time_limit="1000" score="100" start_teleport="Kosovo_Path1_Start" finish_teleport="Kosovo_Path1_End"/>
+</SubMissionConfig>

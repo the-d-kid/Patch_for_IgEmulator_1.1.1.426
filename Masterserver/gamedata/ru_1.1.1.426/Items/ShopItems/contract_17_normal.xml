@@ -1,0 +1,53 @@
+<shop_item name="contract_17_normal" type="contract">
+	<mmo_stats>
+		<param name="item_category" value="contract"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+	</mmo_stats>
+
+	<UI_stats>
+		<param name="name" value=""/>
+		<param name="description" value="@ui_contract_descr_17n"/>
+		<param name="icon" value=""/>
+	</UI_stats>
+	<contract diff="normal" amount="50" id="17" kind="kills">
+		<Filters>
+  		<Filter kind="player" param="1"/>
+  		<Filter kind="enemy" param="1"/>
+  		<Filter kind="claymore" param="0"/>
+  		<Filter kind="grenade" param="0"/>
+		<Filter kind="victory_condition" param="1"/>
+		<Filter kind="weapon" param="shg01_default"/>
+		<Filter kind="weapon" param="shg02_shop"/>
+		<Filter kind="weapon" param="shg03_shop"/>
+		<Filter kind="weapon" param="shg03_camo05_shop"/>
+		<Filter kind="weapon" param="shg04_shop"/>
+		<Filter kind="weapon" param="shg05_shop"/>
+		<Filter kind="weapon" param="shg06_shop"/>
+		<Filter kind="weapon" param="shg07_shop"/>
+		<Filter kind="weapon" param="shg09_shop"/>
+		<Filter kind="weapon" param="shg10_shop"/>
+		<Filter kind="weapon" param="shg11_shop"/>
+		<Filter kind="weapon" param="shg11_camo03_shop"/>
+		<Filter kind="weapon" param="shg13_shop"/>
+		<Filter kind="weapon" param="shg12_shop"/>
+		<Filter kind="weapon" param="shg12_camo04_shop"/>
+		<Filter kind="weapon" param="shg15_shop"/>
+		<Filter kind="weapon" param="shg18_shop"/>
+		<Filter kind="weapon" param="shg21_shop"/>
+		<Filter kind="weapon" param="shg22_shop"/>
+		<Filter kind="weapon" param="shg30_shop"/>
+		<Filter kind="weapon" param="shg06_crown_shop"/>
+		<Filter kind="weapon" param="shg07_crown_shop"/>
+		<Filter kind="weapon" param="shg03_camo02_shop"/>
+		<Filter kind="weapon" param="shg06_hlw01_shop"/>
+		<Filter kind="weapon" param="shg11_cny_shop"/>
+		<Filter kind="weapon" param="shg11_xmas_shop"/>
+		<Filter kind="weapon" param="shg06_xmas_shop"/>
+		<Filter kind="weapon" param="shg04_set01_shop"/>
+		<Filter kind="weapon" param="shg12_clr01_shop"/>
+		<Filter kind="weapon" param="shg11_set01_shop"/>		
+		</Filters>
+		<Reward name="game_money_item_01" amount="1000"/>
+	</contract>
+</shop_item>

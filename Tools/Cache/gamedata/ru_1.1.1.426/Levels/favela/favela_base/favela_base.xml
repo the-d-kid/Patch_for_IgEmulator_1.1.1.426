@@ -1,0 +1,5 @@
+<MetaData>
+	<MiniMap Filename="favela_base.tif" startX="228.223419" startY="205.481308" endX="328.223419" endY="305.481323"/>
+	<Display Name="Favela" />
+	<Setting name="Favela/favela_base" display_name="@ui_mg_favela" />
+</MetaData>

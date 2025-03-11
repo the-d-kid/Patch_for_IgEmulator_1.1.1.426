@@ -1,0 +1,7 @@
+<MetaData>
+	<Gamerules MP3="Seizure"/>
+ 	<Display Name="ctf_test"/>
+	<Setting name="ctf_test"/> 
+	<DescriptionText text="ctf_test"/>
+	<MiniMap Filename="tdm_bunker.tif" startX="500.061157" startY="492.860962" endX="610.821167" endY="603.620972"/>
+</MetaData>

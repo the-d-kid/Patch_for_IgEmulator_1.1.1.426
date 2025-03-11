@@ -1,0 +1,11 @@
+<mission name="@pvp_mission_display_name_tdm_farm_sunset" time_of_day="13.32" game_mode="tdm" game_mode_cfg="tdm_mode.cfg" uid="90c7e3c1-6432-4745-8abc-40cbccaa4d25" release_mission="1" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_newbie, pvp_skilled, pvp_pro">
+ <Basemap name="pvp/tdm_farm"/>
+ <TimeOfDay file="Libs/TimeOfDay/tdm_farm_sunset.tod" start="16.32" end="19.32" speed="0.00483" />
+ <UI>
+  <Description text="@pvp_tdm_mission_desc" icon="mapImgTdmFarmSunset"/>
+  <GameMode text="@pvp_tdm_game_mode_desc" icon="mapImgTdmFarm"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="150" lose_pool="50" draw_pool="75" score_pool="150"/>
+ <Objectives />
+ <Teleports />
+</mission>

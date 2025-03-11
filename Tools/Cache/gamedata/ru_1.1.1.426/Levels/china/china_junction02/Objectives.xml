@@ -1,0 +1,30 @@
+<MissionObjectives> 
+<Objective id="china_j02_arena1" name="@china_j02_arena1" description="arena1" type="protect" team="tan"/>
+<Objective id="china_j02_arena2" name="@china_j02_arena2" description="arena2" type="protect" team="tan"/>
+<Objective id="china_j02_arena3" name="@china_j02_arena3" description="arena3" type="protect" team="tan"/>
+<Objective id="china_j02_arena4" name="@china_j02_arena4" description="arena4" type="protect" team="tan"/>
+<Objective id="china_j02_tank" name="@china_j02_tank" description="tank" type="danger" team="tan"/>
+<Objective id="china_j02_Checkpoint_1" name="@china_j02_Checkpoint_1" description="Checkpoint" type="checkpoint" team="tan"/> 
+<Objective id="china_j02_Checkpoint_2" name="@china_j02_Checkpoint_2" description="Checkpoint" type="checkpoint" team="tan"/> 
+<Objective id="china_j02_evacuation" name="@china_j02_evacuation" description="Evacuation" type="evacuation" team="tan"/> 
+<Objective id="GateOpen1" name="" description="empty" type="danger" team="tan"/>
+<Objective id="GateOpen2" name="" description="empty" type="danger" team="tan"/>
+<Objective id="GateOpen3" name="" description="empty" type="danger" team="tan"/>
+<Objective id="GateOpen4" name="" description="empty" type="danger" team="tan"/>
+  
+<Objective id="Wavestart_5sec" name="" description="empty" type="printer1sec" team="tan">
+	<Activate message="@arena_wavestart_5sec"  sound="sounds/ui:menu:count_down" message_lifetime="1" />
+</Objective>  
+<Objective id="Wavestart_4sec" name="" description="empty" type="printer1sec" team="tan">
+  	<Activate message="@arena_wavestart_4sec"  sound="sounds/ui:menu:count_down" message_lifetime="1" />  
+</Objective>  
+<Objective id="Wavestart_3sec" name="" description="empty" type="printer1sec" team="tan">
+	<Activate message="@arena_wavestart_3sec"  sound="sounds/ui:menu:count_down" message_lifetime="1" />
+</Objective>  
+<Objective id="Wavestart_2sec" name="" description="empty" type="printer1sec" team="tan">
+	<Activate message="@arena_wavestart_2sec"  sound="sounds/ui:menu:count_down" message_lifetime="1" />
+</Objective>  
+<Objective id="Wavestart_1sec" name="" description="empty" type="printer1sec" team="tan">
+	<Activate message="@arena_wavestart_1sec"  sound="sounds/ui:menu:count_down" message_lifetime="1" />
+</Objective>
+</MissionObjectives>

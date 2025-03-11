@@ -1,0 +1,5 @@
+<MetaData>
+ <Setting name="pvp/tdm_dock"/>
+ <MiniMap Filename="tdm_dock.tif" startX="194.542786" startY="179.444260" endX="294.542786" endY="279.444275"/>
+ <DescriptionText text="@tdm_dock_descr"/>
+</MetaData>

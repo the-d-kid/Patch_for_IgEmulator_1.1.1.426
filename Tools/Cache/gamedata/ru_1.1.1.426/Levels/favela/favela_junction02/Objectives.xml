@@ -1,0 +1,7 @@
+<MissionObjectives> 
+<Objective id="favela_j02_arena1" name="@favela_j02_arena1" description="arena1" type="protect" team="tan"/>
+<Objective id="favela_j02_tank" name="@favela_j02_tank" description="tank" type="danger" team="tan"/>
+<Objective id="favela_j02_Checkpoint_1" name="@favela_j02_Checkpoint_1" description="Checkpoint" type="checkpoint" team="tan"/> 
+<Objective id="favela_j02_Checkpoint_2" name="@favela_j02_Checkpoint_2" description="Checkpoint" type="checkpoint" team="tan"/> 
+<Objective id="favela_j02_evacuation" name="@favela_j02_evacuation" description="Evacuation" type="evacuation" team="tan"/>  
+</MissionObjectives>

@@ -1,0 +1,21 @@
+<MissionObjectives> 
+  <Objective id="path05_checkpoint01" name="@Path05_Checkpoint01" description="Path05_Checkpoint01" type="printer5sec" team="tan" > 
+    	<Activate message="@checkpoint_done" sound="" />
+  </Objective>  
+  
+  <Objective id="path05_checkpoint02" name="@Path05_Checkpoint02" description="Path05_Checkpoint02" type="checkpoint" team="tan" /> 
+  <Objective id="path05_checkpoint01_bwd" name="@path05_checkpoint01_bwd" description="path05_checkpoint01_bwd" type="checkpoint" team="tan" /> 
+  
+  <Objective id="path05_EvacuationPoint" name="@path05_EvacuationPoint" description="path05_EvacuationPoint" type="evacuation" team="tan"/>    
+  
+  <Objective id="path05_enter_town" name="@path05_enter_town" description="path05_enter_town" type="printer5sec" team="tan">
+    <Activate message="@path05_enter_town" sound="" />        
+  </Objective>   
+  
+<Objective id="path05_marketplace_danger" name="@path05_marketplace_danger" description="path05_marketplace_danger" type="danger" team="tan"/>
+  
+<Objective id="path05_machinegun_danger" name="@path05_machinegun_danger" description="path05_machinegun_danger" type="danger" team="tan"/>
+  
+<Objective id="path05_doors" name="@path05_doors" description="path05_doors" type="detonate" team="tan"/>  
+
+</MissionObjectives>

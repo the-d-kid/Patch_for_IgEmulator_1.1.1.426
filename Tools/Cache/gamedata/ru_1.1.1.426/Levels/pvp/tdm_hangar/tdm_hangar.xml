@@ -1,0 +1,5 @@
+<MetaData>
+ <Setting name="pvp/tdm_hangar"/>
+ <MiniMap Filename="tdm_hangar.tif" startX="14.708916" startY="8.673252" endX="114.708916" endY="108.673248"/>
+ <DescriptionText text="@tdm_hangar_descr"/>
+</MetaData>

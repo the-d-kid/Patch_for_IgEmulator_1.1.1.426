@@ -1,0 +1,16 @@
+<MissionObjectives> 
+<Objective id="CP04_Checkpoint_f1" name="@CP04_Checkpoint_f" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP04_Checkpoint_f2" name="@CP04_Checkpoint_f2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP04_Danger_f1" name="@CP04_Danger_f1" description="Danger" type="danger" team="tan" /> 
+<Objective id="CP04_Evacuation_f" name="@CP04_Danger_Evacuation_f" description="Evacuation" type="evacuation" team="tan"/>  
+<Objective id="CP04_Checkpoint_b1" name="@CP04_Checkpoint_b" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP04_Checkpoint_b2" name="@CP04_Checkpoint_b2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP04_Activate " name="@CP04_Activate" description="CP04_Activate" type="activate" team="tan" /> 
+<Objective id="CP04_Evacuation_b" name="@CP04_Danger_Evacuation_b" description="Evacuation" type="evacuation" team="tan"/> 
+<Objective id="CP04_door_F" name="@CP04_door_F" description="detonate" type="detonate" team="tan" />
+<Objective id="CP04_door_B" name="@CP04_door_B" description="detonate" type="detonate" team="tan" />
+<Objective id="CP04_column1" name="@CP04_column1" description="detonate" type="detonate" team="tan" />  
+<Objective id="CP04_column2" name="@CP04_column2" description="detonate" type="detonate" team="tan" />  
+<Objective id="CP04_column3" name="@CP04_column3" description="detonate" type="detonate" team="tan" />  
+<Objective id="CP04_column4" name="@CP04_column4" description="detonate" type="detonate" team="tan" />  
+</MissionObjectives>

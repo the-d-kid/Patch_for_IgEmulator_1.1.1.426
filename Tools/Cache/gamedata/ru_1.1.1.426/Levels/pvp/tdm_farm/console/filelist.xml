@@ -1,0 +1,6 @@
+<download name="tdm_farm" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="366581" md5="d9aa757cf009dd2b9a19d95f2af571e5"/>
+ </files>
+</download>

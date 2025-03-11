@@ -1,0 +1,9 @@
+<MissionObjectives> 
+  <Objective id="tutorial_message_step1" name="@tutorial_message_step1" description="empty" type="tutorial_message" team="tan">
+  		<Activate second_message="Test turotial step #1" message="Its step #1\nClass selection restricted to Rifleman" />
+  </Objective>
+
+	<Objective id="tutorial_message_step2" name="@tutorial_message_step2" description="empty" type="tutorial_message" team="tan">
+		<Activate second_message="Test tutorial step #2" message="Its step #2\nClass selection restricted to Medic\nProceed to exit" />
+	</Objective>
+</MissionObjectives>

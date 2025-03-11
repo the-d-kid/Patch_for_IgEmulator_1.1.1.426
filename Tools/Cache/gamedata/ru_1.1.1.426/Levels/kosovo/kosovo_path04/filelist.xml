@@ -1,0 +1,7 @@
+<download name="kosovo_path04" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="kosovo_path04.xml" dest="kosovo_path04.xml" size="248" md5="8b36cf4b0aa1cfe95b246e4e49f00d44"/>
+  <file src="level.pak" dest="level.pak" size="715048" md5="b2d33d23fbed292eff50d041ddb42651"/>
+ </files>
+</download>

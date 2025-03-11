@@ -1,0 +1,7 @@
+<MetaData>
+ <Gamerules MP3="Seizure"/>
+ <Setting name="pvp/dst_lighthouse"/>
+ <MiniMap Filename="dst_lighthouse.tif" startX="152.930954" startY="164.220612" endX="332.930969" endY="344.220612"/>
+ <Display Name="dst_lighthouse"/>
+ <DescriptionText text="Levels/pvp/dst_lighthouse/dst_lighthouse"/>
+</MetaData>

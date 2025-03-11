@@ -1,0 +1,7 @@
+<download name="test_bot_shoot_physics" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="783353" md5="19fd999c52031d3cb33a19d635e865dd"/>
+  <file src="test_bot_shoot_physics.xml" dest="test_bot_shoot_physics.xml" size="265" md5="859da7c02eefc4446fdff2e2012520da"/>
+ </files>
+</download>

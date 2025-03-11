@@ -1,0 +1,145 @@
+<MissionObjectives> 
+	
+	<Objective id="Disable_enemy_house_1_black_spotted" name="@DisableBlack1Spotted" description="Disable_house_1_black_spotted" type="house_1_black_spot" team="black">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="Disable_enemy_house_1_black" name="@DisableBlack1" description="Disable_house_1_black" type="house_1_black" team="black">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+        
+	<Objective id="Disable_enemy_house_2_black_spotted" name="@DisableBlack2Spotted" description="Disable_house_2_black_spotted" type="house_2_black_spot" team="black">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="Disable_enemy_house_2_black" name="@DisableBlack2" description="Disable_house_2_black" type="house_2_black" team="black">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="Disable_enemy_house_3_black_spotted" name="@DisableBlack3Spotted" description="Disable_house_3_black_spotted" type="house_3_black_spot" team="black">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="Disable_enemy_house_3_black" name="@DisableBlack3" description="Disable_house_3_black" type="house_3_black" team="black">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	
+	
+	<Objective id="Disable_enemy_house_1_tan_spotted" name="@DisableTan1Spotted" description="Disable_house_1_tan_spotted" type="house_1_tan_spot" team="tan">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="Disable_enemy_house_1_tan" name="@Disabletan1" description="Disable_house_1_tan" type="house_1_tan" team="tan">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+        
+	<Objective id="Disable_enemy_house_2_tan_spotted" name="@Disabletan2Spotted" description="Disable_house_2_tan_spotted" type="house_2_tan_spot" team="tan">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="Disable_enemy_house_2_tan" name="@Disabletan2" description="Disable_house_2_tan" type="house_2_tan" team="tan">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="Disable_enemy_house_3_tan_spotted" name="@Disabletan3Spotted" description="Disable_house_3_tan_spotted" type="house_3_tan_spot" team="tan">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="Disable_enemy_house_3_tan" name="@Disabletan3" description="Disable_house_3_tan" type="house_3_tan" team="tan">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="House_lost_tan" name="@House_lost_tan" description="House_lost_tan" type="house_lost_tan" team="tan">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="House_lost_black" name="@House_lost_black" description="House_lost_black" type="house_lost_black" team="black">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  	
+    
+	<Objective id="House_exploded_black" name="@House_exploded_black" description="House_exploded_black" type="house_exploded_black" team="black">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="House_exploded_tan" name="@House_exploded_tan" description="House_exploded_tan" type="house_exploded_tan" team="tan">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="house_exploded_lost_black" name="@house_exploded_lost_black" description="house_exploded_lost_black" type="house_exploded_lost_black" team="black">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="house_exploded_lost_tan" name="@house_exploded_lost_tan" description="house_exploded_lost_tan" type="house_exploded_lost_tan" team="tan">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="dst_capturing_tan" name="@dst_capturing_tan" description="dst_capturing_tan" type="dst_capturing_tan" team="tan">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  	
+
+	<Objective id="dst_capturing_black" name="@dst_capturing_black" description="dst_capturing_black" type="dst_capturing_black" team="black">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  	
+
+
+
+    <Objective id="pvp_round_start" name="@pvp_round_start" description="pvp_round_start" type="pvp_round_start" team="">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective> 
+  
+	<!--prototype objectives-->
+	<Objective id="dst_capture_tan" name="@dst_capture_tan" description="dst_capture_tan" type="dst_capture_tan" team="tan"/>	
+	<Objective id="dst_defend_tan" name="@dst_defend_tan" description="dst_defend_tan" type="dst_defend_tan" team="tan"/>		
+	<Objective id="dst_capture_black" name="@dst_capture_black" description="dst_capture_black" type="dst_capture_black" team="black"/>	
+	<Objective id="dst_defend_black" name="@dst_defend_black" description="dst_defend_black" type="dst_defend_black" team="black"/>	
+	
+	<Objective id="dst_captured_att_tan" name="@dst_captured_att" description="dst_captured_att" type="dst_captured_att" team="tan"/>	
+	<Objective id="dst_captured_def_tan" name="@dst_captured_def" description="dst_captured_def" type="dst_captured_def" team="tan"/>	
+	<Objective id="dst_captured_att_black" name="@dst_captured_att" description="dst_captured_att" type="dst_captured_att" team="black"/>	
+	<Objective id="dst_captured_def_black" name="@dst_captured_def" description="dst_captured_def" type="dst_captured_def" team="black"/>
+  
+  
+</MissionObjectives>

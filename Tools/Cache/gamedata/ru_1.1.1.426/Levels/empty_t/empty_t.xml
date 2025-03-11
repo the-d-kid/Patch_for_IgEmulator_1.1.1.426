@@ -1,0 +1,6 @@
+<MetaData>
+   <MiniMap Filename="empty_t.tif" startX="199.76553" startY="250.1691" endX="329.76553" endY="380.1691"/>
+   <Setting name="empty_t"/>
+   <Gamerules MP1="InstantAction" MP2="TeamAction" MP3="Seizure" MP4="PowerStruggle"/>
+   <Display Name="Empty Test"/>
+</MetaData>

@@ -1,0 +1,7 @@
+<download name="favela_path04" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="favela_path04.xml" dest="favela_path04.xml" size="126" md5="0f68bfaee6981e9236aa600d38120b2b"/>
+  <file src="level.pak" dest="level.pak" size="2290941" md5="8bc56fe3f2b48dfb14576bdffe6fc204"/>
+ </files>
+</download>

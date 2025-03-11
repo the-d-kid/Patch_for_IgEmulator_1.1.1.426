@@ -1,0 +1,27 @@
+<Graph Description="" Group="Music" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="2" Class="entity:ProximityTrigger" pos="-470,-410,0" flags="1" EntityGUID="{B640DF9A-D97B-480D-8D3D-D4716D5058C6}" EntityGUID_64="480DD97BB640DF9A">
+   <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+  </Node>
+  <Node Id="3" Class="Input:Key" pos="-510,-140,0" flags="0">
+   <Inputs entityId="0" Key="k" NonDevMode="0"/>
+  </Node>
+  <Node Id="5" Class="entity:MusicThemeSelector" pos="-290,-410,0" flags="0" EntityGUID="{17B9AA7F-A376-4F9D-B9CB-5FF4F9D5D01E}" EntityGUID_64="4F9DA37617B9AA7F">
+   <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+  </Node>
+  <Node Id="7" Class="entity:MusicMoodSelector" pos="-280,-290,0" flags="0" EntityGUID="{5B540705-DAB5-4E20-9987-053CD679F186}" EntityGUID_64="4E20DAB55B540705">
+   <Inputs entityId="0" ResetDefaultMood="0" SetDefaultMood="0" SetMood="0"/>
+  </Node>
+  <Node Id="9" Class="entity:ProximityTrigger" pos="-470,-280,0" flags="0" EntityGUID="{B4DF169C-F5A4-4D15-B72E-EA12130920A7}" EntityGUID_64="4D15F5A4B4DF169C">
+   <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+  </Node>
+  <Node Id="11" Class="entity:MusicEndTheme" pos="-270,-140,0" flags="0" EntityGUID="{E0A734C8-C21F-48C1-B00A-7ECD4CA474AD}" EntityGUID_64="48C1C21FE0A734C8">
+   <Inputs entityId="0" Stop="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="5" nodeOut="2" portIn="SetTheme" portOut="Enter" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="3" portIn="Stop" portOut="Pressed" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="9" portIn="SetMood" portOut="Enter" enabled="1"/>
+ </Edges>
+</Graph>

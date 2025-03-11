@@ -1,0 +1,9 @@
+<MissionGraph name="CT1j_normal" display_name="CT1j_normal" target_difficulty="normal" setting="china/china_base" secondary_objectives="0" game_mode = "pve">
+	<UI>
+		<Description text="@normal_mission_desc" icon="mapImgChina" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+	
+	<SubMission kind="junction" difficulty="normal"/>	
+
+</MissionGraph>

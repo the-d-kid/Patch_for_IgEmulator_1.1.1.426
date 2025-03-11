@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<items>
+	<item name='kn01' classes='M:knife;E:knife;R:knife;S:knife;' />
+	<item name='pt05_shop' classes='M:pistol;E:pistol;R:pistol;S:pistol;' />
+	<item name='ar02_shop' classes='R:primary;' />
+
+	<item name='sr02_default' classes='S:primary;' />
+	<item name='smg04_shop' classes='E:primary;' />
+	<item name='shg01_default' classes='M:primary;' />
+	
+	<item name='mk01' classes='M:bag;' />
+	
+	<item name='df01' classes='M:secondary;' />
+
+	
+
+	<item name='ap01' classes='R:secondary;' />
+	<item name='ak01' classes='E:secondary;' />
+
+
+	<item name='claymoreexplosive' classes='E:bag;' />
+
+	<item name='explosivegrenade' classes='E:bag;M:bag;R:bag;S:bag;' />
+
+
+<!--	<item name="heavy_helmet_01" classes='H:helmet'/> -->
+	<!--item name="heavy_mask_01" classes='H:face'/-->
+
+	
+	<item name="medic_helmet_01" classes='M:helmet'/>
+	<item name="medic_kneepads_01" classes='M:legarmor'/>
+
+
+	<!--Sniper assets-->
+	<item name="sniper_helmet_01" classes='S:helmet'/>
+	<item name="sniper_kneepads_01" classes='S:legarmor'/>
+	
+	<!-- soldier -->
+	<item name="soldier_helmet_05" classes='R:helmet'/>
+	<item name="soldier_kneepads_01" classes='R:legarmor'/>
+
+	<!-- engineer -->
+
+	<item name="engineer_helmet_01" classes='E:helmet'/>
+	<item name="engineer_kneepads_01" classes='E:legarmor'/>
+
+	<!-- shared cloth-->
+	<item name="shared_hands_01" classes='R:gloves;S:gloves;M:gloves;E:gloves;'/>  
+	<item name="shared_pants_01" classes='R:pants;S:pants;M:pants;E:pants;'/>  
+	<item name="shared_jacket_01" classes='R:chest;S:chest;M:chest;E:chest;'/>  
+	<item name="shared_shoes_01" classes='R:boots;S:boots;M:boots;E:boots;'/>  
+	<item name='shared_vest_01' classes='S:vest;M:vest;E:vest;R:vest' />
+
+	
+	<!-- not default item but included till shop is ready -->
+
+</items>

@@ -1,0 +1,154 @@
+<!--
+*** How to exclude settings from mission generation ***
+
+Mission generation config defines two difficulties:
+* easy
+* hard
+
+Easy mission usually is tweaked to stay alive for more than one generation steps. In order to move out current easy settings please
+regenerate missions as many times as its generate_step parameter. Thus easy mission will throw out and new one will be generated with
+new settings.
+
+Normal difficulty is quite different because of it is propageted from hard generated mission.
+For example our hard mission has China setting and we would like to remove China setting from mission generation.
+Comment Setting section, thus current hard mission will fail to change difficulty to normal and both missions will be regenerated from scratch.
+
+Sublevels tag can be used to restrict mission generation with specific set of sub levels. If either no Sublevels tag of it hasn't any child sub tags Value
+then all available for current setting sub levels will be used. List of available sub levels is generated automatically as part of MasterServer build
+from Levels content folder.
+-->
+
+<Settings use_realm_missions="1">
+	<trainingmission generate_step="7" difficulty="easy" generate_count="1" expire_count="2" soft_shuffle_generate="1">
+		<Settings>
+			<Setting name="Afghan/afghan_base">
+				<Sublevels>
+					<Value>afghan_path01</Value>
+					<Value>afghan_path05</Value>
+					
+				</Sublevels>
+			</Setting>
+			<Setting name="Kosovo/kosovo_base">
+				<Sublevels>
+					<Value>kosovo_path01</Value>
+					<Value>kosovo_path04</Value>					
+				</Sublevels>
+			</Setting>
+		</Settings>
+		
+		<LevelGraph>
+			<Value>ME2p_training</Value>		
+			<Value>BP2p_training</Value>			
+		</LevelGraph>
+		<TimeOfDay>
+			<Value>9:06</Value>
+		</TimeOfDay>
+		<SecondaryObjectives min="1" max="2"/>
+		<CompletionScore>
+			<value>0</value>
+		</CompletionScore>
+	</trainingmission>
+
+	<easymission difficulty="easy" generate_step="1" generate_count="1" expire_count="1" soft_shuffle_generate="1" propagate_on_expire="normalmission">
+		<Settings>
+			<Setting name="Afghan/afghan_base">
+				<Sublevels>
+					<Value>afghan_junction01</Value>
+					<Value>afghan_junction02</Value>
+					<Value>afghan_junction03</Value>
+					<Value>afghan_junction04</Value>
+					<Value>afghan_junction05</Value>
+					<Value>afghan_path01</Value>
+					<Value>afghan_path02</Value>
+					<Value>afghan_path03</Value>
+					<Value>afghan_path04</Value>
+					<Value>afghan_path05</Value>
+					<Value>afghan_path06</Value>
+					<Value>afghan_path07</Value>
+					<Value>afghan_path08</Value>
+				</Sublevels>
+			</Setting>
+			<Setting name="Kosovo/kosovo_base">
+				<Sublevels>
+					<Value>kosovo_path01</Value>
+					<Value>kosovo_path02</Value>
+					<Value>kosovo_path03</Value>
+					<Value>kosovo_path04</Value>
+					<Value>kosovo_path05</Value>
+					<Value>kosovo_path06</Value>
+					<Value>kosovo_path07</Value>
+					<Value>kosovo_path08</Value>
+					<Value>kosovo_junction01</Value>
+					<Value>kosovo_junction02</Value>
+					<Value>kosovo_junction03</Value>
+					<Value>kosovo_junction04</Value>
+					<Value>kosovo_junction05</Value>
+				</Sublevels>
+			</Setting>
+			<Setting name="Favela/favela_base">
+				<Sublevels>
+					<Value>favela_path01</Value>
+					<Value>favela_path02</Value>
+					<Value>favela_path03</Value>
+					<Value>favela_path04</Value>
+					<Value>favela_path05</Value>
+					<Value>favela_path06</Value>
+					<Value>favela_path07</Value>
+					<Value>favela_path08</Value>
+					<Value>favela_junction01</Value>
+					<Value>favela_junction02</Value>
+					<Value>favela_junction03</Value>
+					<Value>favela_junction04</Value>
+					<Value>favela_junction05</Value>
+				</Sublevels>
+			</Setting>
+			
+			<Setting name="China/china_base">
+				<Sublevels>
+					<Value>china_path01</Value>					
+					<Value>china_path03</Value>										
+					<Value>china_path06</Value>
+					<Value>china_path07</Value>
+					<Value>china_junction01</Value>					
+					<Value>china_junction03</Value>
+					<Value>china_junction04</Value>					
+				</Sublevels>
+			</Setting>
+		</Settings>
+		<LevelGraph>
+			<Value>ME2pj01_easy</Value>
+			<Value>ME2pj02_easy</Value>
+			<Value>ME2pj03_easy</Value>
+			<Value>ME2pj04_easy</Value>
+			<Value>ME2pj05_easy</Value>
+			
+			<Value>BP2pj01_easy</Value>
+			<Value>BP2pj02_easy</Value>
+			<Value>BP2pj03_easy</Value>
+			<Value>BP2pj04_easy</Value>
+			<Value>BP2pj05_easy</Value>
+			
+			<Value>FD2pj01_easy</Value>
+			<Value>FD2pj02_easy</Value>
+			<Value>FD2pj03_easy</Value>
+			<Value>FD2pj04_easy</Value>
+			<Value>FD2pj05_easy</Value>
+			
+			<Value>CT2pj01_easy</Value>			
+			<Value>CT2pj03_easy</Value>
+			<Value>CT2pj04_easy</Value>
+			
+		</LevelGraph>
+		<TimeOfDay>
+			<Value>9:06</Value>
+		</TimeOfDay>
+		<SecondaryObjectives min="1" max="2"/>
+		<CompletionScore>
+			<value>0</value>
+		</CompletionScore>
+	</easymission>
+	
+	<normalmission difficulty="normal" propagate_on_expire="hardmission"/>
+	
+	<hardmission difficulty="hard" />
+</Settings>

@@ -1,0 +1,8 @@
+<download name="hideout" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="hideout.tif" dest="hideout.tif" size="174896" md5="43104f86933ada8f3ccab32b150bd1ae"/>
+  <file src="hideout.xml" dest="hideout.xml" size="203" md5="1ed217a7e567b322716d8f92fb46320e"/>
+  <file src="level.pak" dest="level.pak" size="15050708" md5="945c571c98997bf20a2e1c5a22b614dc"/>
+ </files>
+</download>

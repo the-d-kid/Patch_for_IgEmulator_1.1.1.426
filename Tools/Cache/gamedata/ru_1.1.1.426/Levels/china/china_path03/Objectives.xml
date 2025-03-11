@@ -1,0 +1,11 @@
+<MissionObjectives> 
+<Objective id="CP03_Checkpoint_f1" name="@CP03_Checkpoint_f" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP03_Checkpoint_f2" name="@CP03_Checkpoint_f2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP03_Danger_f1" name="@CP03_Danger_f1" description="Danger" type="danger" team="tan" /> 
+<Objective id="CP03_Evacuation_f" name="@CP03_Danger_Evacuation_f" description="Evacuation" type="evacuation" team="tan"/>  
+<Objective id="CP03_Checkpoint_b1" name="@CP03_Checkpoint_b" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP03_Checkpoint_b2" name="@CP03_Checkpoint_b2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP03_Activate " name="@CP03_Activate" description="CP03_Activate" type="activate" team="tan" /> 
+<Objective id="CP03_Evacuation_b" name="@CP03_Danger_Evacuation_b" description="Evacuation" type="evacuation" team="tan"/> 
+<Objective id="CP03_door_F" name="@CP03_door_F" description="detonate" type="detonate" team="tan" /> 
+</MissionObjectives>

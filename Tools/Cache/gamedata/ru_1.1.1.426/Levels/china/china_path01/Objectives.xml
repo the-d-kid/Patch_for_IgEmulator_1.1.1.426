@@ -1,0 +1,28 @@
+<MissionObjectives> 
+
+<Objective id="favela_p1_left" name="@china_p1_left" description="empty" type="resupply_big" team="tan"/>
+<Objective id="china_p1_right" name="@china_p1_right" description="empty" type="resupply_big" team="tan"/>
+
+<Objective id="china_p1_a1" name="@china_p1_a1" description="china_p1_elevator_activate" type="activate" team="tan"/>
+<Objective id="china_p1_d1" name="@china_p1_d1" description="Danger" type="danger" team="tan"/> 
+<Objective id="china_p1_d2" name="@china_p1_d2" description="Danger" type="danger" team="tan"/> 
+<Objective id="china_p1_d3" name="@china_p1_d3" description="Danger" type="danger" team="tan"/> 
+
+<Objective id="china_p1_B_d1" name="@china_p1_B_d1" description="Danger" type="danger" team="tan"/>
+<Objective id="china_p1_B_d2" name="@china_p1_B_d2" description="danger" type="danger" team="tan"/>
+<Objective id="china_p1_B_d3" name="@china_p1_B_d3" description="danger" type="danger" team="tan"/>
+
+<Objective id="china_p1_detonate" name="@china_p1_detonate" description="Detonate" type="plant_pve" team="tan"/>
+<Objective id="china_p1_detonate01" name="@china_p1_detonate01" description="Detonate" type="plant_pve" team="tan"/>
+<Objective id="china_p1_detonate02" name="@china_p1_detonate02" description="Detonate" type="plant_pve" team="tan"/>
+
+<Objective id="china_p1_B_detonate01" name="@china_p1_B_detonate01" description="Detonate" type="plant_pve" team="tan"/>
+<Objective id="china_p1_B_detonate02" name="@china_p1_B_detonate02" description="Detonate" type="plant_pve" team="tan"/>
+
+<Objective id="china_p1_Checkpoint1" name="@china_p1_Checkpoint1" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="china_p1_Checkpoint2" name="@china_p1_Checkpoint2" description="Checkpoint" type="checkpoint" team="tan" />
+<Objective id="china_p1_Checkpoint1B" name="@china_p1_Checkpoint1B" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="china_p1_Checkpoint2B" name="@china_p1_Checkpoint2B" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="china_p1_Evacuation" name="@china_p1_Evacuation" description="Evacuation" type="evacuation" team="tan"/> 
+<Objective id="china_p1_B_Evacuation" name="@china_p1_B_Evacuation" description="Evacuation" type="evacuation" team="tan"/> 
+</MissionObjectives>

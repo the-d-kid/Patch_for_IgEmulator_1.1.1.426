@@ -1,0 +1,194 @@
+<secondary_objectives>
+	<objective id="0" kind="kills" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_enemy_headshots_description" completed_text="@secondary_objective_enemy_headshots_completed" progress_text="@secondary_objective_enemy_headshots_progress" icon="CO_headshots"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="to_head" param="1"/>
+		</Filters>
+		<difficulties>
+			<easy progress_to_reach="15" score="300" />
+			<normal progress_to_reach="20" score="400" />
+			<hard progress_to_reach="25" score="500" />
+		</difficulties>
+	</objective>
+	
+	
+	<objective id="1" kind="kills" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_enemy_melee_kills_description" completed_text="@secondary_objective_enemy_melee_kills_completed" progress_text="@secondary_objective_enemy_melee_kills_progress" icon="CO_melee" />
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="melee" param="1"/>
+		</Filters>
+		<difficulties>
+			<easy progress_to_reach="5" score="300" />
+			<normal progress_to_reach="10" score="400" />
+			<hard progress_to_reach="15" score="500" />
+		</difficulties>
+	</objective>
+
+	<objective id="2" kind="kills" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_enemy_slide_kills_description" completed_text="@secondary_objective_enemy_slide_kills_completed" progress_text="@secondary_objective_enemy_slide_kills_progress" icon="CO_slide_kills" />
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="in_special_move" param="slide"/>
+		</Filters>
+		<difficulties>
+			<easy progress_to_reach="3" score="300" />
+			<normal progress_to_reach="5" score="400" />
+			<hard progress_to_reach="7" score="500" />
+		</difficulties>
+	</objective>
+	
+	<objective id="3" kind="PPES_up" sub_level_count_dependency="">
+		<UI description_text="@secondary_objective_PPES_5x_score_description" completed_text="@secondary_objective_5x_score_completed" progress_text="@secondary_objective_5x_score_progress" icon="CO_5x_score" />
+		<Filters>
+			<Filter kind="PPES_mult" param="5"/>
+			</Filters>
+		<difficulties>
+			<easy progress_to_reach="1" score="300" />
+			<normal progress_to_reach="1" score="400" />
+			<hard progress_to_reach="1" score="500" />
+		</difficulties>
+	</objective>
+	
+	<objective id="4" kind="instant_award" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_brain_smashers_description" completed_text="@secondary_objective_brain_smashers_completed" progress_text="@secondary_objective_brain_smashers_progress" icon="CO_brain_smashers" />
+		<Filters>
+			<Filter kind="instant_award_name" param="@achievement_headshots_in_a_row_3"/>
+			</Filters>
+		<difficulties>
+			<easy progress_to_reach="4" score="300" />
+			<normal progress_to_reach="7" score="400" />
+			<hard progress_to_reach="10" score="500" />
+		</difficulties>
+	</objective>
+	
+	
+	
+	
+	
+	
+	<objective id="5" kind="instant_award" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_butchers_description" completed_text="@secondary_objective_butchers_completed" progress_text="@secondary_objective_butchers_progress" icon="CO_butchers" />
+		<Filters>
+			<Filter kind="instant_award_name" param="@achievement_melee_kills_in_a_row_1"/>
+			</Filters>
+		<difficulties>
+			<easy progress_to_reach="3" score="300" />
+			<normal progress_to_reach="4" score="400" />
+			<hard progress_to_reach="5" score="500" />
+		</difficulties>
+	</objective>
+	
+	
+	
+	
+	<objective id="6" kind="instant_award" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_grenadiers_description" completed_text="@secondary_objective_grenadiers_completed" progress_text="@secondary_objective_grenadiers_progress" icon="CO_grenadiers" />
+		<Filters>
+			<Filter kind="instant_award_name" param="@achievement_grenade_kills_in_a_row_1"/>
+			</Filters>
+		<difficulties>
+			<easy progress_to_reach="3" score="300" />
+			<normal progress_to_reach="4" score="400" />
+			<hard progress_to_reach="5" score="500" />
+		</difficulties>
+	</objective>
+	
+	<objective id="7" kind="kills" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_kills_with_pistol_description" completed_text="@secondary_objective_kills_with_pistol_completed" progress_text="@secondary_objective_kills_with_pistol_progress" icon="CO_kills_with_pistol" />
+		<Filters>
+			<Filter kind="weapon_slot" param="pistol"/>
+			</Filters>
+		<difficulties>
+			<easy progress_to_reach="15" score="300" />
+			<normal progress_to_reach="15" score="400" />
+			<hard progress_to_reach="15" score="500" />
+		</difficulties>
+	</objective>
+	
+	<objective id="8" kind="kills" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_headshots_from_slide_description" completed_text="@secondary_objective_headshots_from_slide_completed" progress_text="@secondary_objective_headshots_from_slide_progress" icon="CO_headshots_from_slide" />
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="to_head" param="1"/>
+			<Filter kind="in_special_move" param="slide"/>
+		</Filters>
+		<difficulties>
+			<easy progress_to_reach="2" score="300" />
+			<normal progress_to_reach="4" score="400" />
+			<hard progress_to_reach="5" score="500" />
+		</difficulties>
+	</objective>
+	
+	<objective id="9" kind="kills" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_headshots_with_pistol_description" completed_text="@secondary_objective_headshots_with_pistol_completed" progress_text="@secondary_objective_headshots_with_pistol_progress" icon="CO_headshots_with_pistol" />
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="to_head" param="1"/>
+			<Filter kind="weapon_slot" param="pistol"/>
+		</Filters>
+		<difficulties>
+			<easy progress_to_reach="15" score="300" />
+			<normal progress_to_reach="15" score="400" />
+			<hard progress_to_reach="15" score="500" />
+		</difficulties>
+	</objective>
+	
+	<objective id="10" kind="kills" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_defibrillator_description" completed_text="@secondary_objective_defibrillator_completed" progress_text="@secondary_objective_defibrillator_progress" icon="CO_defibrillator" />
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="df01"/>
+			<Filter kind="weapon" param="df02"/>
+			<Filter kind="weapon" param="df03"/>
+		</Filters>
+		<difficulties>
+			<easy progress_to_reach="3" score="300" />
+			<normal progress_to_reach="5" score="400" />
+			<hard progress_to_reach="7" score="500" />
+		</difficulties>
+	</objective>
+	
+	<objective id="11" kind="kills" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_melee_kills_from_slide_description" completed_text="@secondary_objective_melee_kills_from_slide_completed" progress_text="@secondary_objective_melee_kills_from_slide_progress" icon="CO_melee_kills_from_slide" />
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="in_special_move" param="slide"/>
+			<Filter kind="melee" param="1"/>
+		</Filters>
+		<difficulties>
+			<easy progress_to_reach="2" score="300" />
+			<normal progress_to_reach="4" score="400" />
+			<hard progress_to_reach="5" score="500" />
+		</difficulties>
+	</objective>
+	
+	<objective id="12" kind="kills" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_grenades_description" completed_text="@secondary_objective_grenades_completed" progress_text="@secondary_objective_grenades_progress" icon="CO_grenades" />
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="grenade" param="1"/>
+		</Filters>
+		<difficulties>
+			<easy progress_to_reach="5" score="300" />
+			<normal progress_to_reach="7" score="400" />
+			<hard progress_to_reach="10" score="500" />
+		</difficulties>
+	</objective>
+	
+	<objective id="13" kind="kills" sub_level_count_dependency="mul">
+		<UI description_text="@secondary_objective_headshot_out_of_zoom_description" completed_text="@secondary_objective_headshot_out_of_zoom_completed" progress_text="@secondary_objective_headshot_out_of_zoom_progress" icon="CO_headshots_no_ironsight" />
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="zoomed" param="0"/>
+			<Filter kind="to_head" param="1"/>
+		</Filters>
+		<difficulties>
+			<easy progress_to_reach="5" score="300" />
+			<normal progress_to_reach="7" score="400" />
+			<hard progress_to_reach="10" score="500" />
+		</difficulties>
+	</objective>
+	
+</secondary_objectives>

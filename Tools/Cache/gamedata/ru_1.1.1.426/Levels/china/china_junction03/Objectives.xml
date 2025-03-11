@@ -1,0 +1,11 @@
+<MissionObjectives> 
+<Objective id="CJ03_Limo_protect" name="@CJ03_Limo_protect" description="Protect" type="protect" team="tan" /> 
+<Objective id="CJ03_Checkpoint_1" name="@CJ03_Checkpoint_1" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CJ03_Checkpoint_2" name="@CJ03_Checkpoint_2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CJ03_Danger_1" name="@CJ03_Danger_1" description="Danger" type="danger" team="tan" /> 
+<Objective id="CJ03_Evacuation" name="@CJ03_Danger_Evacuation" description="Evacuation" type="evacuation" team="tan"/>  
+<Objective id="CJ03_Activate " name="@CJ03_Activate" description="CP03_Activate" type="activate" team="tan" /> 
+<Objective id="CJ03_Detonate " name="@CJ03_Detonate" description="CP03_Detonate" type="detonate" team="tan" /> 
+<Objective id="CJ03_g_gate" name="@CJ03_g_gate" description="activate" type="activate" team="tan" />
+<Objective id="CJ03_Rockets" name="@CJ03_Rockets" description="CJ03_Rockets" type="resupply_big" team="tan"/>
+</MissionObjectives>

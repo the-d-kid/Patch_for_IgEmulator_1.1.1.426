@@ -1,0 +1,5 @@
+<MetaData>
+	<Setting name="pvp/tdm_aul_pts"/> 
+	<MiniMap Filename="tdm_aul_pts.tif" startX="256.795593" startY="137.870270" endX="368.795593" endY="249.870270"/>
+	<Display Name="Aul"/>
+</MetaData>

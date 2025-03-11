@@ -1,0 +1,4 @@
+<MissionObjectives> 
+	<Objective id="EvacuationPoint" name="@EvacuationPoint" description="EvacuationPoint" type="evacuation" team="tan"/>    		
+
+</MissionObjectives>

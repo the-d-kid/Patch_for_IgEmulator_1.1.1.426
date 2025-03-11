@@ -1,0 +1,18 @@
+<MissionObjectives> 
+  <Objective id="Path06bwd_airstrike" name="@Path06bwd_airstrike" description="Path06bwd_airstrike" type="danger" team="tan"/>
+
+
+  <Objective id="Path06bwd_ironmanDangerMarker" name="@Path06bwd_ironmanDangerMarker" description="Path06bwd_ironmanDangerMarker" type="danger" team="tan"/>
+  
+ <Objective id="Path06_MO1_forestMarker" name="@Path06_MO1_forest" description="Path06_MO1_forest" type="danger" team="tan"/>
+
+ 
+ <Objective id="Path06_MO3_sniper" name="@Path06_MO3_sniper" description="Path06_MO3_sniper" type="danger" team="tan"/>
+
+ 
+  <Objective id="Path06_Checkpoint" name="@Path06_Checkpoint" description="Path06_Checkpoint" type="checkpoint" team="tan" /> 
+  <Objective id="Path06_Evacuation" name="@Path06_Evacuation" description="Path06_Evacuation" type="evacuation" team="tan" /> 
+  <Objective id="Path06_Minefield" name="@Path06_Minefield" description="Path06_Minefield" type="danger" team="tan" /> 
+  
+  <Objective id="Path06_marker_DANGER" name="@Path06_marker_DANGER" description="Path06_marker_DANGER" type="danger" team="tan"/>
+</MissionObjectives>

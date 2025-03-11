@@ -1,0 +1,6 @@
+<MetaData>
+ <Setting name="pvp/ffa_overpass"/>
+ <MiniMap Filename="ffa_overpass.tif" startX="88.86647" startY="65.639801" endX="208.86647" endY="185.6398"/>
+ <DescriptionText text="@ffa_widestreet_descr"/>
+ <Display Name="Overpass"/>
+</MetaData>

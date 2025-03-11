@@ -1,0 +1,9 @@
+<MissionObjectives> 
+<Objective id="Favela_Path02_Checkpoint_f1" name="@Favela_Path02_Checkpoint_f1" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="Favela_Path02_Checkpoint_f2" name="@Favela_Path02_Checkpoint_f2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="Favela_Path02_Evacuation_f" name="@Kosovo_Path06_Evacuation_f" description="Evacuation" type="evacuation" team="tan"/>  
+<Objective id="Favela_Path02_Checkpoint_b1" name="@Favela_Path02_Checkpoint_b1" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="Favela_Path02_Checkpoint_b2" name="@Favela_Path02_Checkpoint_b2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="Favela_Path02_Evacuation_b" name="@Favela_Path02_Evacuation_b" description="Evacuation" type="evacuation" team="tan"/> 
+<Objective id="FP02_Danger" name="@FP02_Danger" description="Danger" type="danger" team="tan" /> 
+</MissionObjectives>

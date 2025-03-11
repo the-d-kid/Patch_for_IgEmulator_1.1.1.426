@@ -1,0 +1,5 @@
+<MetaData>
+ <Setting name="pvp/stm_blackgold"/>
+ <MiniMap Filename="stm_blackgold.tif" startX="70.989273" startY="35.137589" endX="380.98926" endY="345.13757"/>
+ <DescriptionText text="@stm_blackgold_descr"/>
+</MetaData>

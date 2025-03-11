@@ -1,0 +1,11 @@
+<MissionGraph name="ME3pj01_easy" display_name="@me_mission_easy02_1,@me_mission_easy02_2,@me_mission_easy02_3" target_difficulty="easy" setting="afghan/afghan_base" secondary_objectives="2" game_mode = "pve">
+	<UI>
+		<Description text="@pve_normal_end_boss" icon="mapImgMEj01" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+	
+	<SubMission kind="pass" difficulty="easy"/>
+	<SubMission kind="pass" difficulty="easy"/>
+	<SubMission kind="junction" name="afghan_junction01" mission_flow="boss" difficulty="easy"/>
+	
+</MissionGraph>

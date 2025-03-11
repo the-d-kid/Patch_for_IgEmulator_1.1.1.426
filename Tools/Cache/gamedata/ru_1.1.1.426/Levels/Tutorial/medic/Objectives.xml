@@ -1,0 +1,115 @@
+<MissionObjectives> 
+<!--BASIC tutorial messages-->
+	<Objective id="m_message_step01" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_01"/>
+	</Objective>
+	
+	<Objective id="m_message_step02" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_02" message="@m_step_02" />
+	</Objective>
+
+	<Objective id="m_message_step03" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_03" message="@m_step_03" />		
+	</Objective>
+	
+	<Objective id="m_message_step04" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_04" message="@m_step_04" />		
+	</Objective>
+	
+	<Objective id="m_message_step05" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_05" message="@m_step_05" />		
+	</Objective>
+	
+	<Objective id="m_message_step06" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_06" message="@m_step_06" />		
+	</Objective>
+	
+	<Objective id="m_message_step07" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_07" message="@m_step_07" />		
+	</Objective>
+	
+	<Objective id="m_message_step08" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_08" message="@m_step_08" />		
+	</Objective>
+	
+	<Objective id="m_message_step09" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_09" message="@m_step_09" />		
+	</Objective>
+	
+	<Objective id="m_message_step10" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_10" message="@m_step_10" />		
+	</Objective>
+	
+	<Objective id="m_message_step11" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_11" message="@m_step_11" />		
+	</Objective>	
+	
+	<Objective id="m_message_step12" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_12" message="@m_step_12" />		
+	</Objective>
+
+	<Objective id="m_message_step13" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_13" message="@m_step_13" />		
+	</Objective>
+	
+	<Objective id="m_message_step14" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@m_badge_13" message="@m_step_14" />		
+	</Objective>
+	
+	<!--New markers -->
+	<Objective id="marker_step4" type="plant_pve" team="tan"/>
+	
+	<!--New checkpoints-->
+	<Objective id="checkpoint_step1" type="checkpoint" team="tan"/>
+	<Objective id="shooting_range1" type="checkpoint" team="tan"/>
+	<Objective id="checkpoint_slide" type="checkpoint" team="tan"/>
+	
+	<!--targets-->
+	<Objective id="target1" type="danger_tutor" team="tan"/>
+	<Objective id="target2" type="danger_tutor" team="tan"/>
+	<Objective id="target3" type="danger_tutor" team="tan"/>
+	<Objective id="target4" type="danger_tutor" team="tan"/>
+	<Objective id="target5" type="danger_tutor" team="tan"/>
+	<Objective id="target6" type="danger_tutor" team="tan"/>
+	<Objective id="target7" type="danger_tutor" team="tan"/>
+	<Objective id="target8" type="danger_tutor" team="tan"/>
+	<Objective id="target9" type="danger_tutor" team="tan"/>
+	<Objective id="target10" type="danger_tutor" team="tan"/>
+	<Objective id="target11" type="danger_tutor" team="tan"/>
+	<Objective id="target12" type="danger_tutor" team="tan"/>
+	<Objective id="target13" type="danger_tutor" team="tan"/>
+	<Objective id="target14" type="danger_tutor" team="tan"/>
+	<Objective id="target15" type="danger_tutor" team="tan"/>
+	<Objective id="target16" type="danger_tutor" team="tan"/>
+	<Objective id="target17" type="danger_tutor" team="tan"/>
+	<Objective id="target18" type="danger_tutor" team="tan"/>
+	
+
+
+
+	<Objective id="headshot1" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot2" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot3" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot4" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot5" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot6" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot7" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot8" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot9" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot10" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot11" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot12" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot13" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot14" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot15" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot16" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot17" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot18" type="headshot_tutorial" team="tan"/> 
+
+	<!-- test markers-->	
+	<Objective id="evacuation" type="evacuation" team="tan"/>
+	
+
+	
+
+</MissionObjectives>

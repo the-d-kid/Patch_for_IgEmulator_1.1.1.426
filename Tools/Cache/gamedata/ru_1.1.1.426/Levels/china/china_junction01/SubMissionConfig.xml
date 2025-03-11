@@ -1,0 +1,5 @@
+<SubMissionConfig>
+	<ParameterSet difficulty="easy" kind="junction" mission_type="boss" mission_flow="boss" time_limit="1000" score="0" start_teleport="CTJ01_start" finish_teleport="CTJ01_end" win_pool="45" lose_pool="20" draw_pool="25" score_pool="45"/>
+	<ParameterSet difficulty="normal" kind="junction" mission_type="boss" mission_flow="boss" time_limit="1000" score="0" start_teleport="CTJ01_start" finish_teleport="CTJ01_end" win_pool="195" lose_pool="100" draw_pool="110" score_pool="0"/>
+	<ParameterSet difficulty="hard" kind="junction" mission_type="boss" mission_flow="boss" time_limit="1000" score="0" start_teleport="CTJ01_start" finish_teleport="CTJ01_end" win_pool="400" lose_pool="200" draw_pool="210" score_pool="0"/>
+</SubMissionConfig>

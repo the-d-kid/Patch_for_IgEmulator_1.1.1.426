@@ -1,0 +1,151 @@
+<MissionObjectives> 
+	<!-- Tutorial messages section-->
+	<Objective id="tutorial_soldier1" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_01" message=""/>
+	</Objective>
+	<Objective id="tutorial_soldier2" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_02" message="@s_step_02"/>
+	</Objective>
+	<Objective id="tutorial_soldier3" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_03" message="@s_step_03"/>
+	</Objective>
+	<Objective id="tutorial_soldier4" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_04" message="@s_step_04"/>
+	</Objective>
+	<Objective id="tutorial_soldier5" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_05" message="@s_step_05"/>
+	</Objective>
+	<Objective id="tutorial_soldier6" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_06" message="@s_step_06"/>
+	</Objective>
+	<Objective id="tutorial_soldier7" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_07" message="@s_step_07"/>
+	</Objective>
+	<Objective id="tutorial_soldier8" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_08" message="@s_step_08"/>
+	</Objective>
+	<Objective id="tutorial_soldier9" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_09" message="@s_step_09"/>
+	</Objective>
+	<Objective id="tutorial_soldier10" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_11" message="@s_step_10"/>
+	</Objective>
+	<Objective id="tutorial_soldier11" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_11" message="@s_step_11"/>
+	</Objective>
+	<Objective id="tutorial_soldier12" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_12" message="@s_step_12"/>
+	</Objective>
+	<Objective id="tutorial_soldier13" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_12" message="@s_step_13"/>
+	</Objective>
+	<Objective id="tutorial_soldier14" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_12" message="@s_step_14"/>
+	</Objective>
+	<Objective id="tutorial_soldier15" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_15" message="@s_step_15"/>
+	</Objective>
+	<Objective id="tutorial_soldier16" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_16" message="@s_step_16"/>
+	</Objective>
+	<Objective id="tutorial_soldier17" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_17" message="@s_step_17"/>
+	</Objective>
+	<Objective id="tutorial_soldier18" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_18" message="@s_step_18"/>
+	</Objective>
+	<Objective id="tutorial_soldier19" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_19" message="@s_step_19"/>
+	</Objective>
+	<Objective id="tutorial_soldier20" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_20" message="@s_step_20"/>
+	</Objective>
+	
+	<Objective id="tutorial_soldier20a" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_20" message="@s_step_20a"/>
+	</Objective>
+	
+	<Objective id="tutorial_soldier21" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_21" message="@s_step_21"/>
+	</Objective>
+	<Objective id="tutorial_soldier22" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_22" message="@s_step_22"/>
+	</Objective>
+	<Objective id="tutorial_soldier23" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_23" message="@s_step_23"/>
+	</Objective>
+	<Objective id="tutorial_soldier24" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_24" message="@s_step_24"/>
+	</Objective>	
+	<Objective id="tutorial_soldier25" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_25" message="@s_step_25"/>
+	</Objective>		
+	<Objective id="tutorial_soldier26" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_26" message="@s_step_26"/>
+	</Objective>		
+	<Objective id="tutorial_soldier27" type="tutorial_step_message" team="tan">
+		<Activate second_message="@s_badge_26" message="@s_step_27"/>
+	</Objective>	
+	
+	
+	<Objective id="checkpoint_step2"  type="checkpoint_goto" team="tan"/>
+	<Objective id="checkpoint_step3"  type="checkpoint_sprint" team="tan"/>
+	<Objective id="checkpoint_step4"  type="checkpoint_jump" team="tan"/>
+	<Objective id="checkpoint_step5"  type="checkpoint_single_climb" team="tan"/>
+	<Objective id="checkpoint_step6"  type="checkpoint_crouch" team="tan"/>
+	<Objective id="checkpoint_step7"  type="checkpoint_vault" team="tan"/>
+	<Objective id="checkpoint_step10"  type="checkpoint_goto" team="tan"/>
+	<Objective id="checkpoint_step16"  type="checkpoint_goto" team="tan"/>	
+	<Objective id="checkpoint_step22"  type="checkpoint_climb" team="tan"/>
+	<Objective id="checkpoint_step25"  type="pickup_rl" team="tan"/>
+	
+	<Objective id="st_mo1" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo2" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo3" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo4" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo5" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo6" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo7" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo8" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo9" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo10" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo11" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo12" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo13" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo14" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo15" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo16" type="shootingtarget_grenade" team="tan"/> 
+	<Objective id="st_mo20" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo21" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo22" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo23" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo24" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo25" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo26" type="danger_tutor" team="tan"/> 
+	<Objective id="st_mo27" type="danger_tutor" team="tan"/> 
+	
+	<Objective id="headshot1" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot2" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot3" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot4" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot5" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot6" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot7" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot8" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot9" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot10" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot11" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot12" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot13" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot14" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot15" type="headshot_tutorial" team="tan"/> 	
+	<Objective id="headshot22" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot23" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot24" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot25" type="headshot_tutorial" team="tan"/> 	
+	<Objective id="headshot26" type="headshot_tutorial" team="tan"/> 
+	<Objective id="headshot27" type="headshot_tutorial" team="tan"/> 
+	
+	<Objective id="st_gurkha" type="shootingtarget_rl" team="tan"/> 
+	
+</MissionObjectives>

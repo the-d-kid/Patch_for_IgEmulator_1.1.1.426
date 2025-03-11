@@ -1,0 +1,9 @@
+<item name="gl01_grip_d" class="K01_Item" type="attachment" view_settings="Objects/Attachments/gp01/gp01.xml">
+ <description text="@ui_accessories_gl01_grip_d"/>
+ <settings>
+  <param name="weight" value="1.5"/>
+ </settings>
+ <types>
+
+ </types>
+</item>

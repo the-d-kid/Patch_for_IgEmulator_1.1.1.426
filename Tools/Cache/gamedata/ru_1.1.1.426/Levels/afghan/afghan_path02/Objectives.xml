@@ -1,0 +1,7 @@
+<MissionObjectives> 
+  <Objective id="Path02_Checkpoint1" name="@Path02_Checkpoint1" description="Path02_Checkpoint1" type="checkpoint" team="tan" />
+  <Objective id="Path02_Checkpoint2" name="@Path02_Checkpoint2" description="Path02_Checkpoint2" type="checkpoint" team="tan" />
+  <Objective id="Path02_explosive_gates_B" name="@Path02_explosive_gates_B" description="Path02_explosive_gates_B" type="detonate" team="tan"/>
+  <Objective id="Path02_EvacuationPoint" name="@Path02_EvacuationPoint" description="Path02_EvacuationPoint" type="evacuation" team="tan"/>
+  <Objective id="DANGER" name="@DemoObjective" description="Heavy Gunner" type="danger" team="tan"/>  
+</MissionObjectives>

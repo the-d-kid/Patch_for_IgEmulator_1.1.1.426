@@ -1,0 +1,24 @@
+<MissionObjectives> 
+  <Objective id="Junction01_Checkpoint" name="@Junction01_Checkpoint" description="Junction01_Checkpoint" type="printer5sec" team="tan">  	
+  	<Activate message="@checkpoint_done" sound="" />
+  </Objective>  
+  <Objective id="Junction01_Doors" name="@cinematic_opendoor_msg" description="Press and hold F to open the door" type="activate" team="tan"/>
+    
+
+ 
+ <Objective id="Junction01_Rockets1" name="@Junction01_Rockets1" description="Junction01_Rockets1" type="resupply_big" team="tan">
+  	<Activate message="@resupply_marker_text" sound="" />
+ </Objective>  
+ <Objective id="Junction01_Rockets2" name="@Junction01_Rockets2" description="Junction01_Rockets2" type="resupply_big" team="tan">
+  	<Activate message="@resupply_marker_text" sound="" />
+ </Objective>  
+ <Objective id="Junction01_Rockets3" name="@Junction01_Rockets3" description="Junction01_Rockets3" type="resupply_big" team="tan">
+  	<Activate message="@resupply_marker_text" sound="" />
+ </Objective>  
+ <Objective id="Junction01_Rockets4" name="@Junction01_Rockets4" description="Junction01_Rockets4" type="resupply_big" team="tan">
+  	<Activate message="@resupply_marker_text" sound="" />
+ </Objective>  
+ 
+ <Objective id="Junction01_EvacuationPoint" name="@Junction01_EvacuationPoint" description="Junction01_EvacuationPoint" type="evacuation" team="tan"/>    
+	
+</MissionObjectives>

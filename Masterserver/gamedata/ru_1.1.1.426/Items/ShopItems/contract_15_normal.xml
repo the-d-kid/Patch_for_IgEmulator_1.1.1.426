@@ -1,0 +1,37 @@
+<shop_item name="contract_15_normal" type="contract">
+	<mmo_stats>
+		<param name="item_category" value="contract"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+	</mmo_stats>
+
+	<UI_stats>
+		<param name="name" value=""/>
+		<param name="description" value="@ui_contract_descr_15n"/>
+		<param name="icon" value=""/>
+	</UI_stats>
+	<contract diff="normal" amount="50" id="15" kind="kills">
+		<Filters>
+  		<Filter kind="player" param="1"/>
+  		<Filter kind="enemy" param="1"/>
+  		<Filter kind="claymore" param="0"/>
+  		<Filter kind="grenade" param="0"/>
+		<Filter kind="victory_condition" param="7"/>
+		<Filter kind="weapon" param="mg01_shop"/>
+		<Filter kind="weapon" param="mg02_default"/>
+		<Filter kind="weapon" param="mg03_shop"/>
+		<Filter kind="weapon" param="mg04_shop"/>
+		<Filter kind="weapon" param="mg05_shop"/>
+		<Filter kind="weapon" param="mg06_shop"/>
+		<Filter kind="weapon" param="mg07_shop"/>
+		<Filter kind="weapon" param="mg08_shop"/>
+		<Filter kind="weapon" param="mg09_shop"/>
+		<Filter kind="weapon" param="mg18_shop"/>
+		<Filter kind="weapon" param="mg21_shop"/>
+		<Filter kind="weapon" param="mg01_crown_shop"/>
+		<Filter kind="weapon" param="mg01_xmas_shop"/>
+		<Filter kind="weapon" param="mg04_set01_shop"/>		
+		</Filters>
+		<Reward name="game_money_item_01" amount="1000"/>
+	</contract>
+</shop_item>

@@ -1,0 +1,8 @@
+<MissionGraph name="TDM" game_mode="tdm" display_name="TDM" secondary_objectives="0">
+	<UI>
+		<Description text="@pvp_tdm_mission_desc" icon="pvp_tdm_mission_icon" /> 
+		<GameMode text="@pvp_tdm_game_mode_desc" icon="pvp_tdm_game_mode_icon" /> 
+	</UI>
+
+ <BaseMission kind="tdm"/>
+</MissionGraph>

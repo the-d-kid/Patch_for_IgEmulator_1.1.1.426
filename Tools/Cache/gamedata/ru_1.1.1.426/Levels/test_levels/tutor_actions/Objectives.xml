@@ -1,0 +1,7 @@
+<MissionObjectives> 
+  <Objective id="Install1" name="@install1" description="Plant the bomb" type="bomb1" team="att">
+    <Activate message="Activate the bomb" sound="" />
+    <Complete message="Activated!" sound="" />	
+    <Failed message="" sound="" />
+  </Objective>  
+</MissionObjectives>

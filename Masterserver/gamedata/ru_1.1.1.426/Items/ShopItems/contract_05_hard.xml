@@ -1,0 +1,52 @@
+<shop_item name="contract_05_hard" type="contract">
+	<mmo_stats>
+		<param name="item_category" value="contract"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+	</mmo_stats>
+
+	<UI_stats>
+		<param name="name" value=""/>
+		<param name="description" value="@ui_contract_descr_5h"/>
+		<param name="icon" value=""/>
+	</UI_stats>
+	<contract diff="hard" amount="50" id="5" kind="kills">
+		<Filters>
+  		<Filter kind="to_head" param="1"/>
+		<Filter kind="difficulty" param="hard"/>
+  		<Filter kind="enemy" param="1"/>
+  		<Filter kind="claymore" param="0"/>
+  		<Filter kind="grenade" param="0"/>
+		<Filter kind="weapon" param="ar01_shop"/>
+		<Filter kind="weapon" param="ar02_shop"/>
+		<Filter kind="weapon" param="ar02_set01_shop"/>
+		<Filter kind="weapon" param="ar03_shop"/>
+		<Filter kind="weapon" param="ar04_default"/>
+		<Filter kind="weapon" param="ar04_camo04_shop"/>
+		<Filter kind="weapon" param="ar05_shop"/>
+		<Filter kind="weapon" param="ar06_shop"/>
+		<Filter kind="weapon" param="ar06_camo03_shop"/>
+		<Filter kind="weapon" param="ar07_shop"/>
+		<Filter kind="weapon" param="ar08_shop"/>
+		<Filter kind="weapon" param="ar09_shop"/>
+		<Filter kind="weapon" param="ar10_shop"/>
+		<Filter kind="weapon" param="ar11_shop"/>
+		<Filter kind="weapon" param="ar12_shop"/>
+		<Filter kind="weapon" param="ar13_shop"/>
+		<Filter kind="weapon" param="ar15_shop"/>
+		<Filter kind="weapon" param="ar16_shop"/>
+		<Filter kind="weapon" param="ar17_shop"/>
+		<Filter kind="weapon" param="ar19_shop"/>
+		<Filter kind="weapon" param="ar20_shop"/>
+		<Filter kind="weapon" param="ar22_shop"/>
+		<Filter kind="weapon" param="ar11_crown_shop"/>
+		<Filter kind="weapon" param="ar20_crown_shop"/>
+		<Filter kind="weapon" param="ar02_camo02_shop"/>
+		<Filter kind="weapon" param="ar06_hlw01_shop"/>
+		<Filter kind="weapon" param="ar20_cny_shop"/>
+		<Filter kind="weapon" param="ar20_xmas_shop"/>
+		<Filter kind="weapon" param="ar04_set01_shop"/>		
+		</Filters>
+		<Reward name="crown_money_item_01" amount="50"/>
+	</contract>
+</shop_item>

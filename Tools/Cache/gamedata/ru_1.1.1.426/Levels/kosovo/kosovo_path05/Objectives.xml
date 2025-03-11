@@ -1,0 +1,10 @@
+<MissionObjectives> 
+  <Objective id="Enter_to_Overpass" name="@Enter_to_Overpass" description="Enter_to_Overpass" type="Danger" team="tan"/>
+
+<Objective id="Enter_to_building" name="@Enter_to_building" description="Enter_to_building on the right" type="Danger" team="tan"/>
+
+<Objective id="Kill_Ironman" name="@Kill_Ironman" description="Kill_Ironman" type="Danger" team="tan"/>
+  
+ <Objective id="Kosovo_Path05_Checkpoint" name="@Kosovo_Path05_Checkpoint" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="Kosovo_Path05_Danger_Evacuation" name="@Kosovo_Path05_Danger_Evacuation" description="Evacuation" type="evacuation" team="tan"/> 
+</MissionObjectives>

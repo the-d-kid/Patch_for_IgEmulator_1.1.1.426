@@ -1,0 +1,5 @@
+<MetaData>
+ <Setting name="pvp/tdm_crossriver"/>
+ <MiniMap Filename="tdm_crossriver.tif" startX="183.91782" startY="171.07941" endX="337.91782" endY="325.07941"/>
+ <DescriptionText text="@tdm_crossriver_descr"/> 
+</MetaData>

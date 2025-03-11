@@ -1,0 +1,8 @@
+<download name="sm_helpers_validation" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="712976" md5="a942912cc010ff879dbca3a952807f7f"/>
+  <file src="sm_helpers_validation.tif" dest="sm_helpers_validation.dds" size="5592540" md5="e1e5c8adf18f022bfba1acb1b91913f8"/>
+  <file src="sm_helpers_validation.xml" dest="sm_helpers_validation.xml" size="240" md5="e46e2974aefd223d4c199fb0612873e3"/>
+ </files>
+</download>

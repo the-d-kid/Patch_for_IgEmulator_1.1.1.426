@@ -1,0 +1,12 @@
+<MissionObjectives> 
+  
+  <Objective id="EVACUATION" name="@DemoObjective" description="DemoObjective" type="evacuation" team="tan"/>
+  <Objective id="Kosovo_Path03_Danger1" name="@Kosovo_Path03_Danger1" description="Danger" type="danger" team="tan" /> 
+  <Objective id="Kosovo_Path03_Danger2" name="@Kosovo_Path03_Danger2" description="Danger" type="danger" team="tan" /> 
+  <Objective id="EVACUATION1" name="@DemoObjective" description="DemoObjective" type="evacuation" team="tan"/>
+  <Objective id="CHECKPOINT" name="@DemoObjective" description="DemoObjective" type="checkpoint" team="tan"/>
+  <Objective id="CHECKPOINT1" name="@DemoObjective" description="DemoObjective" type="checkpoint" team="tan"/>
+  <Objective id="ACTIVATE" name="@DemoObjective" description="DemoObjective" type="activate" team="tan">
+  </Objective>
+
+</MissionObjectives>

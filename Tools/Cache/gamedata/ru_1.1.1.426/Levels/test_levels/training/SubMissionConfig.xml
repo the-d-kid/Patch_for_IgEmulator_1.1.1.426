@@ -1,0 +1,3 @@
+<SubMissionConfig>
+ <ParameterSet kind="end" mission_type="default" mission_flow="default" time_limit="1000" score="0" win_pool="100" lose_pool="0" draw_pool="0" score_pool="100"/>
+</SubMissionConfig>

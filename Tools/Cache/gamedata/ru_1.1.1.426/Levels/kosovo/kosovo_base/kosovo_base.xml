@@ -1,0 +1,5 @@
+<MetaData>
+	<MiniMap Filename="kosovo.tif" startX="162.128448" startY="190.749695" endX="366.128448" endY="394.749695"/>
+	<Display Name="Kosovo" />
+	<Setting name="Kosovo/kosovo_base" display_name="@ui_mg_Kosovo" />
+</MetaData>

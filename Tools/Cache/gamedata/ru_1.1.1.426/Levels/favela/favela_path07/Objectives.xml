@@ -1,0 +1,18 @@
+<MissionObjectives> 
+<Objective id="FP07_Checkpoint_f" name="@FP07_Checkpoint_f" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="FP07_Checkpoint_f2" name="@FP07_Checkpoint_f2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="FP07_Danger_f1" name="@FP07_Danger_f1" description="Danger" type="danger" team="tan" /> 
+<Objective id="FP07_Danger_f2" name="@FP07_Danger_f2" description="Danger" type="danger" team="tan" /> 
+<Objective id="FP07_Danger_f3" name="@FP07_Danger_f3" description="Danger" type="danger" team="tan" /> 
+<Objective id="FP07_Danger_f4" name="@FP07_Danger_f4" description="Danger" type="danger" team="tan" /> 
+<Objective id="FP07_Danger_Evacuation_f" name="@FP07_Danger_Evacuation_f" description="Evacuation" type="evacuation" team="tan"/>  
+<Objective id="FP07_Checkpoint_b" name="@FP07_Checkpoint_b" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="FP07_Checkpoint_b2" name="@FP07_Checkpoint_b2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="FP07_Danger_b1" name="@FP07_Danger_b1" description="Danger" type="danger" team="tan" /> 
+<Objective id="FP07_Danger_b2" name="@FP07_Danger_b2" description="Danger" type="danger" team="tan" /> 
+<Objective id="FP07_Danger_b3" name="@FP07_Danger_b3" description="Danger" type="danger" team="tan" /> 
+<Objective id="FP07_Danger_b4" name="@FP07_Danger_b4" description="Danger" type="danger" team="tan" /> 
+<Objective id="FP07_Detonate" name="@FP07_Detonate" description="detonate" type="detonate" team="tan" /> 
+<Objective id="FP07_Activate " name="@FP07_Activate" description="FP07_Activate" type="activate" team="tan" /> 
+<Objective id="FP07_Danger_Evacuation_b" name="@FP07_Danger_Evacuation_b" description="Evacuation" type="evacuation" team="tan"/> 
+</MissionObjectives>

@@ -1,0 +1,20 @@
+<MissionObjectives> 
+	<Objective id="Checkpoint" name="@Checkpoint" description="@Checkpoint" type="checkpoint" team="tan"/> 
+	<Objective id="EvacuationPoint" name="@EvacuationPoint" description="EvacuationPoint" type="evacuation" team="tan"/>    		
+    
+  
+	<Objective id="Doors1_forward" name="@Doors1_forward" description="Doors1_forward" type="detonate" team="tan"/>
+	<Objective id="Doors2_forward" name="@Doors1_forward" description="Doors1_forward" type="detonate" team="tan"/>
+  
+	<Objective id="Doors1_backward" name="@Doors1_forward" description="Doors1_forward" type="detonate" team="tan"/>
+  
+	<Objective id="MissionStart1" name="@MissionStart1" description="MissionStart1" type="printer3sec" team="tan">
+		<Activate message="@path01_mission_start1" sound="" />
+	</Objective>  
+	<Objective id="MissionStart2" name="@MissionStart2" description="MissionStart2" type="printer3sec" team="tan">
+		<Activate message="@path01_mission_start2" sound="" />
+	</Objective>  
+	<Objective id="MissionStart3" name="@MissionStart3" description="MissionStart3" type="printer5sec" team="tan">
+		<Activate message="@path01_mission_start3" sound="" />
+	</Objective>    
+</MissionObjectives>

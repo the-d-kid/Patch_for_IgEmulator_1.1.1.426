@@ -1,0 +1,18 @@
+<MissionObjectives> 
+<Objective id="BP04_Checkpoint_f" name="@BP04_Checkpoint_f" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="BP04_Checkpoint_f2" name="@BP04_Checkpoint_f2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="BP04_Danger_f1" name="@BP04_Danger_f1" description="Danger" type="danger" team="tan" /> 
+<Objective id="BP04_Danger_f2" name="@BP04_Danger_f2" description="Danger" type="danger" team="tan" /> 
+<Objective id="BP04_Danger_f3" name="@BP04_Danger_f3" description="Danger" type="danger" team="tan" /> 
+<Objective id="BP04_Danger_f4" name="@BP04_Danger_f4" description="Danger" type="danger" team="tan" /> 
+<Objective id="BP04_Danger_Evacuation_f" name="@BP04_Danger_Evacuation_f" description="Evacuation" type="evacuation" team="tan"/>  
+<Objective id="BP04_Checkpoint_b" name="@BP04_Checkpoint_b" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="BP04_Checkpoint_b2" name="@BP04_Checkpoint_b2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="BP04_Danger_b1" name="@BP04_Danger_b1" description="Danger" type="danger" team="tan" /> 
+<Objective id="BP04_Danger_b2" name="@BP04_Danger_b2" description="Danger" type="danger" team="tan" /> 
+<Objective id="BP04_Danger_b3" name="@BP04_Danger_b3" description="Danger" type="danger" team="tan" /> 
+<Objective id="BP04_Danger_b4" name="@BP04_Danger_b4" description="Danger" type="danger" team="tan" /> 
+<Objective id="BP04_Detonate" name="@BP04_Detonate" description="detonate" type="detonate" team="tan" /> 
+<Objective id="BP04_Activate " name="@BP04_Activate" description="BP04_Activate" type="activate" team="tan" /> 
+<Objective id="BP04_Danger_Evacuation_b" name="@BP04_Danger_Evacuation_b" description="Evacuation" type="evacuation" team="tan"/> 
+</MissionObjectives>

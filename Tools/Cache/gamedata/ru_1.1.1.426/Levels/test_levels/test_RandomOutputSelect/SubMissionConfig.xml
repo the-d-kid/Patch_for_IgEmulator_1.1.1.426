@@ -1,0 +1,5 @@
+<SubMissionConfig>
+ <ParameterSet difficulty="easy" kind="pass" mission_type="default" mission_flow="passage" time_limit="1000" score="100" start_teleport="test_start" finish_teleport="" win_pool="175" lose_pool="75" draw_pool="125" score_pool="175"/>
+ <ParameterSet difficulty="normal" kind="pass" mission_type="default" mission_flow="passage" time_limit="1000" score="100" start_teleport="test_start" finish_teleport="" win_pool="175" lose_pool="75" draw_pool="125" score_pool="175"/>
+ <ParameterSet difficulty="hard" kind="pass" mission_type="default" mission_flow="passage" time_limit="1000" score="100" start_teleport="test_start" finish_teleport="" win_pool="175" lose_pool="75" draw_pool="125" score_pool="175"/>
+</SubMissionConfig>

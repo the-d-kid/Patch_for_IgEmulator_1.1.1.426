@@ -1,0 +1,8 @@
+<MissionObjectives> 
+<Objective id="CTJ01_Resupply_1" name="@CTJ01_Resupply_1" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ01_Resupply_2" name="@CTJ01_Resupply_2" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ01_Resupply_3" name="@CTJ01_Resupply_3" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ01_Resupply_4" name="@CTJ01_Resupply_4" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ01_Danger_1" name="@CTJ01_Danger_1" description="Danger" type="danger" team="tan" /> 
+<Objective id="CTJ01_Danger_Evacuation" name="@CTJ01_Danger_Evacuation" description="Evacuation" type="evacuation" team="tan"/>  
+</MissionObjectives>

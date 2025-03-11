@@ -1,0 +1,6 @@
+<download name="kosovo_base" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="33695" md5="068ee02efd6f67ff617750730fa5bd26"/>
+ </files>
+</download>

@@ -1,0 +1,22 @@
+<MissionObjectives> 
+  <Objective id="FD04_Checkpoint1" name="@FD04_Checkpoint1" description="FD04_Checkpoint1" type="checkpoint" team="tan" />
+  <Objective id="FD04_Checkpoint2" name="@FD04_Checkpoint2" description="FD04_Checkpoint2" type="checkpoint" team="tan" />
+  <Objective id="FD04_Evacuation_f" name="@FD04_EvacuationPoint" description="FD04_EvacuationPoint" type="evacuation" team="tan"/>
+  <Objective id="FD04_Evacuation_b" name="@FD04_EvacuationPoint" description="FD04_EvacuationPoint" type="evacuation" team="tan"/>
+  <Objective id="DANGER_f_1" name="@FD04_Danger" description="Danger" type="danger" team="tan"/>  
+  <Objective id="DANGER_f_2" name="@FD04_Danger" description="Danger" type="danger" team="tan"/>  
+  <Objective id="DANGER_f_3" name="@FD04_Danger" description="Danger" type="danger" team="tan"/>  
+  <Objective id="DANGER_f_4" name="@FD04_Danger" description="Danger" type="danger" team="tan"/> 
+  <Objective id="DANGER_f_5" name="@FD04_Danger" description="Danger" type="danger" team="tan"/> 
+  <Objective id="DANGER_f_6" name="@FD04_Danger" description="Danger" type="danger" team="tan"/> 
+  <Objective id="DANGER_f_7" name="@FD04_Danger" description="Danger" type="danger" team="tan"/> 
+  <Objective id="DANGER_f_8" name="@FD04_Danger" description="Danger" type="danger" team="tan"/> 
+  <Objective id="DANGER_b_1" name="@FD04_Danger" description="Danger" type="danger" team="tan"/>  
+  <Objective id="DANGER_b_2" name="@FD04_Danger" description="Danger" type="danger" team="tan"/>  
+  <Objective id="DANGER_b_3" name="@FD04_Danger" description="Danger" type="danger" team="tan"/>  
+  <Objective id="DANGER_b_4" name="@FD04_Danger" description="Danger" type="danger" team="tan"/> 
+  <Objective id="DANGER_b_5" name="@FD04_Danger" description="Danger" type="danger" team="tan"/> 
+  <Objective id="DANGER_b_6" name="@FD04_Danger" description="Danger" type="danger" team="tan"/> 
+  <Objective id="DANGER_b_7" name="@FD04_Danger" description="Danger" type="danger" team="tan"/> 
+  <Objective id="DANGER_b_8" name="@FD04_Danger" description="Danger" type="danger" team="tan"/> 
+</MissionObjectives>

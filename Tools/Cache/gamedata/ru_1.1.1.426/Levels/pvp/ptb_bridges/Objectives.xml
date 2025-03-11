@@ -1,0 +1,44 @@
+<MissionObjectives> 
+  <Objective id="Install1" name="@install1" description="Plant the bomb" type="bomb1" team="att">
+    <Activate message="Activate the bomb" sound="" />
+    <Complete message="Activated!" sound="" />	
+    <Failed message="" sound="" />
+  </Objective>  
+     
+    <Objective id="Install2" name="@install2" description="Plant the bomb" type="bomb2" team="att">
+    <Activate message="Activate the bomb" sound="" />
+    <Complete message="Activated!" sound="" />	
+    <Failed message="" sound="" />
+  </Objective> 
+      
+    <Objective id="Defend1" name="@defend1" description="Defend the bomb" type="primary" team="att">
+    <Activate message="Defend the bomb!!" sound="" />
+    <Complete message="Success!" sound="" />	
+    <Failed message="" sound="" />
+  </Objective>
+       
+    <Objective id="Defend2" name="@defend2" description="Defend the bomb" type="primary" team="att">
+    <Activate message="Defend the bomb!!!!!" sound="" />
+    <Complete message="Success!" sound="" />	
+    <Failed message="" sound="" />
+  </Objective>       
+
+  <Objective id="Defend_bombplace1" name="@defend_bombplace1" description="Defend bombplace 1" type="bomb1" team="def">
+    <Activate message="Defend the bombplace 1" sound="" />
+    <Complete message="Success!" sound="" />	
+    <Failed message="" sound="" />
+  </Objective> 
+      
+ <Objective id="Defend_bombplace2" name="@defend_bombplace2" description="Defend bombplace 2" type="bomb2" team="def">
+    <Activate message="Defend the bombplace 2" sound="" />
+    <Complete message="Success!" sound="" />	
+    <Failed message="" sound="" />
+  </Objective>         
+
+    <Objective id="pvp_round_start" name="@RoundStart" description="PvP Round Start" type="pvp_round_start" team="">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>      
+  
+</MissionObjectives>

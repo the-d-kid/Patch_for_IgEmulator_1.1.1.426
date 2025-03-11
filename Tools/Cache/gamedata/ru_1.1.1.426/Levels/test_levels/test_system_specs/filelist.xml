@@ -1,0 +1,8 @@
+<download name="test_system_specs" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="185369" md5="333e9d59452a9d09b27ae83497a7db72"/>
+  <file src="test_system_specs.tif" dest="test_system_specs.tif" size="1048712" md5="2904647ef65182401bfa78620f5ad1b3"/>
+  <file src="test_system_specs.xml" dest="test_system_specs.xml" size="262" md5="50064aad86ccd8aa4aafbfe83bde7a20"/>
+ </files>
+</download>

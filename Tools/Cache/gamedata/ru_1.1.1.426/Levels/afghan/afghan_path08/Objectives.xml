@@ -1,0 +1,8 @@
+<MissionObjectives> 
+  <Objective id="Checkpoint" name="@Checkpoint" description="@Checkpoint" type="checkpoint" team="tan"/>
+  <Objective id="Checkpoint1" name="@Checkpoint" description="@Checkpoint" type="checkpoint" team="tan"/>
+  <Objective id="EvacuationPoint" name="@EvacuationPoint" description="EvacuationPoint" type="evacuation" team="tan"/>
+  <Objective id="EvacuationPoint" name="@EvacuationPoint" description="EvacuationPoint" type="evacuation" team="tan"/> 
+  <Objective id="ACTIVATE_DemoObjective" name="@DemoObjective" description="DemoObjective" type="activate" team="tan">
+   </Objective>
+</MissionObjectives>

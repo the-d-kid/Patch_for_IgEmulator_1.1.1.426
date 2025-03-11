@@ -1,0 +1,8 @@
+<MissionGraph name="Test" game_mode="pve" display_name="Test" target_difficulty="easy" secondary_objectives="2">
+	<UI>
+		<Description text="@easy_mission_desc" icon="easy_icon" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+
+ <BaseMission kind="end"/>
+</MissionGraph>

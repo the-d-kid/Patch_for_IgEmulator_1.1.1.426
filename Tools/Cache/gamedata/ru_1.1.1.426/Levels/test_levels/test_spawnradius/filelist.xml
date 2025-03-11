@@ -1,0 +1,6 @@
+<download name="test_spawnradius" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="3407922" md5="b6b9cc5e3a5fac0fd28f396a1fdaa94a"/>
+ </files>
+</download>

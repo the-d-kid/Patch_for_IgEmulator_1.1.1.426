@@ -1,0 +1,74 @@
+<MissionObjectives> 
+	<!--tutorial messages -->
+	<Objective id="e_message_step01" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_01"/>
+	</Objective>
+	<Objective id="e_message_step02" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_02" message="@e_step_02" />
+	</Objective>
+	<Objective id="e_message_step03" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_03" message="@e_step_03" />
+	</Objective>
+	<Objective id="e_message_step04" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_04" message="@e_step_04" />
+	</Objective>
+	<Objective id="e_message_step05" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_05" message="@e_step_05" />
+	</Objective>
+	<Objective id="e_message_step06" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_06" message="@e_step_06" />
+	</Objective>
+	<Objective id="e_message_step07" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_07" message="@e_step_07" />
+	</Objective>
+	<Objective id="e_message_step08" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_08" message="@e_step_08" />
+	</Objective>
+	<Objective id="e_message_step09" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_09" message="@e_step_09" />
+	</Objective>
+	<Objective id="e_message_step10" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_10" message="@e_step_10" />
+	</Objective>
+	<Objective id="e_message_step11" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_11" message="@e_step_11" />
+	</Objective>
+	<Objective id="e_message_step12" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@e_badge_12" message="@e_step_12" />
+	</Objective>
+
+	
+	
+
+	<Objective id="mo_step2" type="checkpoint" team="tan"/>
+	<Objective id="mo_step3" type="checkpoint_claymore" team="tan"/>
+	
+	<Objective id="evacuation" type="evacuation" team="tan"/>
+	
+	<Objective id="ptb_tutorial" type="ptb_tutorial" team="tan"/>
+	
+	<Objective id="Install1" type="bomb1" team="att">
+		<Activate message="Activate the bomb!" sound="" />
+		<Complete message="Activated!" sound="" />	    
+	</Objective>   	
+
+	<Objective id="st_mo1" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo2" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo3" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo4" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo5" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo6" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo7" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo8" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo9" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo10" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo11" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo12" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo13" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo14" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo15" type="danger_tutor" team="tan"/>
+	<Objective id="st_mo16" type="danger_tutor" team="tan"/>
+	
+	<Objective id="headshot" type="headshot_tutorial" team="tan"/>
+	
+</MissionObjectives>

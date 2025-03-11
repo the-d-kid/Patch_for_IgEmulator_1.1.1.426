@@ -1,0 +1,25 @@
+<item name="ar01_is_d" class="K01_Item" type="attachment" view_settings="objects/weapons/ar01/ar01_is_d.xml">
+
+ 
+<UI_stats>
+  <param name="name" value="@is_default_name" /> 
+  <param name="description" value="@ui_accessories_is_default" /> 
+  <param name="icon" value="ccs_nonitem" />  
+</UI_stats>
+	
+	<icons>
+		<ui_icon name="ar01_is_d" />
+	</icons>
+
+<drop_params>
+  <item name="ar01_is_d" type="attachment" />
+</drop_params>
+
+ <settings>
+  <param name="weight" value="0.05"/>
+  <param name="zoom_factor" value="1"/>
+ </settings>
+ <types>
+  <type name="ar01_is" helper="ar01_ironsight"/>
+ </types>
+</item>

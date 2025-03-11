@@ -1,0 +1,18 @@
+<item name="pt01_clip_d" class="K01_Item" type="attachment">
+  <description text="@ui_accessories_pt01_clip_d"/>
+  
+ <icons>
+	<ui_icon name="ccs_pt01_clip_d" />
+ </icons>
+ 
+  <drop_params>
+                        <item name="pt01_clip_d" type="attachment" />
+</drop_params>
+ 
+ <settings>
+  <param name="weight" value="0.15"/>
+ </settings>
+ <types>
+  <type name="pt01_clip" helper="pt01_clip"/>
+ </types>
+</item>

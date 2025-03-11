@@ -1,0 +1,3 @@
+<SubMissionConfig>
+ <ParameterSet kind="ptb" mission_flow="default" time_limit="1000" win_pool="105" lose_pool="45" draw_pool="62" score_pool="105"/>
+</SubMissionConfig>

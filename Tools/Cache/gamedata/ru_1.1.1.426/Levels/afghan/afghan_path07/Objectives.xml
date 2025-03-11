@@ -1,0 +1,21 @@
+<MissionObjectives> 
+  <Objective id="Checkpoint" name="@Checkpoint" description="Checkpoint" type="checkpoint" team="tan" /> 
+  <Objective id="ClearSector" name="@ClearSector" description="ClearSector" type="danger" team="tan" />   
+  <Objective id="ClearSector_f1" name="@ClearSector_f1" description="ClearSector_f1" type="danger" team="tan" />
+  <Objective id="ClearSector_f2" name="@ClearSector_f2" description="ClearSector_f2" type="danger" team="tan" />
+  <Objective id="ClearSector_f3" name="@ClearSector_f3" description="ClearSector_f3" type="danger" team="tan" />
+  <Objective id="ClearSector_f4" name="@ClearSector_f4" description="ClearSector_f4" type="danger" team="tan" />
+  <Objective id="ClearSector_b1" name="@ClearSector_b1" description="ClearSector_b1" type="danger" team="tan" />
+  <Objective id="ClearSector_b2" name="@ClearSector_b2" description="ClearSector_b2" type="danger" team="tan" />
+  <Objective id="ClearSector_b3" name="@ClearSector_b3" description="ClearSector_b3" type="danger" team="tan" />
+  <Objective id="ClearSector_b4" name="@ClearSector_b4" description="ClearSector_b4" type="danger" team="tan" />
+ 
+  <Objective id="CallForEvac" name="@CallForEvac" description="CallForEvac" type="download" team="tan" >       
+		<Activate message="@path07_callforevac_activate" sound="" />
+		<Complete message="@path07_callforevac_complete" sound="" />
+  </Objective>
+  
+   
+  <Objective id="ExplosiveDoor" name="@ExplosiveDoor" description="ExplosiveDoor" type="detonate" team="tan"/>
+  <Objective id="Evacuation" name="@Evacuation" description="Evacuation" type="evacuation" team="tan"/>
+</MissionObjectives>

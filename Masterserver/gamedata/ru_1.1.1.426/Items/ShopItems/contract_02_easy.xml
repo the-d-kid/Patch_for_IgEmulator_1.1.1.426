@@ -1,0 +1,19 @@
+<shop_item name="contract_02_easy" type="contract">
+	<mmo_stats>
+		<param name="item_category" value="contract"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+	</mmo_stats>
+
+	<UI_stats>
+		<param name="name" value=""/>
+		<param name="description" value="@ui_contract_descr_2e"/>
+		<param name="icon" value=""/>
+	</UI_stats>
+	<contract diff="easy" amount="5" id="2" kind="resurrects_done">
+		<Filters>
+  		<Filter kind="victory_condition" param="1"/>
+		</Filters>
+		<Reward name="game_money_item_01" amount="300"/>
+	</contract>
+</shop_item>

@@ -1,0 +1,7 @@
+<download name="afghan_path03" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="afghan_path03.xml" dest="afghan_path03.xml" size="248" md5="4cdd5faa7bf4a02c5b117931dc02d8ef"/>
+  <file src="level.pak" dest="level.pak" size="11563199" md5="43ba321e273b2476a6e83e4d010e1a1e"/>
+ </files>
+</download>

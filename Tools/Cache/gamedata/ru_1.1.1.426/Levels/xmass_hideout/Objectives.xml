@@ -1,0 +1,55 @@
+<MissionObjectives> 
+  <Objective id="Line1" name="@Line1" description="Rich there!" type="Primary" team="tan">
+    <Activate message="Rich there!" sound="" />
+    <Complete message="Done!" sound="" />	
+    <Failed message="" sound="testSound" />
+  </Objective>     
+   <Objective id="Line2" name="@Line2" description="Rich there!" type="Primary" team="tan">
+    <Activate message="Rich there!" sound="" />
+    <Complete message="Done!" sound="" />	
+    <Failed message="" sound="testSound" />
+  </Objective>     
+
+    <Objective id="Line3" name="@Line3" description="Rich there!" type="Primary" team="tan">
+    <Activate message="Rich there!" sound="" />
+    <Complete message="Done!" sound="" />	
+    <Failed message="" sound="testSound" />
+  </Objective>     
+
+    <Objective id="Line4" name="@Line4" description="Rich there!" type="Primary" team="tan">
+    <Activate message="Rich there!" sound="" />
+    <Complete message="Done!" sound="" />	
+    <Failed message="" sound="testSound" />
+  </Objective>     
+  <Objective id="Line5" name="@Line5" description="Rich there!" type="Primary" team="tan">
+    <Activate message="Rich there!" sound="" />
+    <Complete message="Done!" sound="" />	
+    <Failed message="" sound="testSound" />
+  </Objective>     
+  <Objective id="Line6" name="@Line6" description="Rich there!" type="Primary" team="tan">
+    <Activate message="Rich there!" sound="" />
+    <Complete message="Done!" sound="" />	
+    <Failed message="" sound="testSound" />
+  </Objective>     
+  <Objective id="Line7" name="@Line7" description="Rich there!" type="Primary" team="tan">
+    <Activate message="Rich there!" sound="" />
+    <Complete message="Done!" sound="" />	
+    <Failed message="" sound="testSound" />
+  </Objective>     
+  <Objective id="Line8" name="@Line8" description="Rich there!" type="Primary" team="tan">
+    <Activate message="Rich there!" sound="" />
+    <Complete message="Done!" sound="" />	
+    <Failed message="" sound="testSound" />
+  </Objective>     
+  <Objective id="Line9" name="@Line9" description="Rich there!" type="Primary" team="tan">
+    <Activate message="Rich there!" sound="" />
+    <Complete message="Done!" sound="" />	
+    <Failed message="" sound="testSound" />
+  </Objective>     
+  <Objective id="Line10" name="@Line10" description="Rich there!" type="Primary" team="tan">
+    <Activate message="Rich there!" sound="" />
+    <Complete message="Done!" sound="" />	
+    <Failed message="" sound="testSound" />
+  </Objective>     
+
+</MissionObjectives>

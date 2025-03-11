@@ -1,0 +1,3 @@
+<SubMissionConfig>
+ <ParameterSet difficulty="easy" kind="junction" mission_type="default" mission_flow="test" time_limit="1000" score="0" start_teleport="asset_test_start" finish_teleport="" win_pool="1" lose_pool="0" draw_pool="0" score_pool="1"/>
+</SubMissionConfig>

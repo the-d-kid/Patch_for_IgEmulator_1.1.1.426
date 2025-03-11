@@ -1,0 +1,2434 @@
+<Achievements>
+	<!--Marks-->
+
+	<Achievement id="51" kind="damage_done" MS_side="0" amount="100000">
+		<UI name="@destroyer1" desc="@destroyer1_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+		</Filters>
+		<BannerImage image="challenge_mark_03" type="mark" />
+	</Achievement>	
+	
+	<Achievement id="52" kind="damage_done" MS_side="0" amount="1000000">
+		<UI name="@destroyer2" desc="@destroyer2_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+		</Filters>
+		<BannerImage image="challenge_mark_04" type="mark" />
+	</Achievement>	
+
+	<Achievement id="53" kind="damage_done" MS_side="0" amount="20000000">
+		<UI name="@destroyer3" desc="@destroyer3_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+		</Filters>
+		<BannerImage image="challenge_mark_05" type="mark" />
+	</Achievement>
+	
+	<Achievement id="54" kind="rank" MS_side="1" amount="10">
+		<UI name="@ranking1" desc="@ranking1_desc" starts_from_one="1"/>
+		<BannerImage image="challenge_mark_01" type="mark" />
+	</Achievement>
+	
+	<Achievement id="55" kind="rank" MS_side="1" amount="30">
+		<UI name="@ranking2" desc="@ranking2_desc" starts_from_one="1"/>
+		<BannerImage image="challenge_mark_02" type="mark" />
+	</Achievement>
+		
+	<Achievement id="56" kind="kills" MS_side="0" amount="100">
+		<UI name="@silent_shot1" desc="@silent_shot1_desc"/>
+		<Filters>
+			<Filter kind="silenced" param="1"/>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="player" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="melee" param="0"/>			
+		</Filters>		
+		<BannerImage image="challenge_mark_07" type="mark" />
+	</Achievement>
+	
+	<Achievement id="57" kind="kills" MS_side="0" amount="1000">
+		<UI name="@silent_shot2" desc="@silent_shot2_desc"/>
+		<Filters>
+			<Filter kind="silenced" param="1"/>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="player" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="melee" param="0"/>			
+		</Filters>
+		<BannerImage image="challenge_mark_08" type="mark" />
+	</Achievement>
+	
+	<Achievement id="58" kind="rank" MS_side="1" amount="60">
+		<UI name="@ranking3" desc="@ranking3_desc" starts_from_one="1"/>
+		<BannerImage image="challenge_mark_17" type="mark" />
+	</Achievement>
+		
+	<Achievement id="59" kind="kills" MS_side="0" amount="100">
+		<Filters>
+			<Filter kind="weapon_slot" param="primary"/>
+			<Filter kind="melee" param="1"/>
+			<Filter kind="enemy" param="1"/>
+		</Filters>
+		<UI name="@buttkiller" desc="@buttkiller_desc"/>
+		<BannerImage image="challenge_mark_39" type="mark" />
+	</Achievement>
+<!--
+	<Achievement id="60" kind="kills" MS_side="0" amount="20">
+		<UI name="@pvpStreak1" desc="@pvpStreak1_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="player" param="1"/>			
+			<Filter kind="without_death" param="1"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_37" type="mark" />		
+	</Achievement>  -->
+	
+	<Achievement id="61" kind="flag_captured" MS_side="0" amount="100">
+		<UI name="@carryTheFlag" desc="@carryTheFlag_desc"/>
+		<BannerImage image="challenge_mark_18" type="mark" />
+	</Achievement>
+		
+	<Achievement id="62" kind="game_end" MS_side="0" amount="10">
+		<UI name="@winCTF1" desc="@winCTF1_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="2"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_11" type="mark" />
+	</Achievement>
+	
+	<Achievement id="63" kind="game_end" MS_side="0" amount="100">
+		<UI name="@winCTF2" desc="@winCTF2_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="2"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_27" type="mark" />
+	</Achievement>
+	
+	<Achievement id="64" kind="kills" MS_side="0" amount="10">
+		<UI name="@killWithFlag1" desc="@killWithFlag1_desc"/>
+		<Filters>
+			<Filter kind="with_flag" param="1"/>
+			<Filter kind="enemy" param="1"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_21" type="mark" />
+	</Achievement>
+	
+	<Achievement id="65" kind="kills" MS_side="0" amount="100">
+		<UI name="@killWithFlag2" desc="@killWithFlag2_desc"/>
+		<Filters>
+			<Filter kind="with_flag" param="1"/>
+			<Filter kind="enemy" param="1"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_22" type="mark" />
+	</Achievement>
+	
+	<Achievement id="66" kind="bomb_explode" MS_side="0" amount="100">
+		<UI name="@diversant" desc="@diversant_desc"/>
+		<BannerImage image="challenge_mark_25" type="mark" />
+	</Achievement>
+	
+	<Achievement id="67" kind="game_end" MS_side="0" amount="10">
+		<UI name="@winDST1" desc="@winDST1_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="7"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_12" type="mark" />
+	</Achievement>
+	
+	<Achievement id="68" kind="game_end" MS_side="0" amount="100">
+		<UI name="@winDST2" desc="@winDST2_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="7"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_28" type="mark" />
+	</Achievement>
+
+<!--	
+	<Achievement id="69" kind="game_end" MS_side="0" amount="10">
+		<UI name="@winFFA1" desc="@winFFA1_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="6"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_13" type="mark" />
+	</Achievement>
+	
+	<Achievement id="70" kind="game_end" MS_side="0" amount="100">
+		<UI name="@winFFA2" desc="@winFFA2_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="6"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_29" type="mark" />
+	</Achievement>
+	-->
+	
+	<Achievement id="71" kind="game_end" MS_side="0" amount="10">
+		<UI name="@winSTM1" desc="@winSTM1_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="5"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_15" type="mark" />
+	</Achievement>
+	
+	<Achievement id="72" kind="game_end" MS_side="0" amount="100">
+		<UI name="@winSTM2" desc="@winSTM2_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="5"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_31" type="mark" />
+	</Achievement>
+	
+	<Achievement id="73" kind="game_end" MS_side="0" amount="10">
+		<UI name="@winTDM1" desc="@winTDM1_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="1"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_43" type="mark" />
+	</Achievement>
+	
+	<Achievement id="74" kind="game_end" MS_side="0" amount="100">
+		<UI name="@winTDM2" desc="@winTDM2_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="1"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_32" type="mark" />
+	</Achievement>
+	
+	<Achievement id="75" kind="game_end" MS_side="0" amount="10">
+		<UI name="@winPTB1" desc="@winPTB1_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="4"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_14" type="mark" />
+	</Achievement>
+	
+	<Achievement id="76" kind="game_end" MS_side="0" amount="100">
+		<UI name="@winPTB2" desc="@winPTB2_desc"/>
+		<Filters>
+			<Filter kind="victory_condition" param="4"/>
+			<Filter kind="mission_result" param="win"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_30" type="mark" />
+	</Achievement>
+	
+	<Achievement id="77" kind="game_end" MS_side="0" amount="100">
+		<UI name="@firstInPVP" desc="@firstInPVP_desc"/>
+		<Filters>
+			<Filter kind="place_taken" param="1"/>
+			<Filter kind="mission_result" param="win"/>
+			<Filter kind="victory_condition" param="1"/>
+			<Filter kind="victory_condition" param="2"/>
+			<Filter kind="victory_condition" param="4"/>
+			<Filter kind="victory_condition" param="5"/>
+			<Filter kind="victory_condition" param="6"/>
+			<Filter kind="victory_condition" param="7"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_26" type="mark" />
+	</Achievement>
+		
+	<Achievement id="78" kind="kills" MS_side="0" amount="100">
+		<UI name="@headSniper" desc="@headSniper_desc"/>
+		<Filters>
+			<Filter kind="to_head" param="1"/>
+			<Filter kind="melee" param="0"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="sr01_shop"/>
+			<Filter kind="weapon" param="sr02_default"/>
+			<Filter kind="weapon" param="sr03_shop"/>
+			<Filter kind="weapon" param="sr04_shop"/>			
+			<Filter kind="weapon" param="sr05_shop"/>						
+			<Filter kind="weapon" param="sr06_shop"/>			
+			<Filter kind="weapon" param="sr07_shop"/>
+			<Filter kind="weapon" param="sr08_shop"/>
+			<Filter kind="weapon" param="sr09_shop"/>
+			<Filter kind="weapon" param="sr10_shop"/>
+			<Filter kind="weapon" param="sr11_shop"/>
+			<Filter kind="weapon" param="sr12_shop"/>
+			<Filter kind="weapon" param="sr12_clr01_shop"/>
+			<Filter kind="weapon" param="sr13_shop"/>
+			<Filter kind="weapon" param="sr14_shop"/>
+			<Filter kind="weapon" param="sr15_shop"/>
+			<Filter kind="weapon" param="sr16_shop"/>
+			<Filter kind="weapon" param="sr17_shop"/>
+			<Filter kind="weapon" param="sr18_shop"/>
+			<Filter kind="weapon" param="sr19_shop"/>
+			<Filter kind="weapon" param="sr20_shop"/>
+			<Filter kind="weapon" param="sr21_shop"/>
+			<Filter kind="weapon" param="sr22_shop"/>
+			<Filter kind="weapon" param="sr23_shop"/>
+			<Filter kind="weapon" param="sr24_shop"/>
+			<Filter kind="weapon" param="sr25_shop"/>
+			<Filter kind="weapon" param="sr26_shop"/>
+			<Filter kind="weapon" param="sr27_shop"/>
+			<Filter kind="weapon" param="sr28_shop"/>
+			<Filter kind="weapon" param="sr29_shop"/>
+			<Filter kind="weapon" param="sr30_shop"/>
+			<Filter kind="weapon" param="sr41_shop"/>
+			<Filter kind="player" param="1"/>
+			<Filter kind="enemy" param="1"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_16" type="mark" />
+	</Achievement>
+		
+	<Achievement id="79" kind="kills" MS_side="0" amount="1000">
+		<UI name="@massacre" desc="@massacre_desc"/>
+		<Filters>
+			<Filter kind="weapon_slot" param="knife"/>
+			<Filter kind="player" param="1"/>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>			
+		</Filters>		
+		<BannerImage image="challenge_mark_24" type="mark" />
+	</Achievement>
+	
+	<Achievement id="80" kind="kills" MS_side="0" amount="10">
+		<UI name="@meleeHead" desc="@meleeHead_desc"/>
+		<Filters>
+			<Filter kind="melee" param="1"/>
+			<Filter kind="player" param="1"/>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="to_head" param="1"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_20" type="mark" />		
+	</Achievement>
+		
+	<Achievement id="81" kind="kills" MS_side="0" amount="100">
+		<UI name="@proneKill" desc="@proneKill_desc"/>
+		<Filters>
+			<Filter kind="stance" param="Prone"/>
+			<Filter kind="player" param="1"/>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="in_special_move" compare="!=" param="slide"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_23" type="mark" />		
+	</Achievement>
+	
+	<Achievement id="82" kind="kills" MS_side="0" amount="10000">
+		<UI name="@pt01Kill" desc="@pt01Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="pt01_default"/>		
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_44" type="mark" />		
+	</Achievement>
+	
+	<Achievement id="83" kind="kills" MS_side="0" amount="10000">
+		<UI name="@pt02Kill" desc="@pt02Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="pt02_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_47" type="mark" />		
+	</Achievement>
+		
+	<Achievement id="84" kind="kills" MS_side="0" amount="10000">
+		<UI name="@pt03Kill" desc="@pt03Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="pt03_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_52" type="mark" />		
+	</Achievement>
+	
+<!--	<Achievement id="85" kind="kills" MS_side="0" amount="10000">
+		<UI name="@pt04Kill" desc="@pt04Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="pt04_shop"/>			
+		</Filters>		
+		<BannerImage image="challenge_mark_53" type="mark" />		
+	</Achievement> -->
+		
+	<Achievement id="86" kind="kills" MS_side="0" amount="10000">
+		<UI name="@pt05Kill" desc="@pt05Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="pt05_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_48" type="mark" />		
+	</Achievement>
+	
+<!--	<Achievement id="87" kind="kills" MS_side="0" amount="10000">
+		<UI name="@pt06Kill" desc="@pt06Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="pt06_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_49" type="mark" />		
+	</Achievement> -->
+		
+	<Achievement id="88" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg01Kill" desc="@smg01Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="smg01_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_50" type="mark" />		
+	</Achievement>
+	
+	<Achievement id="89" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg02Kill" desc="@smg02Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="smg02_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_51" type="mark" />		
+	</Achievement>
+	
+	<Achievement id="90" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg03Kill" desc="@smg03Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="smg03_default"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_45" type="mark" />		
+	</Achievement>
+	
+	<Achievement id="91" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg06Kill" desc="@smg06Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="smg06_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_46" type="mark" />		
+	</Achievement>
+		
+	<Achievement id="92" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg07Kill" desc="@smg07Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="smg07_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_54" type="mark" />		
+	</Achievement>
+	
+	<Achievement id="93" kind="leader_board_update" MS_side="1" amount="1">
+		<UI name="@kingOfTheMission1" desc="@kingOfTheMission1_desc"/>
+		<Filters>
+			<Filter kind="leaderboard_position" param="100"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_35" type="mark" />		
+	</Achievement>
+	
+	<Achievement id="94" kind="leader_board_update" MS_side="1" amount="1">
+		<UI name="@kingOfTheMission2" desc="@kingOfTheMission2_desc"/>
+		<Filters>
+			<Filter kind="leaderboard_position" param="10"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_34" type="mark" />		
+	</Achievement>
+		
+	<Achievement id="95" kind="leader_board_update" MS_side="1" amount="1">
+		<UI name="@kingOfTheMission3" desc="@kingOfTheMission3_desc"/>
+		<Filters>
+			<Filter kind="leaderboard_position" param="1"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_33" type="mark" />		
+	</Achievement>
+		
+	<Achievement id="96" kind="kills" MS_side="0" amount="250">
+		<UI name="@hammerSickleKills" desc="@hammerSickleKills_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="player" param="1"/>			
+			<Filter kind="weapon" param="kn41_ww2"/>
+			<Filter kind="weapon" param="kn42_ww2"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>		
+		<BannerImage image="challenge_mark_ww2" type="mark" />		
+	</Achievement>
+		
+	
+	<!--Badges-->		
+		
+	<Achievement id="100" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg02Kill" desc="@shg02Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="shg02_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_badge_27" type="badge" />
+	</Achievement>
+	
+	<Achievement id="101" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg03Kill" desc="@shg03Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="shg03_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_badge_30" type="badge" />
+	</Achievement>
+		
+	<Achievement id="102" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg04Kill" desc="@shg04Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="shg04_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_badge_31" type="badge" />
+	</Achievement>
+		
+	<Achievement id="103" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg05Kill" desc="@shg05Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="shg05_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_badge_32" type="badge" />
+	</Achievement>
+		
+	<Achievement id="104" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg06Kill" desc="@shg06Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="shg06_shop"/>
+			<Filter kind="weapon" param="shg06_hlw01_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_badge_34" type="badge" />
+	</Achievement>
+	
+	<Achievement id="105" kind="kills" MS_side="0" amount="10000">
+		<UI name="@mg01Kill" desc="@mg01Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="mg01_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_badge_29" type="badge" />
+	</Achievement>
+		
+	<Achievement id="106" kind="kills" MS_side="0" amount="10000">
+		<UI name="@mg04Kill" desc="@mg04Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="mg04_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_badge_33" type="badge" />
+	</Achievement>
+	
+<!--	<Achievement id="107" kind="kills" MS_side="0" amount="10000">
+		<UI name="@mg05Kill" desc="@mg05Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="mg05_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_badge_28" type="badge" />
+	</Achievement>  -->
+		
+	<Achievement id="108" kind="kills" MS_side="0" amount="10000">
+		<UI name="@mg06Kill" desc="@mg06Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="mg06_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_badge_35" type="badge" />
+	</Achievement>
+	
+	<Achievement id="109" kind="kills" MS_side="0" amount="100">
+		<UI name="@aiming1" desc="@aiming1_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="zoomed" param="1"/>	
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>				
+		</Filters>	
+		<BannerImage image="challenge_badge_11" type="badge" />
+	</Achievement>
+	
+	<Achievement id="110" kind="kills" MS_side="0" amount="1000">
+		<UI name="@aiming2" desc="@aiming2_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="zoomed" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>				
+		</Filters>	
+		<BannerImage image="challenge_badge_12" type="badge" />
+	</Achievement>
+	
+	<Achievement id="111" kind="crown_collected" MS_side="1" amount="100">
+		<UI name="@crown1" desc="@crown1_desc"/>
+		<BannerImage image="challenge_badge_19" type="badge" />
+	</Achievement>
+		
+	<Achievement id="112" kind="crown_collected" MS_side="1" amount="1000">
+		<UI name="@crown2" desc="@crown2_desc"/>
+		<BannerImage image="challenge_badge_20" type="badge" />
+	</Achievement>
+	
+	<Achievement id="113" kind="crown_collected" MS_side="1" amount="10000">
+		<UI name="@crown3" desc="@crown3_desc"/>
+		<BannerImage image="challenge_badge_21" type="badge" />
+	</Achievement>
+	
+	<Achievement id="114" kind="money" MS_side="1" amount="100000">
+		<UI name="@money1" desc="@money1_desc"/>
+		<BannerImage image="challenge_badge_17" type="badge" />
+	</Achievement>
+	
+	<Achievement id="115" kind="money" MS_side="1" amount="500000">
+		<UI name="@money2" desc="@money2_desc"/>
+		<BannerImage image="challenge_badge_18" type="badge" />
+	</Achievement>
+		
+	<Achievement id="116" kind="heal" MS_side="0" amount="10000">
+		<UI name="@healer1" desc="@healer1_desc"/>
+		<BannerImage image="challenge_badge_40" type="badge" />
+	</Achievement>
+	
+	<Achievement id="117" kind="heal" MS_side="0" amount="100000">
+		<UI name="@healer2" desc="@healer2_desc"/>
+		<BannerImage image="challenge_badge_41" type="badge" />
+	</Achievement>
+		
+	<Achievement id="118" kind="heal" MS_side="0" amount="1000000">
+		<UI name="@healer3" desc="@healer3_desc"/>
+		<BannerImage image="challenge_badge_42" type="badge" />
+	</Achievement>
+		
+	<Achievement id="119" kind="kills" MS_side="0" amount="100">
+		<UI name="@luckyShot1" desc="@luckyShot1_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="zoomed" param="0"/>			
+			<Filter kind="melee" param="0"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="sr01_shop"/>
+			<Filter kind="weapon" param="sr02_default"/>
+			<Filter kind="weapon" param="sr03_shop"/>
+			<Filter kind="weapon" param="sr04_shop"/>
+			<Filter kind="weapon" param="sr04_crown_shop"/>
+			<Filter kind="weapon" param="sr04_xmas_shop"/>			
+			<Filter kind="weapon" param="sr05_shop"/>						
+			<Filter kind="weapon" param="sr06_shop"/>			
+			<Filter kind="weapon" param="sr07_shop"/>
+			<Filter kind="weapon" param="sr08_shop"/>
+			<Filter kind="weapon" param="sr09_shop"/>
+			<Filter kind="weapon" param="sr10_shop"/>
+			<Filter kind="weapon" param="sr11_shop"/>
+			<Filter kind="weapon" param="sr12_shop"/>
+			<Filter kind="weapon" param="sr12_clr01_shop"/>
+			<Filter kind="weapon" param="sr13_shop"/>
+			<Filter kind="weapon" param="sr14_shop"/>
+			<Filter kind="weapon" param="sr15_shop"/>
+			<Filter kind="weapon" param="sr16_shop"/>
+			<Filter kind="weapon" param="sr17_shop"/>
+			<Filter kind="weapon" param="sr18_shop"/>
+			<Filter kind="weapon" param="sr19_shop"/>
+			<Filter kind="weapon" param="sr20_shop"/>
+			<Filter kind="weapon" param="sr21_shop"/>
+			<Filter kind="weapon" param="sr22_shop"/>
+			<Filter kind="weapon" param="sr23_shop"/>
+			<Filter kind="weapon" param="sr24_shop"/>
+			<Filter kind="weapon" param="sr25_shop"/>
+			<Filter kind="weapon" param="sr26_shop"/>
+			<Filter kind="weapon" param="sr27_shop"/>
+			<Filter kind="weapon" param="sr28_shop"/>
+			<Filter kind="weapon" param="sr29_shop"/>
+			<Filter kind="weapon" param="sr30_shop"/>
+			<Filter kind="weapon" param="sr41_shop"/>			
+		</Filters>	
+		<BannerImage image="challenge_badge_10" type="badge" />
+	</Achievement>
+
+	<Achievement id="120" kind="kills" MS_side="0" amount="100">
+		<UI name="@shock2" desc="@shock2_desc"/>
+		<Filters>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="df01"/>		
+			<Filter kind="weapon" param="df02"/>		
+			<Filter kind="weapon" param="df03"/>		
+			<Filter kind="weapon" param="df04"/>		
+			<Filter kind="weapon" param="df05"/>					
+		</Filters>	
+		<BannerImage image="challenge_badge_38" type="badge" />
+	</Achievement>	
+	
+	<Achievement id="121" kind="kills" MS_side="0" amount="500">
+		<UI name="@shock3" desc="@shock3_desc"/>
+		<Filters>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="df01"/>		
+			<Filter kind="weapon" param="df02"/>		
+			<Filter kind="weapon" param="df03"/>		
+			<Filter kind="weapon" param="df04"/>		
+			<Filter kind="weapon" param="df05"/>					
+		</Filters>	
+		<BannerImage image="challenge_badge_39" type="badge" />
+	</Achievement>
+
+	<Achievement id="122" kind="kills" MS_side="0" amount="10">
+		<UI name="@shock1" desc="@shock1_desc"/>
+		<Filters>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="df01"/>		
+			<Filter kind="weapon" param="df02"/>		
+			<Filter kind="weapon" param="df03"/>		
+			<Filter kind="weapon" param="df04"/>		
+			<Filter kind="weapon" param="df05"/>					
+		</Filters>	
+		<BannerImage image="challenge_badge_37" type="badge" />
+	</Achievement>	
+
+	<Achievement id="123" kind="instant_award" MS_side="0" amount="50">
+		<UI name="@brainsmasher1" desc="@brainsmasher1_desc"/>
+		<Filters>
+			<Filter kind="instant_award_name" param="@achievement_headshots_in_a_row_3"/>
+		</Filters>
+		<BannerImage image="challenge_badge_02" type="badge" />
+	</Achievement>
+
+	<Achievement id="124" kind="instant_award" MS_side="0" amount="500">
+		<UI name="@brainsmasher2" desc="@brainsmasher2_desc"/>
+		<Filters>
+			<Filter kind="instant_award_name" param="@achievement_headshots_in_a_row_3"/>
+		</Filters>
+		<BannerImage image="challenge_badge_03" type="badge" />
+	</Achievement>	
+
+	<Achievement id="125" kind="instant_award" MS_side="0" amount="2500">
+		<UI name="@brainsmasher3" desc="@brainsmasher3_desc"/>
+		<Filters>
+			<Filter kind="instant_award_name" param="@achievement_headshots_in_a_row_3"/>
+		</Filters>
+		<BannerImage image="challenge_badge_04" type="badge" />
+	</Achievement>
+
+<!--
+	<Achievement id="126" kind="kills" MS_side="0" amount="30">
+		<UI name="@coopStreak1" desc="@coopStreak1_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="difficulty" param="easy"/>					
+			<Filter kind="without_death" param="1"/>					
+			<Filter kind="victory_condition" param="3"/>
+		</Filters>
+		<BannerImage image="challenge_badge_49" type="badge" />
+	</Achievement>
+
+	<Achievement id="127" kind="kills" MS_side="0" amount="30">
+		<UI name="@coopStreak2" desc="@coopStreak2_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="difficulty" param="normal"/>		
+			<Filter kind="without_death" param="1"/>					
+			<Filter kind="victory_condition" param="3"/>
+		</Filters>
+		<BannerImage image="challenge_badge_50" type="badge" />
+	</Achievement>
+
+	<Achievement id="128" kind="kills" MS_side="0" amount="30">
+		<UI name="@coopStreak3" desc="@coopStreak3_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="difficulty" param="hard"/>	
+			<Filter kind="without_death" param="1"/>	
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>
+		<BannerImage image="challenge_badge_51" type="badge" />
+	</Achievement>	-->
+
+	<Achievement id="129" kind="instant_award" MS_side="0" amount="10">
+		<UI name="@grenadier1" desc="@grenadier1_desc"/>
+		<Filters>
+			<Filter kind="instant_award_name" param="@achievement_grenade_kills_in_a_row_1"/>
+			<Filter kind="instant_award_name" param="@achievement_grenade_kills_in_a_row_2"/>
+			<Filter kind="instant_award_name" param="@achievement_grenade_kills_in_a_row_3"/>
+		</Filters>
+		<BannerImage image="challenge_badge_05" type="badge" />
+	</Achievement>
+
+	<Achievement id="130" kind="instant_award" MS_side="0" amount="100">
+		<UI name="@grenadier2" desc="@grenadier2_desc"/>
+		<Filters>
+			<Filter kind="instant_award_name" param="@achievement_grenade_kills_in_a_row_1"/>
+			<Filter kind="instant_award_name" param="@achievement_grenade_kills_in_a_row_2"/>
+			<Filter kind="instant_award_name" param="@achievement_grenade_kills_in_a_row_3"/>
+		</Filters>
+		<BannerImage image="challenge_badge_06" type="badge" />
+	</Achievement>	
+
+	<Achievement id="131" kind="instant_award" MS_side="0" amount="1000">
+		<UI name="@grenadier3" desc="@grenadier3_desc"/>
+		<Filters>
+			<Filter kind="instant_award_name" param="@achievement_grenade_kills_in_a_row_1"/>
+			<Filter kind="instant_award_name" param="@achievement_grenade_kills_in_a_row_2"/>
+			<Filter kind="instant_award_name" param="@achievement_grenade_kills_in_a_row_3"/>
+		</Filters>
+		<BannerImage image="challenge_badge_07" type="badge" />
+	</Achievement>		
+	
+	<Achievement id="132" kind="kills" MS_side="0" amount="10">
+		<UI name="@groundShooter1" desc="@groundShooter1_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="to_head" param="1"/>	
+			<Filter kind="in_special_move" param="knockBack"/>					
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>
+		<BannerImage image="challenge_badge_46" type="badge" />
+	</Achievement>	
+
+	<Achievement id="133" kind="kills" MS_side="0" amount="50">
+		<UI name="@groundShooter2" desc="@groundShooter2_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="to_head" param="1"/>	
+			<Filter kind="in_special_move" param="knockBack"/>					
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>
+		<BannerImage image="challenge_badge_47" type="badge" />
+	</Achievement>
+
+	<Achievement id="134" kind="kills" MS_side="0" amount="500">
+		<UI name="@groundShooter3" desc="@groundShooter3_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="to_head" param="1"/>	
+			<Filter kind="in_special_move" param="knockBack"/>					
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>
+		<BannerImage image="challenge_badge_48" type="badge" />
+	</Achievement>	
+	
+ 	<Achievement id="135" kind="kills" MS_side="0" amount="500">
+		<UI name="@luckyShot2" desc="@luckyShot2_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="zoomed" param="0"/>			
+			<Filter kind="melee" param="0"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="sr01_shop"/>
+			<Filter kind="weapon" param="sr02_default"/>
+			<Filter kind="weapon" param="sr03_shop"/>
+			<Filter kind="weapon" param="sr04_shop"/>
+			<Filter kind="weapon" param="sr04_xmas_shop"/>			
+			<Filter kind="weapon" param="sr04_crown_shop"/>
+			<Filter kind="weapon" param="sr05_shop"/>						
+			<Filter kind="weapon" param="sr06_shop"/>			
+			<Filter kind="weapon" param="sr07_shop"/>
+			<Filter kind="weapon" param="sr08_shop"/>
+			<Filter kind="weapon" param="sr09_shop"/>
+			<Filter kind="weapon" param="sr10_shop"/>
+			<Filter kind="weapon" param="sr11_shop"/>
+			<Filter kind="weapon" param="sr12_shop"/>
+			<Filter kind="weapon" param="sr12_clr01_shop"/>
+			<Filter kind="weapon" param="sr13_shop"/>
+			<Filter kind="weapon" param="sr14_shop"/>
+			<Filter kind="weapon" param="sr15_shop"/>
+			<Filter kind="weapon" param="sr16_shop"/>
+			<Filter kind="weapon" param="sr17_shop"/>
+			<Filter kind="weapon" param="sr18_shop"/>
+			<Filter kind="weapon" param="sr19_shop"/>
+			<Filter kind="weapon" param="sr20_shop"/>
+			<Filter kind="weapon" param="sr21_shop"/>
+			<Filter kind="weapon" param="sr22_shop"/>
+			<Filter kind="weapon" param="sr23_shop"/>
+			<Filter kind="weapon" param="sr24_shop"/>
+			<Filter kind="weapon" param="sr25_shop"/>
+			<Filter kind="weapon" param="sr26_shop"/>
+			<Filter kind="weapon" param="sr27_shop"/>
+			<Filter kind="weapon" param="sr28_shop"/>
+			<Filter kind="weapon" param="sr29_shop"/>
+			<Filter kind="weapon" param="sr30_shop"/>
+			<Filter kind="weapon" param="sr41_shop"/>			
+		</Filters>	
+		<BannerImage image="challenge_badge_22" type="badge" />
+	</Achievement>	
+
+<!--Player 0 is temporary solution to avoid giving PvE achievements in PvP-->	
+
+	<Achievement id="136" kind="kills" MS_side="0" amount="100">
+		<UI name="@sniperHunter1" desc="@sniperHunter1_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="player_class" param="Recon"/>	
+			<Filter kind="ai_archetype" param="Sniper"/>				
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>
+		<BannerImage image="challenge_badge_14" type="badge" />
+	</Achievement>	
+
+	<Achievement id="137" kind="sponsor_progress" MS_side="1" amount="1">
+		<UI name="@sponsorUnlock1" desc="@sponsorUnlock1_desc"/>
+		<BannerImage image="challenge_badge_15" type="badge" />
+	</Achievement>	
+	
+	<Achievement id="138" kind="sponsor_progress" MS_side="1" amount="3">
+		<UI name="@sponsorUnlock3" desc="@sponsorUnlock3_desc"/>
+		<BannerImage image="challenge_badge_16" type="badge" />
+	</Achievement>		
+
+	<Achievement id="139" kind="kills" MS_side="0" amount="10">
+		<UI name="@heavyGunnerKiller01" desc="@heavyGunnerKiller01_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="difficulty" param="easy"/>	
+			<Filter kind="player" param="0"/>				
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>	
+		<BannerImage image="challenge_badge_52" type="badge" />
+	</Achievement>		
+
+	<Achievement id="140" kind="kills" MS_side="0" amount="10">
+		<UI name="@heavyGunnerKiller02" desc="@heavyGunnerKiller02_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="difficulty" param="normal"/>		
+			<Filter kind="player" param="0"/>		
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>	
+		<BannerImage image="challenge_badge_53" type="badge" />
+	</Achievement>
+	
+	<Achievement id="141" kind="kills" MS_side="0" amount="10">
+		<UI name="@heavyGunnerKiller03" desc="@heavyGunnerKiller03_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="difficulty" param="hard"/>
+			<Filter kind="player" param="0"/>			
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>	
+		<BannerImage image="challenge_badge_54" type="badge" />
+	</Achievement>	
+
+	
+	<Achievement id="142" kind="kills" MS_side="0" amount="1">
+		<UI name="@3in1" desc="@3in1_desc"/>
+		<Filters>
+			<Filter kind="grenade" param="1"/>
+			<Filter kind="at_once" param="5"/>
+			<Filter kind="enemy" param="1"/>
+		</Filters>
+		<BannerImage image="challenge_badge_26" type="badge" />
+	</Achievement>
+	
+	<Achievement id="143" kind="kills" MS_side="0" amount="1000">
+		<UI name="@pt41_ww2Kills" desc="@pt41_ww2Kills_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="pt41_ww2_shop"/>
+			<Filter kind="weapon" param="pt24_shop"/>			
+		</Filters>
+		<BannerImage image="challenge_badge_ww2" type="badge" />
+	</Achievement>	
+
+	<!--Stripes-->
+
+	
+	<Achievement id="200" kind="climb_assist" MS_side="0" amount="10">
+		<UI name="@assister1" desc="@assister1_desc"/>
+		<BannerImage image="challenge_strip_11" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="201" kind="climb_assist" MS_side="0" amount="100">
+		<UI name="@assister2" desc="@assister2_desc"/>
+		<BannerImage image="challenge_strip_12" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="202" kind="climb_assist" MS_side="0" amount="1000">
+		<UI name="@assister3" desc="@assister3_desc"/>
+		<BannerImage image="challenge_strip_13" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="203" kind="add_friend" MS_side="1" amount="20">
+		<UI name="@friesndship1" desc="@friesndship1_desc"/>
+		<BannerImage image="challenge_strip_22" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="204" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr01Kill" desc="@sr01Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="sr01_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_37" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="205" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr03Kill" desc="@sr03Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="sr03_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_36" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="206" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr04Kill" desc="@sr04Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="sr04_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_38" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="207" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr06Kill" desc="@sr06Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="sr06_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_41" type="stripe" />
+	</Achievement>
+		
+	<Achievement id="208" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr07Kill" desc="@sr07Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="sr07_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_33" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="209" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr25Kill" desc="@sr25Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="sr25_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_40" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="210" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar02Kill" desc="@ar02Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="ar02_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_35" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="211" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar03Kill" desc="@ar03Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="ar03_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_39" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="212" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar07Kill" desc="@ar07Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="ar07_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_34" type="stripe" />
+	</Achievement>
+		
+	<Achievement id="213" kind="kills" MS_side="0" amount="50">
+		<UI name="@miner1" desc="@miner1_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="1"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_29" type="stripe" />
+	</Achievement>
+		
+	<Achievement id="214" kind="kills" MS_side="0" amount="200">
+		<UI name="@miner2" desc="@miner2_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="1"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_30" type="stripe" />
+	</Achievement>
+		
+	<Achievement id="215" kind="kills" MS_side="0" amount="1000">
+		<UI name="@miner3" desc="@miner3_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="1"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_31" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="216" kind="kills" MS_side="0" amount="50">
+		<UI name="@slideKiller1" desc="@slideKiller1_desc"/>
+		<Filters>
+			<Filter kind="in_special_move" param="slide"/>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="player" param="1"/>	
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>			
+		</Filters>	
+		<BannerImage image="challenge_strip_08" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="217" kind="kills" MS_side="0" amount="500">
+		<UI name="@slideKiller2" desc="@slideKiller2_desc"/>
+		<Filters>
+			<Filter kind="in_special_move" param="slide"/>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="player" param="1"/>		
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>				
+		</Filters>	
+		<BannerImage image="challenge_strip_09" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="218" kind="kills" MS_side="0" amount="2500">
+		<UI name="@slideKiller3" desc="@slideKiller3_desc"/>
+		<Filters>
+			<Filter kind="in_special_move" param="slide"/>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="player" param="1"/>		
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>	
+		</Filters>	
+		<BannerImage image="challenge_strip_10" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="219" kind="PPES_up" MS_side="0" amount="20">
+		<UI name="@ppes1" desc="@ppes1_desc"/>
+		<Filters>
+			<Filter kind="difficulty" param="easy"/>
+			<Filter kind="PPES_mult" param="5"/>
+			<Filter kind="victory_condition" param="3"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_17" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="220" kind="PPES_up" MS_side="0" amount="20">
+		<UI name="@ppes2" desc="@ppes2_desc"/>
+		<Filters>
+			<Filter kind="difficulty" param="normal"/>
+			<Filter kind="PPES_mult" param="5"/>	
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>	
+		<BannerImage image="challenge_strip_18" type="stripe" />
+	</Achievement>
+		
+	<Achievement id="221" kind="PPES_up" MS_side="0" amount="20">
+		<UI name="@ppes3" desc="@ppes3_desc"/>
+		<Filters>
+			<Filter kind="difficulty" param="hard"/>
+			<Filter kind="PPES_mult" param="5"/>
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>	
+		<BannerImage image="challenge_strip_19" type="stripe" />
+	</Achievement>
+		
+	<Achievement id="222" kind="kills" MS_side="0" amount="10">
+		<UI name="@heavyGunnerSniper1" desc="@heavyGunnerSniper1_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="melee" param="0"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="sr01_shop"/>
+			<Filter kind="weapon" param="sr02_default"/>
+			<Filter kind="weapon" param="sr03_shop"/>
+			<Filter kind="weapon" param="sr04_shop"/>			
+			<Filter kind="weapon" param="sr05_shop"/>						
+			<Filter kind="weapon" param="sr06_shop"/>			
+			<Filter kind="weapon" param="sr07_shop"/>
+			<Filter kind="weapon" param="sr08_shop"/>
+			<Filter kind="weapon" param="sr09_shop"/>
+			<Filter kind="weapon" param="sr10_shop"/>
+			<Filter kind="weapon" param="sr11_shop"/>
+			<Filter kind="weapon" param="sr12_shop"/>
+			<Filter kind="weapon" param="sr12_clr01_shop"/>
+			<Filter kind="weapon" param="sr13_shop"/>
+			<Filter kind="weapon" param="sr14_shop"/>
+			<Filter kind="weapon" param="sr14_camo2_shop"/>			
+			<Filter kind="weapon" param="sr15_shop"/>
+			<Filter kind="weapon" param="sr16_shop"/>
+			<Filter kind="weapon" param="sr17_shop"/>
+			<Filter kind="weapon" param="sr18_shop"/>
+			<Filter kind="weapon" param="sr19_shop"/>
+			<Filter kind="weapon" param="sr20_shop"/>
+			<Filter kind="weapon" param="sr21_shop"/>
+			<Filter kind="weapon" param="sr22_shop"/>
+			<Filter kind="weapon" param="sr23_shop"/>
+			<Filter kind="weapon" param="sr24_shop"/>
+			<Filter kind="weapon" param="sr25_shop"/>
+			<Filter kind="weapon" param="sr26_shop"/>
+			<Filter kind="weapon" param="sr27_shop"/>
+			<Filter kind="weapon" param="sr28_shop"/>
+			<Filter kind="weapon" param="sr29_shop"/>
+			<Filter kind="weapon" param="sr30_shop"/>
+			<Filter kind="weapon" param="sr41_shop"/>
+			<Filter kind="weapon" param="sr04_crown_shop"/>
+			<Filter kind="weapon" param="sr06_hlw01_shop"/>
+			<Filter kind="weapon" param="sr04_cny_shop"/>
+			<Filter kind="weapon" param="sr03_xmas_shop"/>
+			<Filter kind="weapon" param="sr04_xmas_shop"/>
+			<Filter kind="weapon" param="sr14_set01_shop"/>
+			<Filter kind="weapon" param="sr01_set01_shop"/>
+			<Filter kind="weapon" param="sr02_camo05_shop"/>			
+			<Filter kind="player" param="0"/>						
+		</Filters>	
+		<BannerImage image="challenge_strip_43" type="stripe" />
+	</Achievement>		
+		
+	<Achievement id="223" kind="kills" MS_side="0" amount="100">
+		<UI name="@heavyGunnerSniper2" desc="@heavyGunnerSniper2_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="melee" param="0"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="sr01_shop"/>
+			<Filter kind="weapon" param="sr02_default"/>
+			<Filter kind="weapon" param="sr03_shop"/>
+			<Filter kind="weapon" param="sr04_shop"/>			
+			<Filter kind="weapon" param="sr05_shop"/>						
+			<Filter kind="weapon" param="sr06_shop"/>			
+			<Filter kind="weapon" param="sr07_shop"/>
+			<Filter kind="weapon" param="sr08_shop"/>
+			<Filter kind="weapon" param="sr09_shop"/>
+			<Filter kind="weapon" param="sr10_shop"/>
+			<Filter kind="weapon" param="sr11_shop"/>
+			<Filter kind="weapon" param="sr12_shop"/>
+			<Filter kind="weapon" param="sr12_clr01_shop"/>
+			<Filter kind="weapon" param="sr13_shop"/>
+			<Filter kind="weapon" param="sr14_shop"/>
+			<Filter kind="weapon" param="sr14_camo2_shop"/>			
+			<Filter kind="weapon" param="sr15_shop"/>
+			<Filter kind="weapon" param="sr16_shop"/>
+			<Filter kind="weapon" param="sr17_shop"/>
+			<Filter kind="weapon" param="sr18_shop"/>
+			<Filter kind="weapon" param="sr19_shop"/>
+			<Filter kind="weapon" param="sr20_shop"/>
+			<Filter kind="weapon" param="sr21_shop"/>
+			<Filter kind="weapon" param="sr22_shop"/>
+			<Filter kind="weapon" param="sr23_shop"/>
+			<Filter kind="weapon" param="sr24_shop"/>
+			<Filter kind="weapon" param="sr25_shop"/>
+			<Filter kind="weapon" param="sr26_shop"/>
+			<Filter kind="weapon" param="sr27_shop"/>
+			<Filter kind="weapon" param="sr28_shop"/>
+			<Filter kind="weapon" param="sr29_shop"/>
+			<Filter kind="weapon" param="sr30_shop"/>
+			<Filter kind="weapon" param="sr41_shop"/>
+			<Filter kind="player" param="0"/>						
+		</Filters>
+		<BannerImage image="challenge_strip_44" type="stripe" />
+	</Achievement>			
+		
+	<Achievement id="224" kind="kills" MS_side="0" amount="5">
+		<UI name="@heavyGunnerKnife" desc="@heavyGunnerKnife_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="melee" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="kn01"/>
+			<Filter kind="weapon" param="kn02"/>
+			<Filter kind="weapon" param="kn04"/>
+			<Filter kind="weapon" param="kn41_ww2"/>
+			<Filter kind="weapon" param="kn42_ww2"/>
+			<Filter kind="weapon" param="kn43_vdv"/>
+			<Filter kind="weapon" param="kn02_xmas"/>			
+			<Filter kind="difficulty" param="easy"/>	
+			<Filter kind="player" param="0"/>						
+			<Filter kind="victory_condition" param="3"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_49" type="stripe" />
+	</Achievement>	
+
+	<Achievement id="225" kind="kills" MS_side="0" amount="5">
+		<UI name="@heavyGunnerKn03" desc="@heavyGunnerKn03_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="melee" param="1"/>
+			<Filter kind="weapon" param="kn03"/>
+			<Filter kind="difficulty" param="normal"/>		
+			<Filter kind="player" param="0"/>			
+			<Filter kind="victory_condition" param="3"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_50" type="stripe" />
+	</Achievement>	
+
+	<Achievement id="226" kind="kills" MS_side="0" amount="50">
+		<UI name="@shieldGuyKiller1" desc="@shieldGuyKiller1_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="ShieldBearer"/>
+			<Filter kind="player" param="0"/>						
+		</Filters>	
+		<BannerImage image="challenge_strip_01" type="stripe" />
+	</Achievement>
+
+	<Achievement id="227" kind="kills" MS_side="0" amount="500">
+		<UI name="@shieldGuyKiller2" desc="@shieldGuyKiller2_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="ShieldBearer"/>
+			<Filter kind="player" param="0"/>						
+		</Filters>	
+		<BannerImage image="challenge_strip_02" type="stripe" />
+	</Achievement>			
+
+	<Achievement id="228" kind="game_end" MS_side="0" amount="1">
+		<Filters>
+			<Filter kind="mission_result" param="win"/>
+			<Filter kind="without_death" param="1"/>
+			<Filter kind="difficulty" param="easy"/>
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>
+		<UI name="@immortal1" desc="@immortal1_desc"/>
+		<BannerImage image="challenge_strip_23" type="stripe" />
+	</Achievement>	
+	
+	<Achievement id="229" kind="game_end" MS_side="0" amount="1">
+		<UI name="@immortal2" desc="@immortal2_desc"/>
+		<Filters>
+			<Filter kind="without_death" param="1"/>
+			<Filter kind="mission_result" param="win"/>	
+			<Filter kind="difficulty" param="normal"/>			
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>	
+		<BannerImage image="challenge_strip_24" type="stripe" />
+	</Achievement>	
+
+	<Achievement id="230" kind="game_end" MS_side="0" amount="1">
+		<UI name="@immortal3" desc="@immortal3_desc"/>
+		<Filters>
+			<Filter kind="without_death" param="1"/>
+			<Filter kind="mission_result" param="win"/>	
+			<Filter kind="difficulty" param="hard"/>
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>	
+		<BannerImage image="challenge_strip_25" type="stripe" />
+	</Achievement>		
+<!--	
+	<Achievement id="231" kind="damage_taken" MS_side="0" amount="5000">
+		<UI name="@damageEater" desc="@damageEater_desc"/>
+		<Filters>
+			<Filter kind="without_death" param="1"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_42" type="stripe" />
+	</Achievement>			
+-->
+	<Achievement id="232" kind="kills" MS_side="0" amount="5">
+		<UI name="@heavyGunnerKn04" desc="@heavyGunnerKn04_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="melee" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="kn05"/>
+			<Filter kind="difficulty" param="hard"/>		
+			<Filter kind="player" param="0"/>		
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>	
+		<BannerImage image="challenge_strip_21" type="stripe" />
+	</Achievement>	
+
+	
+	
+<!--	<Achievement id="233" kind="damage_done" MS_side="0" amount="10000">
+		<UI name="@damageDealer" desc="@damageDealer_desc"/>
+		<Filters>
+			<Filter kind="without_death" param="1"/>
+			<Filter kind="enemy" param="1"/>			
+		</Filters>	
+		<BannerImage image="challenge_strip_32" type="stripe" />
+	</Achievement>		-->
+
+	<Achievement id="234" kind="kills" MS_side="0" amount="1000">
+		<UI name="@smg41_ww2Kills" desc="@smg41_ww2Kills_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>			
+			<Filter kind="weapon" param="smg41_ww2_shop"/>
+			<Filter kind="weapon" param="sr41_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="melee" param="0"/>			
+		</Filters>	
+		<BannerImage image="challenge_strip_ww2" type="stripe" />
+	</Achievement>	
+
+	<Achievement id="235" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar04Kill" desc="@ar04Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="ar04_default"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_54" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="236" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar06Kill" desc="@ar06Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="ar06_shop"/>
+ 			<Filter kind="weapon" param="ar06_hlw01_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_56" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="237" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar09Kill" desc="@ar09Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="ar09_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_58" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="238" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar11Kill" desc="@ar11Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="ar11_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_60" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="239" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar20Kill" desc="@ar20Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="ar20_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_64" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="240" kind="kills" MS_side="0" amount="10000">
+		<UI name="@mg02Kill" desc="@mg02Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="mg02_default"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_55" type="badge" />
+	</Achievement>
+	
+	<Achievement id="241" kind="kills" MS_side="0" amount="10000">
+		<UI name="@mg21Kill" desc="@mg21Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="mg21_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_56" type="badge" />
+	</Achievement>
+	
+	<Achievement id="242" kind="kills" MS_side="0" amount="10000">
+		<UI name="@pt08Kill" desc="@pt08Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="pt08_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_56" type="mark" />
+	</Achievement>
+	
+	<Achievement id="243" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg01Kill" desc="@shg01Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="shg01_default"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_57" type="badge" />
+	</Achievement>
+	
+	<Achievement id="244" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg09Kill" desc="@shg09Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="shg09_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_58" type="badge" />
+	</Achievement>
+	
+	<Achievement id="245" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg10Kill" desc="@shg10Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="shg10_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_59" type="badge" />
+	</Achievement>
+	
+	<Achievement id="246" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg12Kill" desc="@shg12Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="shg12_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_60" type="badge" />
+	</Achievement>
+	
+	<Achievement id="247" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg13Kill" desc="@shg13Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="shg13_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_61" type="badge" />
+	</Achievement>
+	
+	<Achievement id="248" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg04Kill" desc="@smg04Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="smg04_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_59" type="mark" />
+	</Achievement>
+	
+	<Achievement id="249" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg05Kill" desc="@smg05Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="smg05_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_55" type="mark" />
+	</Achievement>
+	
+	<Achievement id="250" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg09Kill" desc="@smg09Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="smg09_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_58" type="mark" />
+	</Achievement>
+	
+	<Achievement id="251" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg10Kill" desc="@smg10Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="smg10_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_60" type="mark" />
+	</Achievement>
+	
+	<Achievement id="252" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg11Kill" desc="@smg11Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="smg11_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_63" type="mark" />
+	</Achievement>
+	
+	<Achievement id="253" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg12Kill" desc="@smg12Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="smg12_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_62" type="mark" />
+	</Achievement>
+	
+	<Achievement id="254" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg13Kill" desc="@smg13Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="smg13_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_61" type="mark" />
+	</Achievement>
+	
+	<Achievement id="255" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr02Kill" desc="@sr02Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="sr02_default"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_66" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="256" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr05Kill" desc="@sr05Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="sr05_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_67" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="257" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr08Kill" desc="@sr08Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="sr08_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_68" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="258" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr12Kill" desc="@sr12Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="sr12_shop"/>   
+ 			<Filter kind="weapon" param="sr12_clr01_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_69" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="259" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr22Kill" desc="@sr22Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="sr22_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_72" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="260" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr23Kill" desc="@sr23Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="sr23_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_73" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="261" kind="kills" MS_side="0" amount="10000">
+		<UI name="@kn01Kill" desc="@kn01Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="kn01"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_76" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="262" kind="kills" MS_side="0" amount="10000">
+		<UI name="@kn02Kill" desc="@kn02Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="kn02"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_77" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="263" kind="kills" MS_side="0" amount="10000">
+		<UI name="@kn04Kill" desc="@kn04Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+ 			<Filter kind="weapon" param="kn04"/>
+ 			<Filter kind="weapon" param="kn04_hlw01"/>			
+		</Filters> 
+		<BannerImage image="challenge_strip_79" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="264" kind="kills" MS_side="0" amount="10000">
+		<UI name="@kn05Kill" desc="@kn05Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="kn05"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_80" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="265" kind="kills" MS_side="0" amount="10000">
+		<UI name="@cm01Kill" desc="@cm01Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="claymore" param="1"/>   
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_63" type="badge" />
+	</Achievement>
+	
+<!--	claymore as weapon is not supported yet
+
+	<Achievement id="266" kind="kills" MS_side="0" amount="10000">
+		<UI name="@cm02Kill" desc="@cm02Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="cm04_c"/>   
+		</Filters> 
+		<BannerImage image="challenge_badge_62" type="badge" />
+		
+	</Achievement>
+-->	
+	<Achievement id="267" kind="kills" MS_side="0" amount="10000">
+		<UI name="@fg02Kill" desc="@fg02Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+			<Filter kind="grenade" param="1"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_64" type="mark" />
+	</Achievement>
+	
+	<Achievement id="268" kind="kills" MS_side="0" amount="10000">
+		<UI name="@mg08Kill" desc="@mg08Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="mg08_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_67" type="badge" />
+	</Achievement>
+	
+	<Achievement id="269" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg07Kill" desc="@shg07Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="shg07_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_66" type="badge" />
+	</Achievement>
+	
+	<Achievement id="270" kind="kills" MS_side="0" amount="10000">
+		<UI name="@pt07Kill" desc="@pt07Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+ 			<Filter kind="weapon" param="pt07_shop"/>   
+		</Filters> 
+		<BannerImage image="challenge_mark_57" type="mark" />
+	</Achievement>
+	
+	<Achievement id="271" kind="kills" MS_side="0" amount="1000">
+		<UI name="@xmasKill" desc="@xmasKill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="ar20_xmas_shop"/>
+			<Filter kind="weapon" param="mg01_xmas_shop"/>
+ 			<Filter kind="weapon" param="pt07_xmas_shop"/>
+ 			<Filter kind="weapon" param="sr03_xmas_shop"/>
+			<Filter kind="weapon" param="sr04_xmas_shop"/>
+ 			<Filter kind="weapon" param="shg06_xmas_shop"/>
+ 			<Filter kind="weapon" param="smg03_xmas_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="melee" param="0"/>			
+		</Filters> 
+		<BannerImage image="challenge_mark_ny" type="mark" />
+	</Achievement>
+
+	<Achievement id="272" kind="kills" MS_side="0" amount="1000">
+		<UI name="@snowKill" desc="@snowKill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="ar02_camo02_shop"/>
+ 			<Filter kind="weapon" param="sr14_camo02_shop"/>
+ 			<Filter kind="weapon" param="shg03_camo02_shop"/>
+ 			<Filter kind="weapon" param="smg04_camo02_shop"/>
+ 			<Filter kind="weapon" param="pt03_camo02_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="melee" param="0"/>			
+		</Filters>
+		<BannerImage image="challenge_strip_ny" type="stripe" />
+	</Achievement>
+
+	<Achievement id="273" kind="kills" MS_side="0" amount="500">
+		<UI name="@kn02xmassKill" desc="@kn02xmassKill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+ 			<Filter kind="weapon" param="kn02_xmas"/>
+		</Filters>
+		<BannerImage image="challenge_badge_ny" type="badge" />
+	</Achievement>
+
+	<Achievement id="274" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg22Kill" desc="@shg22Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+ 			<Filter kind="weapon" param="shg22_shop"/>
+		</Filters>
+		<BannerImage image="challenge_badge_69" type="badge" />
+	</Achievement>
+
+	<Achievement id="275" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar22Kill" desc="@ar22Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+ 			<Filter kind="weapon" param="ar22_shop"/>   
+		</Filters> 
+		<BannerImage image="challenge_strip_65" type="stripe" />
+	</Achievement>
+
+	<Achievement id="276" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar01Kill" desc="@ar01Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+ 			<Filter kind="weapon" param="ar01_shop"/>   
+		</Filters> 
+		<BannerImage image="challenge_strip_52" type="stripe" />
+	</Achievement>	
+
+	<Achievement id="277" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg17Kill" desc="@smg17Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="smg17_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="melee" param="0"/>			
+		</Filters> 
+		<BannerImage image="challenge_mark_74" type="mark" />
+	</Achievement>		
+<!--
+	<Achievement id="278" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar13Kill" desc="@ar13Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="ar13_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>						
+		</Filters> 
+		<BannerImage image="challenge_strip_62" type="stripe" />
+	</Achievement>		
+	-->
+	<Achievement id="279" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar16Kill" desc="@ar16Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="ar16_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_82" type="stripe" />
+	</Achievement>		
+	
+<!--
+	<Achievement id="280" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar10Kill" desc="@ar10Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="ar10_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>						
+		</Filters> 
+		<BannerImage image="challenge_strip_" type="stripe" />
+	</Achievement>
+
+	<Achievement id="281" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar12Kill" desc="@ar12Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="ar12_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>						
+		</Filters> 
+		<BannerImage image="challenge_strip_" type="stripe" />
+	</Achievement>
+-->
+
+	<Achievement id="282" kind="kills" MS_side="0" amount="10000">
+		<UI name="@kn03Kill" desc="@kn03Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="kn03"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_78" type="stripe" />
+	</Achievement>
+
+	<Achievement id="283" kind="kills" MS_side="0" amount="5000">
+		<UI name="@smg10_crownKill" desc="@smg10_crownKill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="smg10_crown_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_78" type="mark" />
+	</Achievement>
+
+	<Achievement id="284" kind="kills" MS_side="0" amount="5000">
+		<UI name="@ar11_crownKill" desc="@ar11_crownKill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="ar11_crown_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_83" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="285" kind="kills" MS_side="0" amount="5000">
+		<UI name="@ar20_crownKill" desc="@ar20_crownKill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="ar19_shop"/>   
+			<Filter kind="weapon" param="ar20_crown_shop"/>   			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_84" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="286" kind="kills" MS_side="0" amount="5000">
+		<UI name="@shg07_crownKill" desc="@shg07_crownKill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="shg07_crown_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_65" type="badge" />
+	</Achievement>	
+	
+	<Achievement id="287" kind="kills" MS_side="0" amount="5000">
+		<UI name="@pt19Kill" desc="@pt19Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="pt19_shop"/>
+			<Filter kind="weapon" param="pt07_crown_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_66" type="mark" />
+	</Achievement>
+	
+	<Achievement id="288" kind="kills" MS_side="0" amount="5000">
+		<UI name="@smg21Kill" desc="@smg21Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="smg21_shop"/>   
+			<Filter kind="weapon" param="smg03_crown_shop"/>						
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_67" type="mark" />
+	</Achievement>
+	
+	<Achievement id="289" kind="kills" MS_side="0" amount="5000">
+		<UI name="@smg22Kill" desc="@smg22Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="smg22_shop"/>
+			<Filter kind="weapon" param="smg12_crown_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_68" type="mark" />
+	</Achievement>
+	
+	<Achievement id="290" kind="kills" MS_side="0" amount="5000">
+		<UI name="@pt18Kill" desc="@pt18Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="pt18_shop"/>
+			<Filter kind="weapon" param="pt01_crown_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_65" type="mark" />
+	</Achievement>
+	
+	<Achievement id="291" kind="kills" MS_side="0" amount="5000">
+		<UI name="@shg18Kill" desc="@shg18Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="shg18_shop"/>   
+			<Filter kind="weapon" param="shg06_crown_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_64" type="badge" />
+	</Achievement>
+	
+	<Achievement id="292" kind="kills" MS_side="0" amount="10000">
+		<UI name="@mg03Kill" desc="@mg03Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="mg03_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_68" type="badge" />
+	</Achievement>
+	
+	<Achievement id="293" kind="kills" MS_side="0" amount="5000">
+		<UI name="@sr20Kill" desc="@sr20Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="sr20_shop"/>   
+			<Filter kind="weapon" param="sr04_crown_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_81" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="294" kind="kills" MS_side="0" amount="5000">
+		<UI name="@mg18Kill" desc="@mg18Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="mg18_shop"/>
+			<Filter kind="weapon" param="mg01_crown_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_74" type="badge" />
+	</Achievement>
+	
+	<Achievement id="296" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg11Kill" desc="@shg11Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="shg11_shop"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_72" type="badge" />
+	</Achievement>
+
+	<Achievement id="298" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg21Kill" desc="@shg21Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="shg21_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_70" type="badge" />
+	</Achievement>
+
+	<Achievement id="299" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg23Kill" desc="@smg23Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="smg23_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_75" type="mark" />
+	</Achievement>
+<!--
+	<Achievement id="300" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg25Kill" desc="@smg25Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="smg25_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_76" type="mark" />
+	</Achievement>
+-->	
+	<Achievement id="301" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr14Kill" desc="@sr14Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="sr14_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_71" type="stripe" />
+	</Achievement>
+<!--	
+	<Achievement id="303" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr30Kill" desc="@sr30Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="sr30_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_74" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="307" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg14Kill" desc="@smg14Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="smg14_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_73" type="mark" />
+	</Achievement>	
+
+-->	
+	<Achievement id="308" kind="kills" MS_side="0" amount="10000">
+		<UI name="@smg30Kill" desc="@smg30Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="smg30_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_77" type="mark" />
+	</Achievement>	
+	
+	<Achievement id="399" kind="kills" MS_side="0" amount="10000">
+		<UI name="@ar17Kill" desc="@ar17Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="ar17_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_63" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="400" kind="kills" MS_side="0" amount="10000">
+		<UI name="@sr13Kill" desc="@sr13Kill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="sr13_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_70" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="401" kind="PPES_up" MS_side="0" amount="250">
+		<UI name="@ppes_more1" desc="@ppes_more1_desc"/>
+		<Filters>
+			<Filter kind="difficulty" param="easy"/>
+			<Filter kind="PPES_mult" param="5"/>
+			<Filter kind="victory_condition" param="3"/>
+		</Filters>	
+		<BannerImage image="challenge_strip_15" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="402" kind="PPES_up" MS_side="0" amount="250">
+		<UI name="@ppes_more2" desc="@ppes_more2_desc"/>
+		<Filters>
+			<Filter kind="difficulty" param="normal"/>
+			<Filter kind="PPES_mult" param="5"/>	
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>	
+		<BannerImage image="challenge_strip_07" type="stripe" />
+	</Achievement>
+		
+	<Achievement id="403" kind="PPES_up" MS_side="0" amount="250">
+		<UI name="@ppes_more3" desc="@ppes_more3_desc"/>
+		<Filters>
+			<Filter kind="difficulty" param="hard"/>
+			<Filter kind="PPES_mult" param="5"/>
+			<Filter kind="victory_condition" param="3"/>			
+		</Filters>	
+		<BannerImage image="challenge_strip_06" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="404" kind="resurrects_done" MS_side="0" amount="100">
+		<UI name="@ressurector1" desc="@ressurector1_desc"/>		
+		<Filter kind="player" param="1"/>
+		<Filter kind="enemy" param="0"/>
+		<BannerImage image="challenge_badge_43" type="badge" />
+	</Achievement>
+	
+	<Achievement id="405" kind="resurrects_done" MS_side="0" amount="1000">
+		<UI name="@ressurector2" desc="@ressurector2_desc"/>
+		<Filter kind="player" param="1"/>
+		<Filter kind="enemy" param="0"/>
+		<BannerImage image="challenge_badge_44" type="badge" />
+	</Achievement>
+		
+	<Achievement id="406" kind="resurrects_done" MS_side="0" amount="10000">
+		<UI name="@ressurector3" desc="@ressurector3_desc"/>
+		<Filter kind="player" param="1"/>
+		<Filter kind="enemy" param="0"/>		
+		<BannerImage image="challenge_badge_45" type="badge" />
+	</Achievement>
+	
+	<Achievement id="407" kind="kills" MS_side="0" amount="500">
+		<UI name="@heavyGunnerSniper3" desc="@heavyGunnerSniper3_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="melee" param="0"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+			<Filter kind="weapon" param="sr01_shop"/>
+			<Filter kind="weapon" param="sr02_default"/>
+			<Filter kind="weapon" param="sr03_shop"/>
+			<Filter kind="weapon" param="sr04_shop"/>			
+			<Filter kind="weapon" param="sr05_shop"/>						
+			<Filter kind="weapon" param="sr06_shop"/>			
+			<Filter kind="weapon" param="sr07_shop"/>
+			<Filter kind="weapon" param="sr08_shop"/>
+			<Filter kind="weapon" param="sr09_shop"/>
+			<Filter kind="weapon" param="sr10_shop"/>
+			<Filter kind="weapon" param="sr11_shop"/>
+			<Filter kind="weapon" param="sr12_shop"/>
+			<Filter kind="weapon" param="sr12_clr01_shop"/>
+			<Filter kind="weapon" param="sr13_shop"/>
+			<Filter kind="weapon" param="sr14_shop"/>
+			<Filter kind="weapon" param="sr14_camo2_shop"/>			
+			<Filter kind="weapon" param="sr15_shop"/>
+			<Filter kind="weapon" param="sr16_shop"/>
+			<Filter kind="weapon" param="sr17_shop"/>
+			<Filter kind="weapon" param="sr18_shop"/>
+			<Filter kind="weapon" param="sr19_shop"/>
+			<Filter kind="weapon" param="sr20_shop"/>
+			<Filter kind="weapon" param="sr21_shop"/>
+			<Filter kind="weapon" param="sr22_shop"/>
+			<Filter kind="weapon" param="sr23_shop"/>
+			<Filter kind="weapon" param="sr24_shop"/>
+			<Filter kind="weapon" param="sr25_shop"/>
+			<Filter kind="weapon" param="sr26_shop"/>
+			<Filter kind="weapon" param="sr27_shop"/>
+			<Filter kind="weapon" param="sr28_shop"/>
+			<Filter kind="weapon" param="sr29_shop"/>
+			<Filter kind="weapon" param="sr30_shop"/>
+			<Filter kind="weapon" param="sr41_shop"/>
+			<Filter kind="weapon" param="sr04_crown_shop"/>
+			<Filter kind="weapon" param="sr06_hlw01_shop"/>
+			<Filter kind="weapon" param="sr04_cny_shop"/>
+			<Filter kind="weapon" param="sr03_xmas_shop"/>
+			<Filter kind="weapon" param="sr04_xmas_shop"/>
+			<Filter kind="weapon" param="sr14_set01_shop"/>
+			<Filter kind="weapon" param="sr01_set01_shop"/>
+			<Filter kind="weapon" param="sr02_camo05_shop"/>
+			<Filter kind="player" param="0"/>						
+		</Filters>	
+		<BannerImage image="challenge_strip_20" type="stripe" />
+	</Achievement>
+	
+	<Achievement id="408" kind="kills" MS_side="0" amount="10">
+		<UI name="@heavyGunnerPt1" desc="@heavyGunnerPt1_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="weapon_slot" param="pistol"/>
+			<Filter kind="player" param="0"/>			
+			<Filter kind="victory_condition" param="3"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_mark_40" type="mark" />
+	</Achievement>	
+	
+	<Achievement id="409" kind="kills" MS_side="0" amount="100">
+		<UI name="@heavyGunnerPt2" desc="@heavyGunnerPt2_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="weapon_slot" param="pistol"/>
+			<Filter kind="player" param="0"/>			
+			<Filter kind="victory_condition" param="3"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_mark_41" type="mark" />
+	</Achievement>	
+	
+	<Achievement id="410" kind="kills" MS_side="0" amount="500">
+		<UI name="@heavyGunnerPt3" desc="@heavyGunnerPt3_desc"/>
+		<Filters>
+			<Filter kind="ai_archetype" param="HeavyGunner"/>
+			<Filter kind="weapon_slot" param="pistol"/>
+			<Filter kind="player" param="0"/>			
+			<Filter kind="victory_condition" param="3"/>			
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters>	
+		<BannerImage image="challenge_mark_42" type="mark" />
+	</Achievement>	
+	
+	<Achievement id="411" kind="kills" MS_side="0" amount="10000">
+		<UI name="@shg30Kill" desc="@shg30Kill_desc"/>
+		<Filters>
+ 			<Filter kind="enemy" param="1"/>
+ 			<Filter kind="weapon" param="shg30_shop"/>   
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_82" type="badge" />
+	</Achievement>	
+	
+	<Achievement id="8001" kind="kills" MS_side="0" amount="1000">
+		<UI name="@anniversary1yearKill" desc="@anniversary1yearKill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="ar02_set01_shop"/>
+			<Filter kind="weapon" param="shg11_set01_shop"/>
+			<Filter kind="weapon" param="smg06_set01_shop"/>
+			<Filter kind="weapon" param="sr01_set01_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_anniversary" type="mark" />
+	</Achievement>
+
+	<Achievement id="8002" kind="kills" MS_side="0" amount="500">
+		<UI name="@vdvKalashKill" desc="@vdvKalashKill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="ar04_camo05_shop"/>   
+			<Filter kind="weapon" param="smg06_camo05_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_badge_vdv" type="badge" />
+	</Achievement>
+
+	<Achievement id="8003" kind="kills" MS_side="0" amount="500">
+		<UI name="@vdvSaigaKill" desc="@vdvSaigaKill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="sr02_camo05_shop"/>   
+			<Filter kind="weapon" param="shg03_camo05_shop"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_mark_vdv" type="mark" />
+	</Achievement>	
+	
+	<Achievement id="8004" kind="kills" MS_side="0" amount="500">
+		<UI name="@vdvKill" desc="@vdvKill_desc"/>
+		<Filters>
+			<Filter kind="enemy" param="1"/>
+			<Filter kind="weapon" param="pt10_camo05_shop"/>   
+			<Filter kind="weapon" param="kn43_vdv"/>
+			<Filter kind="claymore" param="0"/>
+			<Filter kind="grenade" param="0"/>
+		</Filters> 
+		<BannerImage image="challenge_strip_vdv" type="stripe" />
+	</Achievement>	
+	
+</Achievements>
+ 

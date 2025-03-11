@@ -1,0 +1,10 @@
+<mission name="@pvp_mission_display_name_ctf_deposit" release_mission="0" time_of_day="10.0" game_mode="ctf" game_mode_cfg="ctf_mode.cfg" uid="d5da06ce-a425-4013-abd8-6f9bfbe9f763" clan_war_mission="1" only_clan_war_mission="0" channels="pvp_skilled, pvp_pro">
+ <Basemap name="pvp/ctf_deposit"/>
+ <UI>
+  <Description text="@pvp_ctf_mission_desc" icon="mapImgDeposit"/>
+  <GameMode text="@ctf_game_mode_desc" icon="pvp_ctf_game_mode_icon"/>
+ </UI>
+ <Sublevels mission_flow="default" win_pool="200" lose_pool="50" draw_pool="60" score_pool="200"/>
+ <TimeDependency min_time="180" full_time="390" />
+ <KillDependency min_kills="10" full_kills="20" />
+ </mission>

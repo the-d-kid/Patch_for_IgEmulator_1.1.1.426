@@ -1,0 +1,11 @@
+<MissionGraph name="BP2pj05_normal" display_name="@me_mission_normal10_1,@me_mission_normal10_2,@me_mission_normal10_3" target_difficulty="normal" setting="Kosovo/kosovo_base" secondary_objectives="2" game_mode = "pve">
+	<UI>
+		<Description text="@pve_bp_end_safari" icon="mapImgBPj05_n" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+	
+	<SubMission kind="pass" difficulty="normal"/>
+	<SubMission kind="junction" mission_flow="passage" difficulty="normal"/>
+
+	
+</MissionGraph>

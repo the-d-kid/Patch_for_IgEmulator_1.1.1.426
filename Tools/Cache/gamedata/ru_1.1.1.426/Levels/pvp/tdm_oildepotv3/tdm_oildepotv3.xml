@@ -1,0 +1,5 @@
+<MetaData>
+ <Setting name="pvp/tdm_oildepotv3"/>
+ <MiniMap Filename="tdm_oildepotv3.tif" startX="84.333023" startY="91.224472" endX="174.33302" endY="181.22447"/>
+ <DescriptionText text="@tdm_oildepotv3_descr"/>
+</MetaData>

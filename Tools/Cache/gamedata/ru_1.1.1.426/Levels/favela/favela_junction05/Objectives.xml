@@ -1,0 +1,16 @@
+<MissionObjectives> 
+<Objective id="FJ05_activate" name="@FJ05_activate" description="FJ05_activate" type="activate" team="tan"/>
+<Objective id="FJ05_Checkpoint_1" name="@FJ05_Checkpoint_1" description="Checkpoint" type="checkpoint" team="tan"/> 
+<Objective id="FJ05_Checkpoint_2" name="@FJ05_Checkpoint_2" description="Checkpoint" type="checkpoint" team="tan"/> 
+<Objective id="FJ05_Checkpoint_3" name="@FJ05_Checkpoint_3" description="Checkpoint" type="checkpoint" team="tan"/>
+<Objective id="FJ05_Danger_1" name="@FJ05_Danger_1" description="Danger" type="danger" team="tan"/> 
+<Objective id="FJ05_Danger_2" name="@FJ05_Danger_2" description="Danger" type="danger" team="tan"/> 
+<Objective id="FJ05_Danger_3" name="@FJ05_Danger_3" description="Danger" type="danger" team="tan"/> 
+<Objective id="FJ05_Danger_4" name="@FJ05_Danger_4" description="Danger" type="danger" team="tan"/> 
+<Objective id="FJ05_Danger_5" name="@FJ05_Danger_6" description="Danger" type="danger" team="tan"/> 
+<Objective id="FJ05_Danger_6" name="@FJ05_Danger_6" description="Danger" type="danger" team="tan"/> 
+<Objective id="FJ05_Danger_7" name="@FJ05_Danger_7" description="Danger" type="danger" team="tan"/> 
+<Objective id="FJ05_Danger_8" name="@FJ05_Danger_8" description="Danger" type="danger" team="tan"/> 
+<Objective id="FJ05_Danger_9" name="@FJ05_Danger_9" description="Danger" type="danger" team="tan"/> 
+<Objective id="FJ05_Evacuation" name="@FJ05_Evacuation" description="Evacuation" type="evacuation" team="tan"/>  
+</MissionObjectives>

@@ -1,0 +1,6 @@
+<download name="static_geom_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="149161" md5="3876116e0fad68a0a4ba4b6acbfc1436"/>
+ </files>
+</download>

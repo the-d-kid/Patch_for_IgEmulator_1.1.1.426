@@ -1,0 +1,14 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="402784272" SurfaceType="" Diffuse="0.72549021,0.72549021,0.72549021" Specular="0.54509807,0.54509807,0.54509807" Emissive="0,0,0" Shininess="14.9" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="levels/empty_t/stone.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="levels/empty_t/stone_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="levels/empty_t/stone_ddn1.tif" Amount="50">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.025" SelfShadowStrength="3" AmbientMultiplier="27.690001"/>
+</Material>

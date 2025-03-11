@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetaData>
+  <MiniMap Filename="afghan_path01.tif" startX="106.799332" startY="150.018158" endX="366.799316" endY="410.018158" />
+  <Setting name="Afghan/afghan_base" sub_mission_type="@path01_mission_start3" />
+</MetaData>

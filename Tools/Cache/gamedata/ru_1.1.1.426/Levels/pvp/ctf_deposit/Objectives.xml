@@ -1,0 +1,9 @@
+<MissionObjectives> 
+	
+	<Objective id="pvp_round_start" name="@RoundStart" description="PvP Round Start" type="pvp_round_start" team="">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>      
+  
+</MissionObjectives>

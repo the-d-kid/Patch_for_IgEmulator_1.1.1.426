@@ -1,0 +1,655 @@
+<MissionObjectives> 
+<!--BASIC tutorial messages-->
+	<Objective id="bas_tutorial_message_step01" name="@bas_tutorial_message_step01" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge1" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step02" name="@bas_tutorial_message_step02" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge2" message="@bas_tutorial_message2" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step03" name="@bas_tutorial_message_step03" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge3" message="@bas_tutorial_message3" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step04" name="@bas_tutorial_message_step04" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge4" message="@bas_tutorial_message4" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step05" name="@bas_tutorial_message_step05" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge5" message="@bas_tutorial_message5" sound=""/>
+	</Objective>
+<!-- separate customization step -->	
+	<Objective id="bas_tutorial_message_step05_1" name="@bas_tutorial_message_step05_1" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge5_1" message="@bas_tutorial_message5_1" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step05_11" name="@bas_tutorial_message_step05_11" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge5_1" message="@bas_tutorial_message5_11" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step05_111" name="@bas_tutorial_message_step05_111" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge5_1" message="@bas_tutorial_message5_111" sound=""/>
+	</Objective>	
+<!-- end -->	
+	<Objective id="bas_tutorial_message_step05_2" name="@bas_tutorial_message_step05_2" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge5_1" message="@bas_tutorial_message5_2" sound=""/>
+	</Objective>
+	
+	<Objective id="bas_tutorial_message_step06" name="@bas_tutorial_message_step06" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge6" message="@bas_tutorial_message6" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step07" name="@bas_tutorial_message_step07" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge7" message="@bas_tutorial_message7" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step08" name="@bas_tutorial_message_step08" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge8" message="@bas_tutorial_message8" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step08" name="@bas_tutorial_message_step08" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge8" message="@bas_tutorial_message8" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step09" name="@bas_tutorial_message_step09" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge9" message="@bas_tutorial_message9" sound=""/>
+	</Objective>
+<!-- separate scope cutomization-->
+	<Objective id="bas_tutorial_message_step09_Wcustomize" name="@bas_tutorial_message_step09_W1customize" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge9_w" message="@bas_tutorial_message9_1" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step09_W2customize" name="@bas_tutorial_message_step09_W2customize" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge9_w" message="@bas_tutorial_message9_11" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step09_W3customize" name="@bas_tutorial_message_step09_W3customize" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge9_w" message="@bas_tutorial_message9_111" sound=""/>
+	</Objective>
+	
+<!-- end -->
+
+<!-- melee training -->
+<!-- reach the checkpoint -->
+	<Objective id="bas_tutorial_message_step091_melee1" name="@bas_tutorial_message_step091_melee1" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge91" message="@bas_tutorial_message10" sound=""/>
+	</Objective>
+<!-- 1. Press with primary weapon selected to perform melee strike. Smash couple vegetables with weapon butt.-->
+	<Objective id="bas_tutorial_message_step091_melee1how" name="@bas_tutorial_message_step091_melee1how" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge92" message="@bas_tutorial_message_melee2" sound=""/>
+	</Objective>
+<!-- goto -->
+	<Objective id="bas_tutorial_message_step091_melee2" name="@bas_tutorial_message_step091_melee2" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@bas_tutorial_message10" message="@bas_tutorial_message10" sound=""/>
+	</Objective>
+<!-- attack with bayonet -->
+	<Objective id="bas_tutorial_message_step091_melee2how" name="@bas_tutorial_message_step091_melee2how" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@bas_tutorial_message_melee3_2" message="@bas_tutorial_message_melee3_2" sound=""/>
+	</Objective>
+<!-- goto -->
+	<Objective id="bas_tutorial_message_step091_melee3" name="@bas_tutorial_message_step091_melee3" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@bas_tutorial_message10" message="@bas_tutorial_message10" sound=""/>
+	</Objective>
+<!-- 1. Press to select the knife. Hit several vegetables with knife pressing  for nornal and   -->
+	<Objective id="bas_tutorial_message_step091_melee3how" name="@bas_tutorial_message_step091_melee3how" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge93" message="@bas_tutorial_message_melee5" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step091_melee4how" name="@bas_tutorial_message_step091_melee4how" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge94" message="@bas_tutorial_message_melee5_1" sound=""/>
+	</Objective>
+<!-- attach bayonet -->
+	<Objective id="bas_tutorial_message_step091_melee_bayonet" name="@bas_tutorial_message_step091_melee_bayonet" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@bas_tutorial_message_melee3_1" message="@bas_tutorial_message_melee3_1" sound=""/>
+	</Objective>
+<!-- end melee training -->
+<!-- crawl training -->
+	<Objective id="bas_tutorial_message_step091_crawl" name="@bas_tutorial_message_step091_crawl" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge95" message="@bas_tutorial_message_melee6" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step091_crawl_shoot" name="@bas_tutorial_message_step091_crawl_shoot" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge96" message="@bas_tutorial_message_melee7" sound=""/>
+	</Objective>
+<!-- end crawl training -->
+	<Objective id="bas_tutorial_message_step091_gotoslide" name="@bas_tutorial_message_step091_gotoslide" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@bas_tutorial_message10" message="@bas_tutorial_message10" sound=""/>
+	</Objective>
+
+	
+	<Objective id="bas_tutorial_message_step09_2Wcustomize" name="@bas_tutorial_message_step09_2Wcustomize" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge9_w" message="@bas_tutorial_message9_2w" sound=""/>
+	</Objective>	
+	<Objective id="bas_tutorial_message_step10" name="@bas_tutorial_message_step10" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge10" message="@bas_tutorial_message10" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step11" name="@bas_tutorial_message_step11" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge11" message="@bas_tutorial_message11" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step12" name="@bas_tutorial_message_step12" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge12" message="@bas_tutorial_message12" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step13" name="@bas_tutorial_message_step13" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge13" message="@bas_tutorial_message13" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step14" name="@bas_tutorial_message_step14" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge14" message="@bas_tutorial_message14" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step15" name="@bas_tutorial_message_step15" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge15" message="@bas_tutorial_message15" sound=""/>
+	</Objective>
+	<Objective id="bas_tutorial_message_step16" name="@bas_tutorial_message_step16" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge16" message="@bas_tutorial_message16" sound=""/>
+	</Objective>	
+	<Objective id="bas_tutorial_message_step17" name="@bas_tutorial_message_step17" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge16" message="@bas_tutorial_message17" sound=""/>
+	</Objective>	
+	
+	<Objective id="bas_tutorial_message_step18" name="@bas_tutorial_message_step18" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge17" message="@adv_tutorial_message11_goto" sound="" />
+	</Objective>
+	
+	<!-- Tutorial messages section-->
+	<!--Objective id="tutorial_message_step01" name="@tutorial_message_step01" description="empty" type="tutorial_step_message" team="tan">
+  		<Activate second_message="@tutorial_badge18" sound="" />
+	</Objective-->
+
+	<Objective id="tutorial_message_step02" name="@tutorial_message_step02" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge17" message="@adv_tutorial_message2" sound="" />
+	</Objective>
+
+	<Objective id="tutorial_message_step04" name="@tutorial_message_step04" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge18" message="@adv_tutorial_message4" sound="" />
+	</Objective>	
+
+	<Objective id="tutorial_message_step07" name="@tutorial_message_step07" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge19" message="@adv_tutorial_message7" sound="" />
+	</Objective>
+		
+	<Objective id="tutorial_message_step10" name="@tutorial_message_step10" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge20" message="@adv_tutorial_message10" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step11_goto" name="@tutorial_message_step11_goto" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge21" message="@adv_tutorial_message11_goto" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step11" name="@tutorial_message_step11" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge21" message="@adv_tutorial_message11" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step12" name="@tutorial_message_step12" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge22" message="@adv_tutorial_message12" sound="" />
+	</Objective>
+
+	<Objective id="tutorial_message_step14" name="@tutorial_message_step14" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge23" message="@adv_tutorial_message14" sound="" />
+	</Objective>
+
+	<Objective id="tutorial_message_step16" name="@tutorial_message_step16" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge24" message="@adv_tutorial_message16" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step17" name="@tutorial_message_step17" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge25" message="@adv_tutorial_message17" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step18" name="@tutorial_message_step18" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge25" message="@adv_tutorial_message18" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step19" name="@tutorial_message_step19" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge26" message="@adv_tutorial_message19" sound="" />
+	</Objective>
+
+	<Objective id="tutorial_message_step20" name="@tutorial_message_step20" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge27" message="@adv_tutorial_message20" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step22" name="@tutorial_message_step22" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge28" message="@adv_tutorial_message22" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step24" name="@tutorial_message_step24" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge29" message="@adv_tutorial_message24" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step25" name="@tutorial_message_step25" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge30" message="@adv_tutorial_message25" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step26" name="@tutorial_message_step26" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge31" message="@adv_tutorial_message26" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step28" name="@tutorial_message_step28" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge32" message="@adv_tutorial_message28" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step30" name="@tutorial_message_step30" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge33" message="@adv_tutorial_message30" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step32" name="@tutorial_message_step32" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge34" message="@adv_tutorial_message32" sound="" />
+	</Objective>
+	
+	<Objective id="tutorial_message_step33" name="@tutorial_message_step33" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge35" message="@adv_tutorial_message33" sound="" />
+	</Objective>
+
+	<Objective id="tutorial_message_step_end" name="@tutorial_message_step_end" description="empty" type="tutorial_step_message" team="tan">
+		<Activate second_message="@tutorial_badge35" message="@adv_tutorial_message_end" sound="" />
+	</Objective>	
+	
+	<!-- Voice overs section-->
+	<!-- NEED SOUND! --><Objective id="tutorial_vo01" name="@tutorial_vo01" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="" /> <!-- NEED SOUND! -->
+	</Objective>	
+	<Objective id="tutorial_vo02" name="@tutorial_vo02" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command2" />
+	</Objective>	
+	<Objective id="tutorial_vo04" name="@tutorial_vo04" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command4" />
+	</Objective>		
+	<Objective id="tutorial_vo05" name="@tutorial_vo05" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command5" />
+	</Objective>	
+	
+	<!-- NEED SOUND! --><Objective id="bas_tutorial_vo05_1" name="@tutorial_vo05_1" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bas_tutorial_hq_command_Wcustomization2" />
+	</Objective>
+	<!-- NEED SOUND! --><Objective id="bas_tutorial_vo05_2" name="@tutorial_vo05_2" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bas_tutorial_hq_command_Wcustomization3" />
+	</Objective>
+
+	<Objective id="tutorial_vo07" name="@tutorial_vo07" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command7" />
+	</Objective>	
+	<Objective id="tutorial_vo08" name="@tutorial_vo08" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command8" />
+	</Objective>	
+	<Objective id="tutorial_vo10" name="@tutorial_vo10" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command10" />
+	</Objective>	
+	<Objective id="tutorial_vo11" name="@tutorial_vo11" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command11" />
+	</Objective>	
+	<!-- include basic tutorial VO-->
+	<Objective id="tutorial_vo11_goto" name="@tutorial_vo11_goto" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command2" />
+	</Objective>	
+	
+	<Objective id="tutorial_vo12" name="@tutorial_vo12" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command12" />
+	</Objective>	
+	<Objective id="tutorial_vo14" name="@tutorial_vo14" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command14" />
+	</Objective>	
+	<Objective id="tutorial_vo15" name="@tutorial_vo15" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command15" />
+	</Objective>	
+	<Objective id="tutorial_vo16" name="@tutorial_vo16" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command16" />
+	</Objective>	
+	<Objective id="tutorial_vo17" name="@tutorial_vo17" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command17" />
+	</Objective>	
+	<Objective id="tutorial_vo18" name="@tutorial_vo18" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command18" />
+	</Objective>	
+	<Objective id="tutorial_vo19" name="@tutorial_vo19" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command19" />
+	</Objective>
+	<!-- include basic tutorial VO-->
+	<Objective id="tutorial_vo19_goto" name="@tutorial_vo19_goto" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command2" />
+	</Objective>	
+	
+	<Objective id="tutorial_vo20" name="@tutorial_vo20" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command20" />
+	</Objective>		
+	<Objective id="tutorial_vo22" name="@tutorial_vo22" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command22" />
+	</Objective>
+	<Objective id="tutorial_vo23" name="@tutorial_vo23" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command23" />
+	</Objective>
+	<Objective id="tutorial_vo24" name="@tutorial_vo24" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command24" />
+	</Objective>
+	<!-- include basic tutorial VO-->
+	<Objective id="tutorial_vo25_goto" name="@tutorial_vo25_goto" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command2" />
+	</Objective>	
+	<!-- include basic tutorial VO-->
+	<Objective id="tutorial_vo29_goto" name="@tutorial_vo29_goto" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command2" />
+	</Objective>
+	
+	<Objective id="tutorial_vo25" name="@tutorial_vo25" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command25" />
+	</Objective>	
+	<Objective id="tutorial_vo26" name="@tutorial_vo26" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command26" />
+	</Objective>	
+	<Objective id="tutorial_vo27" name="@tutorial_vo27" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command27" />
+	</Objective>	
+	<Objective id="tutorial_vo28" name="@tutorial_vo28" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command28" />
+	</Objective>
+	<Objective id="tutorial_vo29" name="@tutorial_vo29" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command29" />
+	</Objective>	
+	<Objective id="tutorial_vo30" name="@tutorial_vo30" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command30" />
+	</Objective>	
+	<Objective id="tutorial_vo31" name="@tutorial_vo31" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command31" />
+	</Objective>
+	<Objective id="tutorial_vo32" name="@tutorial_vo32" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command32" />
+	</Objective>	
+	<Objective id="tutorial_vo33" name="@tutorial_vo33" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command33" />
+	</Objective>	
+	<Objective id="tutorial_vo34" name="@tutorial_vo34" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command34" />
+	</Objective>	
+	
+	
+
+<!-- BASIC voice overs-->
+	<Objective id="bas_tutorial_vo01" name="@bas_tutorial_vo01" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command1" />
+	</Objective>
+	<Objective id="bas_tutorial_vo02" name="@bas_tutorial_vo02" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command2" />
+	</Objective>
+	<Objective id="bas_tutorial_vo03" name="@bas_tutorial_vo03" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command3" />
+	</Objective>
+	<Objective id="bas_tutorial_vo04" name="@bas_tutorial_vo04" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command4" />
+	</Objective>
+	<Objective id="bas_tutorial_vo05" name="@bas_tutorial_vo05" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command5" />
+	</Objective>
+	<Objective id="bas_tutorial_vo06" name="@bas_tutorial_vo06" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command6" />
+	</Objective>
+	<Objective id="bas_tutorial_vo07" name="@bas_tutorial_vo07" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command7" />
+	</Objective>
+	<Objective id="bas_tutorial_vo08" name="@bas_tutorial_vo08" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command8" />
+	</Objective>
+	<Objective id="bas_tutorial_vo09" name="@bas_tutorial_vo09" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command9" />
+	</Objective>
+	<!-- needed VO-->
+	<Objective id="bas_tutorial_vo09_Wcustomization" name="@bas_tutorial_vo09_Wcustomization" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:adv_tutorial_hq_command27" />
+	</Objective>
+	<!-- NEED SOUND! -->
+	<Objective id="bas_tutorial_vo09_2Wcustomization" name="@bas_tutorial_vo09_2Wcustomization" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bas_tutorial_hq_command_Wcustomization1" />
+	</Objective>
+	
+
+	
+	<Objective id="bas_tutorial_vo10" name="@bas_tutorial_vo10" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command10" />
+	</Objective>
+	<Objective id="bas_tutorial_vo11" name="@bas_tutorial_vo11" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command11" />
+	</Objective>
+	<Objective id="bas_tutorial_vo12" name="@bas_tutorial_vo12" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command12" />
+	</Objective>
+	<Objective id="bas_tutorial_vo13" name="@bas_tutorial_vo13" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command13" />
+	</Objective>
+	<Objective id="bas_tutorial_vo14" name="@bas_tutorial_vo14" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command14" />
+	</Objective>
+	<Objective id="bas_tutorial_vo15" name="@bas_tutorial_vo15" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command15" />
+	</Objective>
+	<Objective id="bas_tutorial_vo16" name="@bas_tutorial_vo16" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command16" />
+	</Objective>
+	<Objective id="bas_tutorial_vo17" name="@bas_tutorial_vo17" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command17" />
+	</Objective>
+	<Objective id="bas_tutorial_vo18" name="@bas_tutorial_vo18" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command18" />
+	</Objective>
+	<Objective id="bas_tutorial_vo19" name="@bas_tutorial_vo19" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:bsc_tutorial_hq_command19" />
+	</Objective>
+<!--repeat messages-->
+	<Objective id="repeat_vo1" name="@repeat_vo1" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message1" />
+	</Objective>	
+	<Objective id="repeat_vo2" name="@repeat_vo2" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message2" />
+	</Objective>		
+	<Objective id="repeat_vo3" name="@repeat_vo3" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message3" />
+	</Objective>		
+	<Objective id="repeat_vo4" name="@repeat_vo4" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message4" />
+	</Objective>	
+	<Objective id="repeat_vo5" name="@repeat_vo5" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message5" />
+	</Objective>	
+	<Objective id="repeat_vo6" name="@repeat_vo6" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message6" />
+	</Objective>	
+	<Objective id="repeat_vo7" name="@repeat_vo7" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message7" />
+	</Objective>	
+	<Objective id="repeat_vo8" name="@repeat_vo8" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message8" />
+	</Objective>	
+	<Objective id="repeat_vo9" name="@repeat_vo9" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message9" />
+	</Objective>	
+	<Objective id="repeat_vo10" name="@repeat_vo10" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message10" />
+	</Objective>	
+	<Objective id="repeat_vo11" name="@repeat_vo11" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message11" />
+	</Objective>		
+	<Objective id="repeat_vo12" name="@repeat_vo12" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message12" />
+	</Objective>	
+	<Objective id="repeat_vo13" name="@repeat_vo13" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message13" />
+	</Objective>
+	<Objective id="repeat_vo14" name="@repeat_vo14" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message14" />
+	</Objective>	
+	<Objective id="repeat_vo15" name="@repeat_vo15" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message15" />
+	</Objective>	
+	<Objective id="repeat_vo16" name="@repeat_vo16" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message16" />
+	</Objective>	
+	<Objective id="repeat_vo17" name="@repeat_vo17" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message17" />
+	</Objective>	
+	<Objective id="repeat_vo18" name="@repeat_vo18" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message18" />
+	</Objective>	
+	<Objective id="repeat_vo19" name="@repeat_vo19" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message19" />
+	</Objective>	
+	<Objective id="repeat_vo20" name="@repeat_vo20" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message20" />
+	</Objective>	
+	<Objective id="repeat_vo21" name="@repeat_vo21" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message21" />
+	</Objective>	
+	<Objective id="repeat_vo22" name="@repeat_vo22" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message22" />
+	</Objective>	
+	<Objective id="repeat_vo23" name="@repeat_vo23" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message23" />
+	</Objective>	
+	<Objective id="repeat_vo24" name="@repeat_vo24" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message24" />
+	</Objective>	
+	<Objective id="repeat_vo25" name="@repeat_vo25" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message25" />
+	</Objective>	
+	<Objective id="repeat_vo26" name="@repeat_vo26" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message26" />
+	</Objective>	
+	<Objective id="repeat_vo27" name="@repeat_vo27" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message27" />
+	</Objective>
+	<Objective id="repeat_vo28" name="@repeat_vo28" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message28" />
+	</Objective>	
+	<Objective id="repeat_vo29" name="@repeat_vo29" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message29" />
+	</Objective>	
+	<Objective id="repeat_vo30" name="@repeat_vo30" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message30" />
+	</Objective>	
+	<Objective id="repeat_vo31" name="@repeat_vo31" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message31" />
+	</Objective>
+	<Objective id="repeat_vo32" name="@repeat_vo32" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message32" />
+	</Objective>
+	<Objective id="repeat_vo33" name="@repeat_vo33" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message33" />
+	</Objective>
+	<Objective id="repeat_vo34" name="@repeat_vo34" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message34" />
+	</Objective>
+	<Objective id="repeat_vo35" name="@repeat_vo35" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message35" />
+	</Objective>
+	<Objective id="repeat_vo36" name="@repeat_vo36" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message36" />
+	</Objective>
+	<Objective id="repeat_vo37" name="@repeat_vo37" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message37" />
+	</Objective>
+	<Objective id="repeat_vo38" name="@repeat_vo38" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message38" />
+	</Objective>
+	<Objective id="repeat_vo39" name="@repeat_vo39" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message39" />
+	</Objective>
+	<Objective id="repeat_vo40" name="@repeat_vo40" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message40" />
+	</Objective>
+	<Objective id="repeat_vo41" name="@repeat_vo41" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message41" />
+	</Objective>
+	<Objective id="repeat_vo42" name="@repeat_vo42" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message42" />
+	</Objective>
+	<Objective id="repeat_vo43" name="@repeat_vo43" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message43" />
+	</Objective>
+	<Objective id="repeat_vo44" name="@repeat_vo44" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message44" />
+	</Objective>
+	<Objective id="repeat_vo45" name="@repeat_vo45" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message45" />
+	</Objective>
+	<Objective id="repeat_vo46" name="@repeat_vo46" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message46" />
+	</Objective>
+	<Objective id="repeat_vo47" name="@repeat_vo47" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_message47" />
+	</Objective>
+	
+	<Objective id="repeat_voHitScope" name="@repeat_vo47" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_hitWithScope" />
+	</Objective>
+	<Objective id="repeat_voHitGL" name="@repeat_vo47" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_hitWithGL" />
+	</Objective>
+	<Objective id="repeat_voAttachGL" name="@repeat_vo47" description="empty" type="printer5sec" team="tan">
+		<Activate message="" sound="sounds/vo:announcer_tutorial:tutorial_repeat_atachGL" />
+	</Objective>
+<!--goto-->
+<Objective id="checkpoint1" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint11" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint12" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint13" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint14" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint15" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint16" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint17" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint18" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint19" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint111" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint112" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint113" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+<Objective id="checkpoint114" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+
+<Objective id="checkpoint_go_advanced" name="@checkpoint" description="empty" type="checkpoint" team="tan"/>
+
+<!--pickup-->
+<Objective id="resupply" name="@checkpoint" description="empty" type="resupply" team="tan"/> 
+<!--shooting targets-->
+<Objective id="danger" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+
+<Objective id="shooting_aug" name="@checkpoint" description="empty" type="shootingtarget_aug" team="tan"/> 
+<Objective id="shooting_zoomed" name="@checkpoint" description="empty" type="shootingtarget_zoomed_aug" team="tan"/> 
+<Objective id="shooting_gl" name="@checkpoint" description="empty" type="shootingtarget_gl" team="tan"/> 
+<Objective id="shooting_pistol" name="@checkpoint" description="empty" type="shootingtarget_pistol" team="tan"/> 
+<Objective id="shooting_grenade" name="@checkpoint" description="empty" type="shootingtarget_grenade" team="tan"/> 
+<Objective id="shooting_mg" name="@checkpoint" description="empty" type="shootingtarget_mg" team="tan"/> 
+<Objective id="shooting_butt" name="@checkpoint" description="empty" type="shootingtarget_butt" team="tan"/> 
+<Objective id="shooting_knife" name="@checkpoint" description="empty" type="shootingtarget_knife" team="tan"/> 
+
+<Objective id="pickup_mg" name="@checkpoint" description="empty" type="pickup_mg" team="tan"/> 
+
+<Objective id="checkpoint_goto" name="@checkpoint" description="empty" type="checkpoint_goto" team="tan"/>
+<Objective id="checkpoint_sprint" name="@checkpoint" description="empty" type="checkpoint_sprint" team="tan"/>
+<Objective id="checkpoint_crouch" name="@checkpoint" description="empty" type="checkpoint_crouch" team="tan"/>
+<Objective id="checkpoint_prone" name="@checkpoint" description="empty" type="checkpoint_prone" team="tan"/>
+<Objective id="checkpoint_jump" name="@checkpoint" description="empty" type="checkpoint_jump" team="tan"/>
+<Objective id="checkpoint_slide" name="@checkpoint" description="empty" type="checkpoint_slide" team="tan"/>
+<Objective id="checkpoint_push" name="@checkpoint" description="empty" type="checkpoint_push" team="tan"/>
+<Objective id="checkpoint_climb" name="@checkpoint" description="empty" type="checkpoint_climb" team="tan"/>
+
+<Objective id="zoomed1" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="zoomed2" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="zoomed3" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="zoomed4" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+
+<Objective id="mg_target1" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="mg_target2" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="mg_target3" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="mg_target4" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="mg_target5" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+
+<Objective id="melee_target1" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="melee_target2" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="melee_target3" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+
+<Objective id="prone_mg_target1" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="prone_mg_target2" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+
+<Objective id="adv_target1" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="adv_target2" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="adv_target3" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="adv_target4" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+<Objective id="adv_target5" name="@checkpoint" description="empty" type="shootingtarget" team="tan"/> 
+
+
+  <Objective id="Install1" name="@install1" description="Plant the bomb" type="bomb1" team="att">
+    <Activate message="Activate the bomb!" sound="" />
+    <Complete message="Activated!" sound="" />	    
+  </Objective>   	
+	
+	<!-- test markers-->	
+	<Objective id="test_comaIcon" name="@test_comaIcon" description="empty" type="danger" team="tan"/>
+	<Objective id="test_armorIcon" name="@test_armorIcon" description="empty" type="danger" team="tan"/>
+	<Objective id="test_ammoIcon" name="@test_ammoIcon" description="empty" type="danger" team="tan"/>	
+	<Objective id="test_knockbackIcon" name="@test_knockbackIcon" description="empty" type="danger" team="tan"/>
+	<Objective id="test_climbIcon" name="@test_climbIcon" description="empty" type="danger" team="tan"/>
+	<!--Shootingrange-->
+	<Objective id="Shootingrange1" name="@Shootingrange1" description="empty" type="checkpoint" team="tan"/>
+	
+	<Objective id="coopclimb" name="@coopclimb" description="empty" type="checkpoint" team="tan"/>
+	
+</MissionObjectives>

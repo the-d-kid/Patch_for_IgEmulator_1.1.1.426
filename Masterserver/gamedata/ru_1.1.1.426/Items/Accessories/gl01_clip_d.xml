@@ -1,0 +1,9 @@
+<item name="gl01_clip_d" class="K01_Item" type="attachment">
+ <settings>
+  <param name="weight" value="1.8"/>
+  <param name="ammo_amount" value="6"/>
+ </settings>
+ <types>
+
+ </types>
+</item>

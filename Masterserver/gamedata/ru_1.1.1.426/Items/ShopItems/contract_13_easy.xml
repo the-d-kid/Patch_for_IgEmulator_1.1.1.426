@@ -1,0 +1,53 @@
+<shop_item name="contract_13_easy" type="contract">
+	<mmo_stats>
+		<param name="item_category" value="contract"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+	</mmo_stats>
+
+	<UI_stats>
+		<param name="name" value=""/>
+		<param name="description" value="@ui_contract_descr_13e"/>
+		<param name="icon" value=""/>
+	</UI_stats>
+	<contract diff="easy" amount="15" id="13" kind="kills">
+		<Filters>
+  		<Filter kind="enemy" param="1"/>
+		<Filter kind="player" param="1"/>		
+  		<Filter kind="claymore" param="0"/>
+  		<Filter kind="grenade" param="0"/>
+		<Filter kind="victory_condition" param="6"/>
+		<Filter kind="weapon" param="ar01_shop"/>
+		<Filter kind="weapon" param="ar02_shop"/>
+		<Filter kind="weapon" param="ar02_set01_shop"/>
+		<Filter kind="weapon" param="ar03_shop"/>
+		<Filter kind="weapon" param="ar04_default"/>
+		<Filter kind="weapon" param="ar04_camo04_shop"/>
+		<Filter kind="weapon" param="ar04_camo05_shop"/>
+		<Filter kind="weapon" param="ar05_shop"/>
+		<Filter kind="weapon" param="ar06_shop"/>
+		<Filter kind="weapon" param="ar06_camo03_shop"/>
+		<Filter kind="weapon" param="ar07_shop"/>
+		<Filter kind="weapon" param="ar08_shop"/>
+		<Filter kind="weapon" param="ar09_shop"/>
+		<Filter kind="weapon" param="ar10_shop"/>
+		<Filter kind="weapon" param="ar11_shop"/>
+		<Filter kind="weapon" param="ar12_shop"/>
+		<Filter kind="weapon" param="ar13_shop"/>
+		<Filter kind="weapon" param="ar15_shop"/>
+		<Filter kind="weapon" param="ar16_shop"/>
+		<Filter kind="weapon" param="ar17_shop"/>
+		<Filter kind="weapon" param="ar19_shop"/>
+		<Filter kind="weapon" param="ar20_shop"/>
+		<Filter kind="weapon" param="ar22_shop"/>
+		<Filter kind="weapon" param="ar11_crown_shop"/>
+		<Filter kind="weapon" param="ar20_crown_shop"/>
+		<Filter kind="weapon" param="ar02_camo02_shop"/>
+		<Filter kind="weapon" param="ar06_hlw01_shop"/>
+		<Filter kind="weapon" param="ar20_cny_shop"/>
+		<Filter kind="weapon" param="ar20_xmas_shop"/>
+		<Filter kind="weapon" param="ar04_set01_shop"/>		
+		</Filters>
+		<Reward name="game_money_item_01" amount="300"/>
+	</contract>
+</shop_item>

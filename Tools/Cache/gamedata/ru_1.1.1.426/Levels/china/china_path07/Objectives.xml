@@ -1,0 +1,22 @@
+<MissionObjectives> 
+<Objective id="CT07_Checkpoint_f" name="@CT07_Checkpoint_f" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CT07_Checkpoint_f2" name="@CT07_Checkpoint_f2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CT07_Danger_f1" name="@CT07_Danger_f1" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT07_Danger_f2" name="@CT07_Danger_f2" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT07_Danger_f3" name="@CT07_Danger_f3" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT07_Danger_f4" name="@CT07_Danger_f4" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT07_Danger_f5" name="@CT07_Danger_f5" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT07_Resupply" name="@BP07_Resupply" description="resupply" type="resupply" team="tan"/>
+<Objective id="CT07_Danger_Evacuation_f" name="@CT07_Danger_Evacuation_f" description="Evacuation" type="evacuation" team="tan"/>  
+<Objective id="CT07_Checkpoint_b" name="@CT07_Checkpoint_b" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CT07_Checkpoint_b2" name="@CT07_Checkpoint_b2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CT07_Danger_b1" name="@CT07_Danger_b1" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT07_Danger_b2" name="@CT07_Danger_b2" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT07_Danger_b3" name="@CT07_Danger_b3" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT07_Danger_b4" name="@CT07_Danger_b4" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT07_Danger_b5" name="@CT07_Danger_b5" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT07_Danger_b6" name="@CT07_Danger_b6" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT07_Detonate" name="@CT07_Detonate" description="detonate" type="detonate" team="tan" /> 
+<Objective id="CT07_Activate " name="@CT07_Activate" description="CT07_Activate" type="activate" team="tan" /> 
+<Objective id="CT07_Danger_Evacuation_b" name="@CT07_Danger_Evacuation_b" description="Evacuation" type="evacuation" team="tan"/> 
+</MissionObjectives>

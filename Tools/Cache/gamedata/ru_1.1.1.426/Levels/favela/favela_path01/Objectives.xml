@@ -1,0 +1,14 @@
+<MissionObjectives> 
+
+<Objective id="favela_p1_left" name="@favela_p1_left" description="empty" type="resupply_big" team="tan"/>
+<Objective id="favela_p1_right" name="@favela_p1_right" description="empty" type="resupply_big" team="tan"/>
+
+<Objective id="favela_p1_d1" name="@favela_p1_d1" description="Danger" type="danger" team="tan"/> 
+<Objective id="favela_p1_detonate" name="@favela_p1_detonate" description="Detonate" type="detonate" team="tan"/>
+
+<Objective id="favela_p1_Checkpoint1" name="@favela_p1_Checkpoint1" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="favela_p1_Checkpoint2" name="@favela_p1_Checkpoint2" description="Checkpoint" type="checkpoint" team="tan" />
+<Objective id="favela_p1_Checkpoint1B" name="@favela_p1_Checkpoint1B" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="favela_p1_Checkpoint2B" name="@favela_p1_Checkpoint2B" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="favela_p1_Evacuation" name="@favela_p1_Evacuation" description="Evacuation" type="evacuation" team="tan"/> 
+</MissionObjectives>

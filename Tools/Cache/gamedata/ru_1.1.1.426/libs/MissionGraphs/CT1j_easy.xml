@@ -1,0 +1,9 @@
+<MissionGraph name="CT1j_easy" display_name="CT1j_easy" target_difficulty="easy" setting="china/china_base" secondary_objectives="0" game_mode = "pve">
+	<UI>
+		<Description text="@easy_mission_desc" icon="mapImgChina" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+	
+	<SubMission kind="junction" difficulty="easy"/>
+
+</MissionGraph>

@@ -1,0 +1,11 @@
+<MissionGraph name="BP3pj01_normal" display_name="@bp_mission_normal03_1,@bp_mission_normal03_2,@bp_mission_normal03_3" target_difficulty="normal" setting="Kosovo/kosovo_base" secondary_objectives="3" game_mode = "pve">
+	<UI>
+		<Description text="@info_kill_mechboss" icon="mapImgKosovo_mechboss" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+	
+	<SubMission kind="pass" difficulty="normal"/>
+	<SubMission kind="pass" difficulty="normal"/>
+	<SubMission kind="junction" mission_flow="boss" difficulty="normal"/>
+	
+</MissionGraph>

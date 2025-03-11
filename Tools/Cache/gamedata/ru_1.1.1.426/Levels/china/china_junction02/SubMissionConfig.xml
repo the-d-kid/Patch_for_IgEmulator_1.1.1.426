@@ -1,0 +1,5 @@
+<SubMissionConfig>
+	<ParameterSet difficulty="easy" kind="junction" mission_type="arena" mission_flow="arena_flow" time_limit="6000" score="0" start_teleport="China_Junction2_Start" finish_teleport="China_Junction2_End" win_pool="140" lose_pool="120" draw_pool="125" score_pool="0"/>
+	<ParameterSet difficulty="normal" kind="junction" mission_type="arena" mission_flow="arena_flow" time_limit="6000" score="0" start_teleport="China_Junction2_Start" finish_teleport="China_Junction2_End" win_pool="195" lose_pool="100" draw_pool="105" score_pool="0"/>
+	<ParameterSet difficulty="hard" kind="junction" mission_type="arena" mission_flow="arena_flow" time_limit="6000" score="0" start_teleport="China_Junction2_Start" finish_teleport="China_Junction2_End" win_pool="400" lose_pool="200" draw_pool="210" score_pool="0"/>
+</SubMissionConfig>

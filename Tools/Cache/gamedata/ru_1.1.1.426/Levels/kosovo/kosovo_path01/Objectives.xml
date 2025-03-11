@@ -1,0 +1,13 @@
+<MissionObjectives> 
+<Objective id="Kosovo_Path01_Danger_f1" name="@Kosovo_Path01_Danger_f1" description="Danger" type="danger" team="tan" /> 
+<Objective id="Kosovo_Path01_Checkpoint_f" name="@Kosovo_Path01_Checkpoint_f" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="Kosovo_Path01_Danger_f2" name="@Kosovo_Path01_Danger_f2" description="Danger" type="danger" team="tan" /> 
+<Objective id="Kosovo_Path01_Danger_Evacuation_f" name="@Kosovo_Path01_Danger_Evacuation_f" description="Evacuation" type="evacuation" team="tan"/>  
+<Objective id="Kosovo_Path01_Danger_f3" name="@Kosovo_Path01_Danger_f3" description="Danger" type="danger" team="tan" /> 
+<Objective id="Kosovo_Path01_Danger_b1" name="@Kosovo_Path01_Danger_b1" description="Danger" type="danger" team="tan" /> 
+<Objective id="Kosovo_Path01_Danger_b3" name="@Kosovo_Path01_Danger_b1" description="Danger" type="danger" team="tan" /> 
+<Objective id="Kosovo_Path01_Checkpoint_b" name="@Kosovo_Path01_Checkpoint_b" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="Kosovo_Path01_Danger_b2" name="@Kosovo_Path01_Danger_b2" description="Danger" type="danger" team="tan" /> 
+<Objective id="Kosovo_Path01_Detonate_b" name="@Kosovo_Path01_Detonate_b" description="Kosovo_Path01_Detonate_b" type="detonate" team="tan"/>  
+<Objective id="Kosovo_Path01_Danger_Evacuation_b" name="@Kosovo_Path01_Danger_Evacuation_b" description="Evacuation" type="evacuation" team="tan"/> 
+</MissionObjectives>

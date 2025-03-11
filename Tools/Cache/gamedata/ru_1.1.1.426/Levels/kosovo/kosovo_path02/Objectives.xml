@@ -1,0 +1,4 @@
+<MissionObjectives> 
+ <Objective id="Kosovo_Path02_Checkpoint" name="@Kosovo_Path02_Checkpoint" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="Kosovo_Path02_Danger_Evacuation" name="@Kosovo_Path02_Danger_Evacuation" description="Evacuation" type="evacuation" team="tan"/> 
+</MissionObjectives>

@@ -1,0 +1,9 @@
+<MissionGraph name="BP1p_normal" display_name="BP1p_normal" target_difficulty="normal" setting="Kosovo/kosovo_base" secondary_objectives="1" game_mode = "pve">
+	<UI>
+		<Description text="@normal_mission_desc" icon="mapImgKosovo" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+	
+	<SubMission kind="pass" difficulty="normal"/>	
+
+</MissionGraph>

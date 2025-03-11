@@ -1,0 +1,23 @@
+<MissionObjectives> 
+<Objective id="CTJ04_Resupply_first" name="@CTJ04_Resupply_first" description="resupply" type="resupply" team="tan"/>
+
+<Objective id="CTJ04_Resupply_1" name="@CTJ04_Resupply_1" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ04_Resupply_2" name="@CTJ04_Resupply_2" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ04_Resupply_3" name="@CTJ04_Resupply_3" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ04_Resupply_4" name="@CTJ04_Resupply_4" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ04_Resupply_5" name="@CTJ04_Resupply_5" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ04_Resupply_6" name="@CTJ04_Resupply_6" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ04_Resupply_7" name="@CTJ04_Resupply_7" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ04_Resupply_8" name="@CTJ04_Resupply_8" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ04_Resupply_9" name="@CTJ04_Resupply_9" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ04_Resupply_10" name="@CTJ04_Resupply_10" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ04_Resupply_11" name="@CTJ04_Resupply_11" description="resupply" type="resupply" team="tan"/>
+<Objective id="CTJ04_Danger_Evacuation" name="@CTJ04_Danger_Evacuation" description="Evacuation" type="evacuation" team="tan"/>
+<Objective id="CTJ04_Danger_BOSS" name="CTJ04_Danger_BOSS" description="Danger" type="danger" team="tan"/> 
+<Objective id="CTJ04_Checkpoint" name="@CTJ04_Checkpoint" description="Checkpoint" type="checkpoint" team="tan" />
+<Objective id="CTJ04_UseRocket" name="@CTJ04_UseRocket" description="CTJ04_UseRocket" type="printer5sec" team="tan">
+  	<Activate message="@use_rocket_text" sound="" />
+ </Objective>  
+
+
+</MissionObjectives>

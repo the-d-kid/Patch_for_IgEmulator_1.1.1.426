@@ -1,0 +1,9 @@
+<MissionObjectives>
+	<Objective id="mission_location_name" name="mission_location_name" description="mission_location_name" type="mission_location_name" team="tan">
+		<Activate message="" sound="" />
+	</Objective>
+	
+	<Objective id="time_of_day" name="time_of_day" description="time_of_day" type="time_of_day" team="tan">
+		<Activate message="" sound="" />
+	</Objective>
+</MissionObjectives>

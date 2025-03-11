@@ -1,0 +1,17 @@
+<MissionObjectives> 
+<Objective id="FJ03_Protect" name="@FJ03_Protect" description="FJ03_Protect" type="protect" team="tan"/>
+<Objective id="FJ03_convoy_door1_open" name="@FJ03_convoy_door1_open" description="FJ03_convoy_door1_open" type="activate" team="tan"/>
+<Objective id="FJ03_convoy_door2_open" name="@FJ03_convoy_door2_open" description="FJ03_convoy_door2_open" type="activate" team="tan"/>
+<Objective id="FJ03_Checkpoint_1" name="@FJ03_Checkpoint_1" description="Checkpoint" type="checkpoint" team="tan"/> 
+<Objective id="FJ03_Checkpoint_2" name="@FJ03_Checkpoint_2" description="Checkpoint" type="checkpoint" team="tan"/> 
+<Objective id="FJ03_Checkpoint_3" name="@FJ03_Checkpoint_3" description="Checkpoint" type="checkpoint" team="tan"/>
+<Objective id="FJ03_tower_danger1" name="@FJ03_tower_danger1" description="Danger" type="danger" team="tan"/> 
+<Objective id="FJ03_tower_danger2" name="@FJ03_tower_danger2" description="Danger" type="danger" team="tan"/> 
+<Objective id="FJ03_useMachinegun" name="@FJ03_useMachinegun" description="FJ03_useMachinegun" type="activate" team="tan"/>
+<Objective id="FJ03_MO_hedgehog1" name="@FJ03_MO_hedgehog1" description="FJ03_MO_hedgehog1" type="activate" team="tan"/>
+<Objective id="FJ03_MO_hedgehog2" name="@FJ03_MO_hedgehog2" description="FJ03_MO_hedgehog2" type="activate" team="tan"/>
+<Objective id="FJ03_Evacuation" name="@FJ03_Evacuation" description="FJ03_Evacuation" type="evacuation" team="tan"/>  
+<Objective id="FJ03_rockets" name="@FJ03_rockets" description="FJ03_rockets" type="resupply" team="tan"/>
+<Objective id="FJ03_Detonate" name="@FJ03_detonate" description="FJ03_detonate" type="detonate" team="tan"/>
+  	<Activate message="@resupply_marker_text" sound=""/>
+</MissionObjectives>

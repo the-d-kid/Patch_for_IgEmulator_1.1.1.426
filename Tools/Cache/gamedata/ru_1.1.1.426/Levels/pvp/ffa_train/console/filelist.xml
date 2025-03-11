@@ -1,0 +1,8 @@
+<download name="ffa_train" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="ffa_train.dds" dest="ffa_train.dds" size="1398232" md5="74d63f1d8a0cdd80a9857cc35df7e010"/>
+  <file src="ffa_train.xml" dest="ffa_train.xml" size="322" md5="551e5cda00f36c0cae21c9f94e901cba"/>
+  <file src="level.pak" dest="level.pak" size="638726" md5="85a9b10c14e526806a5effeabc5cea6f"/>
+ </files>
+</download>

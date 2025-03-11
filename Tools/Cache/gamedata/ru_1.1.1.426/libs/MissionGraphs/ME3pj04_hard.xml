@@ -1,0 +1,11 @@
+<MissionGraph name="ME3pj04_hard" display_name="@me_mission_hard08_1,@me_mission_hard08_2,@me_mission_hard08_3" target_difficulty="hard" setting="afghan/afghan_base" secondary_objectives="2" game_mode = "pve">
+	<UI>
+		<Description text="@pve_me_end_helicopter" icon="mapImgMEj04" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+	
+	<SubMission kind="pass" difficulty="hard"/>
+	<SubMission kind="pass" difficulty="hard"/>
+	<SubMission kind="junction" name="afghan_junction04" mission_flow="boss" difficulty="hard"/>
+	
+</MissionGraph>

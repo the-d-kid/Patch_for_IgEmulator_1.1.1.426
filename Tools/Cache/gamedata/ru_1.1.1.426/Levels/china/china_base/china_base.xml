@@ -1,0 +1,5 @@
+<MetaData>    
+	<MiniMap Filename="china_base.tif" startX="228.223419" startY="205.481308" endX="328.223419" endY="305.481323" /> 
+	<Display Name="China" />
+    <Setting name="China/china_base" display_name="@ui_mg_China" />
+</MetaData>

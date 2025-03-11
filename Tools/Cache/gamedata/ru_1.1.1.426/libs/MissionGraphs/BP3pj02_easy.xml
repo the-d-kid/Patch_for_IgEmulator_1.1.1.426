@@ -1,0 +1,11 @@
+<MissionGraph name="BP3pj02_easy" display_name="@bp_mission_easy07_1" target_difficulty="easy" setting="Kosovo/kosovo_base" secondary_objectives="2" game_mode = "pve">
+	<UI>
+		<Description text="@pve_me_end_arena" icon="mapImgBPj02" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+	
+	<SubMission kind="pass" difficulty="easy"/>	
+	<SubMission kind="junction" mission_flow="arena_easy" difficulty="easy"/>
+
+	
+</MissionGraph>

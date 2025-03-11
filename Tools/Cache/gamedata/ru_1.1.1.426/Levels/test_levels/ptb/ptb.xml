@@ -1,0 +1,7 @@
+<MetaData>
+	<Gamerules MP3="Seizure"/>
+ 	<Display Name="ptb_test"/>
+	<Setting name="ptb_test"/> 
+	<DescriptionText text="ptb_test"/>
+	<MiniMap Filename="tdm_bunker.tif" startX="500.061157" startY="492.860962" endX="610.821167" endY="603.620972"/>
+</MetaData>

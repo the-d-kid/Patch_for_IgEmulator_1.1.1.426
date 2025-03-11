@@ -1,0 +1,3 @@
+<SubMissionConfig>
+ <ParameterSet kind="stm" mission_flow="default" time_limit="1000" win_pool="250" lose_pool="62" draw_pool="75" score_pool="250"/>
+</SubMissionConfig>

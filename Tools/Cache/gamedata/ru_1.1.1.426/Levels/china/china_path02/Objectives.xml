@@ -1,0 +1,7 @@
+<MissionObjectives> 
+<Objective id="CT02_Checkpoint" name="@CT02_Checkpoint" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CT02_Danger" name="@CT02_Danger" description="Danger" type="danger" team="tan" /> 
+<Objective id="CT02_Evacuation" name="@CT02_Evacuation" description="Evacuation" type="evacuation" team="tan"/>  
+<Objective id="CT02_Detonate" name="@CT02_Detonate" description="Detonate" type="detonate" team="tan" /> 
+<Objective id="CT02_Activate " name="@CT02_Activate" description="Activate" type="activate" team="tan" />
+</MissionObjectives>

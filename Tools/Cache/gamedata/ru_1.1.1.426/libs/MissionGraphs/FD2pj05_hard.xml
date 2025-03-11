@@ -1,0 +1,10 @@
+<MissionGraph name="FD2pj05_hard" display_name="@fd_mission_hard05_1,@fd_mission_hard05_2" target_difficulty="hard" setting="favela/favela_base" secondary_objectives="2" game_mode = "pve">
+	<UI>
+		<Description text="@mission_desc_favela_j05" icon="mapImgFDj05_%difficulty%" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+	
+	<SubMission kind="pass" difficulty="hard"/>
+	<SubMission kind="junction" name="favela_junction05" mission_flow="passage" difficulty="hard"/>
+		
+</MissionGraph>

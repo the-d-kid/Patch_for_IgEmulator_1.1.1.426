@@ -1,0 +1,18 @@
+<MissionObjectives> 
+<Objective id="kosovo_junction04_d1" name="@kosovo_junction04_d1" description="Danger" type="danger" team="tan"/> 
+<Objective id="kosovo_junction04_d2" name="@kosovo_junction04_d2" description="Danger" type="danger" team="tan"/>
+<Objective id="kosovo_junction04_d3" name="@kosovo_junction04_d3" description="Danger" type="danger" team="tan"/>
+<Objective id="kosovo_junction04_d4" name="@kosovo_junction04_d4" description="Danger" type="danger" team="tan"/>  
+
+<Objective id="kosovo_junction04_i1" name="@kosovo_junction04_i1" description="empty" type="resupply_big" team="tan"/>
+<Objective id="kosovo_junction04_i2" name="@kosovo_junction04_i2" description="empty" type="resupply_big" team="tan"/>
+<Objective id="kosovo_junction04_i3" name="@kosovo_junction04_i3" description="empty" type="resupply_big" team="tan"/>
+<Objective id="kosovo_junction04_i4" name="@kosovo_junction04_i4" description="empty" type="resupply_big" team="tan"/>
+<Objective id="kosovo_junction04_i5" name="@kosovo_junction04_i5" description="empty" type="resupply_big" team="tan"/>
+<Objective id="kosovo_junction04_i6" name="@kosovo_junction04_i6" description="empty" type="resupply_big" team="tan"/>
+<Objective id="kosovo_junction04_i7" name="@kosovo_junction04_i7" description="empty" type="resupply_big" team="tan"/>
+
+<Objective id="kosovo_junction04_Checkpoint1" name="@kosovo_junction04_Checkpoint1" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="kosovo_junction04_Checkpoint2" name="@kosovo_junction04_Checkpoint2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="kosovo_junction04_Evacuation" name="@kosovo_junction04_Evacuation" description="Evacuation" type="evacuation" team="tan"/> 
+</MissionObjectives>

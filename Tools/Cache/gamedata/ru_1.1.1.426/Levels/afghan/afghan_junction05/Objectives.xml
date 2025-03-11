@@ -1,0 +1,5 @@
+<MissionObjectives> 
+  <Objective id="J05_Checkpoint1" name="@J05_Checkpoint1" description="J05_Checkpoint1" type="checkpoint" team="tan" />
+  <Objective id="J05_Checkpoint2" name="@J05_Checkpoint2" description="J05_Checkpoint2" type="checkpoint" team="tan" />
+  <Objective id="J05_Evac" name="@afghan_junction04_Evacuation" description="j05_evac" type="evacuation" team="tan"/>
+</MissionObjectives>

@@ -1,0 +1,4 @@
+<SubMissionConfig>
+ <ParameterSet kind="pass" mission_flow="default" time_limit="1000" win_pool="2" lose_pool="0" draw_pool="1" score_pool="1"/>
+</SubMissionConfig>
+

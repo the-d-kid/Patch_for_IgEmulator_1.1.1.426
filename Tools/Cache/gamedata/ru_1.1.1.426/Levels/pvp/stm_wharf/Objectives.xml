@@ -1,0 +1,100 @@
+<MissionObjectives> 
+	
+	<Objective id="attack1" name="@attack1" description="Attack base" type="core1att" team="att">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+     
+     
+      
+    <Objective id="Defend1" name="@defend1" description="Defend base" type="core1def" team="def">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>
+
+	
+    <Objective id="attack2" name="@attack2" description="Attack base" type="core2att" team="att">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+     
+     
+      
+    <Objective id="Defend2" name="@defend2" description="Defend base" type="core2def" team="def">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>
+       
+
+ 
+	<Objective id="attack3" name="@attack3" description="Attack base" type="core3att" team="att">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+     
+     
+      
+    <Objective id="Defend3" name="@defend3" description="Defend base" type="core3def" team="def">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+  </Objective>
+
+    <Objective id="alarm" name="@defend" description="Defender alarm" type="alarmdef" team="def">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+  </Objective>
+
+      <Objective id="attack2" name="@attack2" description="Attack base" type="core2att" team="att">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+     
+     
+      
+    <Objective id="Defend2" name="@defend2" description="Defend base" type="core2def" team="def">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>
+       
+
+ 
+	<Objective id="attack2spotted" name="@attack2a" description="Attack base 2 spotted" type="core2activatt" team="att">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+     
+     <Objective id="defend2spotted" name="@defend2a" description="Defend base 2 spotted" type="core2activdef" team="def">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+	<Objective id="attack3spotted" name="@attack3a" description="Attack base 3 spotted" type="core3activatt" team="att">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+     
+     <Objective id="defend3spotted" name="@defend3a" description="Defend base 3 spotted" type="core3activdef" team="def">
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+
+     <Objective id="pvp_round_start" name="@Round start" description="Round start" type="pvp_round_start" team="" >
+		<Activate message="" sound="" />
+		<Complete message="" sound="" />	
+		<Failed message="" sound="" />
+	</Objective>  
+	  
+</MissionObjectives>

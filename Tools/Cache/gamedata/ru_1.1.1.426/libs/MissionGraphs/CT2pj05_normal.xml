@@ -1,0 +1,11 @@
+<MissionGraph name="CT2pj05_normal" display_name="@ct_mission_hard05_1, @ct_mission_hard05_2" target_difficulty="normal" setting="china/china_base" secondary_objectives="2" game_mode = "pve">
+	<UI>
+		<Description text="@pve_me_end_path" icon="mapImgCTj05_%difficulty%" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+	
+	<SubMission kind="pass" difficulty="normal"/>
+	<SubMission kind="junction" name="china_junction05" mission_flow="safari" difficulty="normal" /> 
+	
+
+</MissionGraph>

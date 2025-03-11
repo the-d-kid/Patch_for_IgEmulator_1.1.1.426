@@ -1,0 +1,16 @@
+<MissionObjectives> 
+  <Objective id="J03_Tank" name="@J03_Tank" description="J03_Tank" type="protect" team="tan"/>
+  <Objective id="J03_Checkpoint1" name="@J03_Checkpoint1" description="J03_Checkpoint1" type="checkpoint" team="tan"/>
+  <Objective id="J03_Checkpoint2" name="@J03_Checkpoint2" description="J03_Checkpoint2" type="checkpoint" team="tan"/>
+  <Objective id="J03_Evacuation" name="@J03_Evacuation" description="J03_Evacuation" type="evacuation" team="tan"/>
+  <Objective id="J03_Tank_Activate" name="@J03_Tank_Activate" description="J03_Tank_Activate" type="activate" team="tan">
+	      <Activate message="@junction03_tank_activate" sound="" />        
+  </Objective>   
+  <Objective id="J03_Tank_Destroyed" name="@J03_Tank_Destroyed" description="J03_Tank_Destroyed" type="printer5sec" team="tan">
+	      <Activate message="@junction03_tank_destroyed" sound="" />        
+  </Objective>   
+  <Objective id="J03_Wait_Evac" name="@J03_wait_evac" description="J03_wait_evac" type="printer5sec" team="tan">
+	      <Activate message="@junction03_wait_evac" sound="" />        
+  </Objective>   
+  
+</MissionObjectives>

@@ -1,0 +1,5 @@
+<SubMissionConfig>
+	<ParameterSet difficulty="easy" kind="junction" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="kosovo_j05_start" finish_teleport="kosovo_j05_end" win_pool="40" lose_pool="30" draw_pool="32" score_pool="20"/>
+	<ParameterSet difficulty="normal" kind="junction" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="kosovo_j05_start" finish_teleport="kosovo_j05_end" win_pool="195" lose_pool="100" draw_pool="110" score_pool="0"/>
+	<ParameterSet difficulty="hard" kind="junction" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="kosovo_j05_start" finish_teleport="kosovo_j05_end" win_pool="400" lose_pool="200" draw_pool="260" score_pool="0"/>
+</SubMissionConfig>

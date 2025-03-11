@@ -1,0 +1,14 @@
+<item name="sr04_clip_d" class="K01_Item" type="attachment" view_settings="Objects/Weapons/sr04/sr04_clip_d.xml">
+ <description text="@ui_accessories_sr04_clip_d"/>
+ 
+ <drop_params>
+	<item name="sr04_clip_d" type="attachment" />
+</drop_params>
+ 
+ <settings>
+  <param name="weight" value="0.48"/>
+ </settings>
+ <types>
+
+ </types>
+</item>

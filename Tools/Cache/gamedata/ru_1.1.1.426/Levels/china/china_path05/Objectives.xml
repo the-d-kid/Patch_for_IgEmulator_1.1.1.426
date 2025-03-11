@@ -1,0 +1,12 @@
+<MissionObjectives> 
+
+<Objective id="CP05_Evacuation_f" name="@CP05_Danger_Evacuation_f" description="Evacuation" type="evacuation" team="tan"/> 
+<Objective id="CP05_Danger" name="@CP05_Danger" description="Danger" type="danger" team="tan" /> 
+<Objective id="CP05_Detonate1" name="@CP05_Detonate1" description="Activate" type="activate" team="tan" />  
+<Objective id="CP05_Detonate2" name="@CP05_Detonate2" description="Activate" type="activate" team="tan" /> 
+<Objective id="CP05_Checkpoint_f1" name="@CP05_Checkpoint_f1" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP05_Checkpoint_f2" name="@CP05_Checkpoint_f2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP05_Checkpoint_b1" name="@CP05_Checkpoint_b1" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP05_Checkpoint_b2" name="@CP05_Checkpoint_b2" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="CP05_Evacuation_b" name="@CP05_Danger_Evacuation_b" description="Evacuation" type="evacuation" team="tan"/> 
+</MissionObjectives>

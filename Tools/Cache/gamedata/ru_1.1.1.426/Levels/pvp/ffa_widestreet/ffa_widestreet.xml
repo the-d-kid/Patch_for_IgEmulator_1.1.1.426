@@ -1,0 +1,6 @@
+<MetaData>
+ <Setting name="pvp/ffa_widestreet"/>
+ <MiniMap Filename="ffa_widestreet.tif" startX="328.829010" startY="117.861893" endX="428.829010" endY="217.861893"/>
+ <DescriptionText text="@ffa_widestreet_descr"/>
+ <Display Name="Widestreet"/>
+</MetaData>

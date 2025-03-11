@@ -1,0 +1,5 @@
+<SubMissionConfig>
+	<ParameterSet difficulty="easy" kind="junction" mission_type="arena" mission_flow="arena_flow" time_limit="6000" score="0" start_teleport="Favela_Junction2_Start" finish_teleport="" win_pool="60" lose_pool="20" draw_pool="25" score_pool="60"/>
+	<ParameterSet difficulty="normal" kind="junction" mission_type="arena" mission_flow="arena_flow" time_limit="6000" score="0" start_teleport="Favela_Junction2_Start" finish_teleport="" win_pool="195" lose_pool="100" draw_pool="110" score_pool="0"/>
+	<ParameterSet difficulty="hard" kind="junction" mission_type="arena" mission_flow="arena_flow" time_limit="6000" score="0" start_teleport="Favela_Junction2_Start" finish_teleport="" win_pool="400" lose_pool="200" draw_pool="260" score_pool="0"/>
+</SubMissionConfig>

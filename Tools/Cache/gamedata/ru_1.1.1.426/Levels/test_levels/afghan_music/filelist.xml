@@ -1,0 +1,8 @@
+<download name="afghan_music" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="afghan_music.dds" dest="afghan_music.dds" size="524424" md5="a10da1e72896c6efb73cacd8925bf384"/>
+  <file src="afghan_music.xml" dest="afghan_music.xml" size="255" md5="2181605c414a4091f931382d928bdb07"/>
+  <file src="level.pak" dest="level.pak" size="11319220" md5="8f9d472101abb8962e592a3a71ab9e7a"/>
+ </files>
+</download>

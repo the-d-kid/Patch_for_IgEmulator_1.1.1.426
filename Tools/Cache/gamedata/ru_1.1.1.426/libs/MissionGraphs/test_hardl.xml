@@ -1,0 +1,8 @@
+<MissionGraph name="test_hard" game_mode="pve" display_name="test_hard" secondary_objectives="0" setting="test_levels/test_base">
+	<UI>
+		<Description text="@normal_mission_desc" icon="mapImgAfgan" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+
+ <SubMission kind="pass" difficulty="hard"/>
+</MissionGraph>

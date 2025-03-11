@@ -1,0 +1,5 @@
+<MetaData>
+ <LoadingScreens screen1="Levels/china/china_path07/china_path07_Loading.tif"/>
+ <Setting name="china/china_base"/>
+ <MiniMap Filename="china_path01.tif" startX="251.43979" startY="86.442108" endX="431.43979" endY="269.44211"/>
+</MetaData>

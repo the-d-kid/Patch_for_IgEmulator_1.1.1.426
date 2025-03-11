@@ -1,0 +1,7 @@
+<MetaData>
+ <Gamerules MP3="Seizure"/>
+ <Setting name="pvp/dst_afghan"/> 
+ <MiniMap Filename="dst_afghan.tif" startX="474.877228" startY="475.463837" endX="627.197266" endY="627.783813"/>
+ <Display Name="dst_afghan"/>
+ <DescriptionText text="Levels/pvp/dst_afghan/dst_afghan"/>
+</MetaData>

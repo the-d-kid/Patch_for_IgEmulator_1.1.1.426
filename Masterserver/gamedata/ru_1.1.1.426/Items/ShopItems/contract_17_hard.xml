@@ -1,0 +1,61 @@
+<shop_item name="contract_17_hard" type="contract">
+	<mmo_stats>
+		<param name="item_category" value="contract"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+	</mmo_stats>
+
+	<UI_stats>
+		<param name="name" value=""/>
+		<param name="description" value="@ui_contract_descr_17h"/>
+		<param name="icon" value=""/>
+	</UI_stats>
+	<contract diff="hard" amount="40" id="17" kind="kills">
+		<Filters>
+  		<Filter kind="player" param="1"/>
+  		<Filter kind="enemy" param="1"/>
+		<Filter kind="in_special_move" param="slide"/>
+  		<Filter kind="melee" param="0"/>
+		<Filter kind="victory_condition" param="7"/>
+		<Filter kind="weapon" param="smg01_shop"/>
+		<Filter kind="weapon" param="smg01_camo03_shop"/>
+		<Filter kind="weapon" param="smg02_shop"/>
+		<Filter kind="weapon" param="smg03_default"/>
+		<Filter kind="weapon" param="smg03_camo04_shop"/>
+		<Filter kind="weapon" param="smg04_shop"/>
+		<Filter kind="weapon" param="smg05_shop"/>
+		<Filter kind="weapon" param="smg06_shop"/>
+		<Filter kind="weapon" param="smg06_camo05_shop"/>
+		<Filter kind="weapon" param="smg07_shop"/>
+		<Filter kind="weapon" param="smg08_shop"/>
+		<Filter kind="weapon" param="smg09_shop"/>
+		<Filter kind="weapon" param="smg10_shop"/>
+		<Filter kind="weapon" param="smg11_shop"/>
+		<Filter kind="weapon" param="smg12_shop"/>
+		<Filter kind="weapon" param="smg13_shop"/>
+		<Filter kind="weapon" param="smg14_shop"/>
+		<Filter kind="weapon" param="smg15_shop"/>
+		<Filter kind="weapon" param="smg17_shop"/>
+		<Filter kind="weapon" param="smg21_shop"/>
+		<Filter kind="weapon" param="smg22_shop"/>
+		<Filter kind="weapon" param="smg23_shop"/>
+		<Filter kind="weapon" param="smg24_shop"/>
+		<Filter kind="weapon" param="smg25_shop"/>
+		<Filter kind="weapon" param="smg03_crown_shop"/>
+		<Filter kind="weapon" param="smg10_crown_shop"/>
+		<Filter kind="weapon" param="smg12_crown_shop"/>
+		<Filter kind="weapon" param="smg41_ww2_shop"/>
+		<Filter kind="weapon" param="smg04_camo02_shop"/>
+		<Filter kind="weapon" param="smg07_hlw01_shop"/>
+		<Filter kind="weapon" param="smg12_cny_shop"/>
+		<Filter kind="weapon" param="smg03_xmas_shop"/>
+		<Filter kind="weapon" param="smg12_xmas_shop"/>
+		<Filter kind="weapon" param="smg13_camo01_shop"/>
+		<Filter kind="weapon" param="smg03_set01_shop"/>
+		<Filter kind="weapon" param="smg06_set01_shop"/>
+		<Filter kind="weapon" param="smg14_shop"/>		
+		<Filter kind="weapon" param="smg30_shop"/>		
+		</Filters>
+		<Reward name="crown_money_item_01" amount="50"/>
+	</contract>
+</shop_item>

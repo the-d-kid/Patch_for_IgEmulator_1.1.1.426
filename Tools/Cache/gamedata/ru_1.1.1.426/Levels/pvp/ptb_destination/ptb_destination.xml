@@ -1,0 +1,5 @@
+<MetaData>
+ <Setting name="pvp/ptb_destination"/>
+ <MiniMap Filename="ptb_destination.tif" startX="153.00471" startY="272.43018" endX="283.0047" endY="402.43018"/>
+ <DescriptionText text="@ptb_destination_descr"/>
+ </MetaData>

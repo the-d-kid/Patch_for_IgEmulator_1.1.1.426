@@ -1,0 +1,7 @@
+<download name="ptb" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="159626" md5="cb6af74a670c8a3daaf05f57af78d4bc"/>
+  <file src="ptb.xml" dest="ptb.xml" size="313" md5="86b6634c102ae67b62fe7278b199abfa"/>
+ </files>
+</download>

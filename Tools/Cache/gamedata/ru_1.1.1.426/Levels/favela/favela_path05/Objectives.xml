@@ -1,0 +1,7 @@
+<MissionObjectives> 
+<Objective id="favela_p05_Checkpoint_f1" name="@favela_p05_Checkpoint_f1" description="Checkpoint" type="checkpoint" team="tan"/> 
+<Objective id="favela_p05_Checkpoint_f2" name="@favela_p05_Checkpoint_f2" description="Checkpoint" type="checkpoint" team="tan"/> 
+<Objective id="favela_p05_evacuation" name="@favela_p05_evacuation" description="Evacuation" type="evacuation" team="tan"/>
+<Objective id="favela_p05_Activate " name="@FD05_Activate" description="FD03_Activate" type="activate" team="tan" /> 
+<Objective id="favela_p05_Danger_b1" name="@FD05_Danger_f1" description="Danger" type="danger" team="tan" />  
+</MissionObjectives>

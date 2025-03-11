@@ -1,0 +1,6 @@
+<Material MtlFlags="524320" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.023103556,0.014310519,0.014310519" Specular="0,0,0" Emissive="1,1,1" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="levels/hideout/textures/hideout_plane.tif"/>
+ </Textures>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.15084025,0.15084025,0.15084025"/>
+</Material>

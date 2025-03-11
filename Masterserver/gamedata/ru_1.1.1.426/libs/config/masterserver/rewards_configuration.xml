@@ -1,0 +1,33 @@
+<Settings>
+	<Rewards>
+		<MoneyMultiplier>0.6</MoneyMultiplier>
+		<ExperienceMultiplier>1</ExperienceMultiplier>
+		<SponsorPointsMultiplier>1</SponsorPointsMultiplier>
+		<ClanPointsClanWarMultiplier>1</ClanPointsClanWarMultiplier>
+		<ClanPointsMultiplier>0.1</ClanPointsMultiplier>
+		<WinPoolDefault>100</WinPoolDefault>
+		<LosePoolDefault>25</LosePoolDefault>
+		<DrawPoolDefault>35</DrawPoolDefault>
+		<ScorePoolDefault>0</ScorePoolDefault>
+		<MinReward>5</MinReward>
+		<SecondaryObjectiveBonus>10</SecondaryObjectiveBonus>
+		<IncompleteSessionRewardPerMin>33</IncompleteSessionRewardPerMin>
+		<IncompleteSessionRewardCap>0.8</IncompleteSessionRewardCap>
+		<BonusRewardPoolEasy>180</BonusRewardPoolEasy>
+		<BonusRewardPoolNormal>300</BonusRewardPoolNormal>
+		<BonusRewardPoolHard>200</BonusRewardPoolHard>
+		<player_count_reward_mults>
+			<Value>0.05</Value><!-- for 1 player -->
+			<Value>0.1</Value><!-- for 2 players -->
+			<Value>0.15</Value><!-- for 3 players -->
+			<Value>0.2</Value><!-- for 4 players -->
+			<Value>0.3</Value><!-- for 5 players -->
+			<Value>0.5</Value><!-- for 6 players -->
+			<Value>0.8</Value><!-- for 7 players -->
+		</player_count_reward_mults>
+		<checkpoints_passed_reward_mults>
+			<Value>0.25</Value><!-- for 1 checkpoint passed on a last, unfinished sublevel -->
+			<Value>0.5</Value><!-- for 2 checkpoints passed on a last, unfinished sublevel -->
+		</checkpoints_passed_reward_mults>
+	</Rewards>
+</Settings>

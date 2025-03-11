@@ -1,0 +1,6 @@
+<MetaData>
+	<MiniMap Filename="afghan_coop.tif" startX="262.576233" startY="41.466644" endX="712.576233" endY="491.466644"/>
+	<Display Name="Afghan"/>
+	<Setting name="Afghan/afghan_base" display_name="@ui_mg_Afghan"/>
+	<Location name="@path01_mission_start1"/>
+</MetaData>

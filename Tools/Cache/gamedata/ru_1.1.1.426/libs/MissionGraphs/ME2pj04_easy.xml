@@ -1,0 +1,10 @@
+<MissionGraph name="ME2pj04_easy" display_name="@straight_mission_name4" target_difficulty="easy" setting="afghan/afghan_base" secondary_objectives="1" game_mode = "pve">
+	<UI>
+		<Description text="@pve_me_end_helicopter" icon="mapImgMEj04_e" /> 
+		<GameMode text="@PvE_game_mode_desc" icon="pve_icon" /> 
+	</UI>
+	
+	<SubMission kind="pass" difficulty="easy"/>
+	<SubMission kind="junction" name="afghan_junction04" mission_flow="boss" difficulty="easy"/>
+	
+</MissionGraph>

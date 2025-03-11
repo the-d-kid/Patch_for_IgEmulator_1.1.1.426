@@ -1,0 +1,16 @@
+<MissionObjectives> 
+<Objective id="Path04_Danger_f1" name="@Path04_Danger_f1" description="Danger" type="danger" team="tan" /> 
+
+<Objective id="Path04_Checkpoint_f" name="@Path04_Checkpoint_f" description="Checkpoint" type="printer5sec" team="tan" > 
+  	<Activate message="@checkpoint_done" sound="" />
+  </Objective>  
+
+<Objective id="Path04_Danger_f2" name="@Path04_Danger_f2" description="Danger" type="danger" team="tan" /> 
+<Objective id="Path04_Danger_Evacuation_f" name="@Path04_Danger_Evacuation_f" description="Evacuation" type="evacuation" team="tan"/>  
+<Objective id="Path04_Danger_f3" name="@Path04_Danger_f3" description="Danger" type="danger" team="tan" /> 
+<Objective id="Path04_Danger_f4" name="@Path04_Danger_f4" description="Danger" type="danger" team="tan" /> 
+<Objective id="Path04_Danger_b1" name="@Path04_Danger_b1" description="Danger" type="danger" team="tan" /> 
+<Objective id="Path04_Checkpoint_b" name="@Path04_Checkpoint_b" description="Checkpoint" type="checkpoint" team="tan" /> 
+<Objective id="Path04_Danger_b2" name="@Path04_Danger_b2" description="Danger" type="danger" team="tan" /> 
+<Objective id="Path04_Danger_Evacuation_b" name="@Path04_Danger_Evacuation_b" description="Evacuation" type="evacuation" team="tan"/> 
+</MissionObjectives>

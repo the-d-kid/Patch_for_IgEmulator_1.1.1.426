@@ -1,0 +1,25 @@
+<shop_item name="contract_04_normal" type="contract">
+	<mmo_stats>
+		<param name="item_category" value="contract"/>
+		<param name="shopcontent" value="1"/>
+		<param name="classes" value="RESM"/>
+	</mmo_stats>
+
+	<UI_stats>
+		<param name="name" value=""/>
+		<param name="description" value="@ui_contract_descr_4n"/>
+		<param name="icon" value=""/>
+	</UI_stats>
+	<contract diff="normal" amount="10" id="4" kind="kills">
+		<Filters>
+  		<Filter kind="weapon_slot" param="knife"/>
+		<Filter kind="victory_condition" param="3"/>
+		<Filter kind="difficulty" param="normal"/>
+  		<Filter kind="enemy" param="1"/>
+		<Filter kind="player" param="0"/>
+  		<Filter kind="claymore" param="0"/>
+  		<Filter kind="grenade" param="0"/>
+		</Filters>
+		<Reward name="game_money_item_01" amount="1000"/>
+	</contract>
+</shop_item>

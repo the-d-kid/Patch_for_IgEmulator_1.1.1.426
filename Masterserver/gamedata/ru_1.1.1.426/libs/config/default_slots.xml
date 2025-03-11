@@ -1,0 +1,26 @@
+<config>
+
+	<slot_def name="primary" 		id="1" always_equip="0" />
+	<slot_def name="secondary"		id="2" always_equip="0" />
+	<slot_def name="pistol"			id="3" always_equip="0" />
+	<slot_def name="knife"			id="4" always_equip="0" />
+	<slot_def name="bag"			id="5" always_equip="0" />
+	<slot_def name="elbowpads"		id="6" always_equip="0" />
+	<slot_def name="gloves" 		id="7" always_equip="0" />
+	<slot_def name="knee" 			id="8" always_equip="0" />
+	<slot_def name="legarmor"		id="9" always_equip="0" />
+	<slot_def name="mask" 			id="10" always_equip="0" />
+	<slot_def name="face" 			id="11" always_equip="0" />
+	<slot_def name="helmet" 		id="12" always_equip="0" />
+	<slot_def name="chest" 			id="13" always_equip="0" />
+	<slot_def name="arms" 			id="14" always_equip="0" />
+	<slot_def name="hands" 			id="15" always_equip="0" />
+	<slot_def name="boots" 			id="16" always_equip="0" />
+	<slot_def name="vest" 			id="17" always_equip="0" />
+	<slot_def name="pants" 			id="18" always_equip="0" />
+	<slot_def name="decal"			id="19" always_equip="0" />
+	<slot_def name="consumable"		id="22" always_equip="0" />
+	<slot_def name="skin"					id="23" always_equip="0" />
+	<slot_def name="attachment"		id="20" always_equip="1" />
+	<slot_def name="defaulthead"	id="21" always_equip="1" />
+</config>

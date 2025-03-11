@@ -1,0 +1,11 @@
+<SubMissionConfig>
+ <ParameterSet difficulty="easy" kind="pass" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="afghan_teleport_start" finish_teleport="afghan_teleport_end" win_pool="17" lose_pool="7" draw_pool="10" score_pool="17"/>
+ <ParameterSet difficulty="easy" kind="end" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="afghan_teleport_start" finish_teleport="afghan_teleport_end" win_pool="17" lose_pool="7" draw_pool="10" score_pool="17"/>
+ <ParameterSet difficulty="easy" kind="start" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="afghan_teleport_start" finish_teleport="afghan_teleport_end" win_pool="17" lose_pool="7" draw_pool="10" score_pool="17"/>
+ <ParameterSet difficulty="normal" kind="pass" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="afghan_teleport_start" finish_teleport="afghan_teleport_end" win_pool="35" lose_pool="15" draw_pool="20" score_pool="35"/>
+ <ParameterSet difficulty="normal" kind="end" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="afghan_teleport_start" finish_teleport="afghan_teleport_end" win_pool="35" lose_pool="15" draw_pool="20" score_pool="35"/>
+ <ParameterSet difficulty="normal" kind="start" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="afghan_teleport_start" finish_teleport="afghan_teleport_end" win_pool="35" lose_pool="15" draw_pool="20" score_pool="35"/>
+ <ParameterSet difficulty="hard" kind="pass" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="afghan_teleport_start" finish_teleport="afghan_teleport_end" win_pool="70" lose_pool="30" draw_pool="35" score_pool="70"/>
+ <ParameterSet difficulty="hard" kind="end" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="afghan_teleport_start" finish_teleport="afghan_teleport_end" win_pool="70" lose_pool="30" draw_pool="35" score_pool="70"/>
+ <ParameterSet difficulty="hard" kind="start" mission_type="default" mission_flow="passage" time_limit="1000" score="0" start_teleport="afghan_teleport_start" finish_teleport="afghan_teleport_end" win_pool="70" lose_pool="30" draw_pool="35" score_pool="70"/>
+</SubMissionConfig>

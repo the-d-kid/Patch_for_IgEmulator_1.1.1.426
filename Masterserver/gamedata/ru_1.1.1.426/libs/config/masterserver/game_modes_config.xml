@@ -1,0 +1,528 @@
+<!--
+Supported settings:
+- no_teams_mode
+- teams_ready_players_diff
+- min_players_ready
+- max_players
+
+Supported restrictions:
+- enemy_outlines
+- inventory_slot
+- time_of_day
+- time_limit
+- frag_limit
+- round_limit
+- max_players
+- friendly_fire
+- auto_team_balance
+- join_in_the_process
+- dead_can_chat
+-->
+
+<game_modes_config>
+	<game_modes>
+		<for mode="pve">
+			<settings>
+				<setting kind="no_teams_mode" value="1" />
+				<setting kind="teams_ready_players_diff" value="0" />
+				<setting kind="min_players_ready" value="4" />
+			</settings>
+			<restrictions>
+				<restriction kind="max_players" option="pve" />
+
+				<restriction kind="dead_can_chat" option="only" />
+				<restriction kind="auto_team_balance" option="force_disabled" />
+				<restriction kind="enemy_outlines" option="pve" />
+				<restriction kind="friendly_fire" option="only" />
+				<restriction kind="join_in_the_process" option="only" />
+				<restriction kind="inventory_slot" option="all" />
+
+				<restriction kind="class_rifleman" option="only" />
+				<restriction kind="class_medic" option="only" />
+				<restriction kind="class_engineer" option="only" />
+				<restriction kind="class_sniper" option="only" />
+			</restrictions>
+		</for>
+		
+		<for mode="ffa">
+			<settings>
+				<setting kind="no_teams_mode" value="1" />
+				<setting kind="teams_ready_players_diff" value="0" />
+				<setting kind="min_players_ready" value="4" />
+			</settings>
+
+			<restrictions>
+				<restriction kind="dead_can_chat" option="only" />
+				<restriction kind="enemy_outlines" option="only" /> 
+				<restriction kind="join_in_the_process" option="only" />
+				<restriction kind="max_players" option="default" />
+				<restriction kind="inventory_slot" option="all" />
+				<restriction kind="auto_team_balance" option="force_disabled" />
+				<restriction kind="friendly_fire" option="force_disabled" />
+
+				<restriction kind="class_rifleman" option="only" />
+				<restriction kind="class_medic" option="only" />
+				<restriction kind="class_engineer" option="only" />
+				<restriction kind="class_sniper" option="only" />
+			</restrictions>
+			
+			<room type="PvP_Autostart">
+				<restrictions>
+					<restriction kind="auto_team_balance" option="force_disabled" />
+					<restriction kind="dead_can_chat" option="force_enabled" />
+					<restriction kind="enemy_outlines" option="force_disabled" />
+					<restriction kind="friendly_fire" option="force_disabled" />
+					<restriction kind="join_in_the_process" option="force_enabled" />
+					<restriction kind="max_players" option="default" />
+					<restriction kind="inventory_slot" option="only_all" />
+
+					<restriction kind="class_rifleman" option="force_enabled" />
+					<restriction kind="class_medic" option="force_enabled" />
+					<restriction kind="class_engineer" option="force_enabled" />
+					<restriction kind="class_sniper" option="force_enabled" />
+				</restrictions>
+			</room>
+		</for>
+		
+		<for mode="ctf">
+			<settings>
+				<setting kind="no_teams_mode" value="0" />
+				<setting kind="teams_ready_players_diff" value="1" />
+				<setting kind="min_players_ready" value="4" />
+			</settings>
+
+			<restrictions>
+				<restriction kind="dead_can_chat" option="only" />
+				<restriction kind="auto_team_balance" option="only" />
+				<restriction kind="enemy_outlines" option="only" />
+				<restriction kind="friendly_fire" option="only" />
+				<restriction kind="join_in_the_process" option="only" />
+				<restriction kind="max_players" option="default" />
+				<restriction kind="inventory_slot" option="all" />
+
+				<restriction kind="class_rifleman" option="only" />
+				<restriction kind="class_medic" option="only" />
+				<restriction kind="class_engineer" option="only" />
+				<restriction kind="class_sniper" option="only" />
+			</restrictions>
+
+			<room type="PvP_ClanWar">
+				<restrictions>
+					<restriction kind="auto_team_balance" option="force_disabled" />
+				</restrictions>
+			</room>
+			
+			<room type="PvP_Autostart">
+				<restrictions>
+					<restriction kind="auto_team_balance" option="force_enabled" />
+					<restriction kind="dead_can_chat" option="force_enabled" />
+					<restriction kind="enemy_outlines" option="force_disabled" />
+					<restriction kind="friendly_fire" option="force_disabled" />
+					<restriction kind="join_in_the_process" option="force_enabled" />
+					<restriction kind="max_players" option="default" />
+					<restriction kind="inventory_slot" option="only_all" />
+
+					<restriction kind="class_rifleman" option="force_enabled" />
+					<restriction kind="class_medic" option="force_enabled" />
+					<restriction kind="class_engineer" option="force_enabled" />
+					<restriction kind="class_sniper" option="force_enabled" />
+				</restrictions>
+			</room>
+		</for>
+		
+		<for mode="ptb">
+			<settings>
+				<setting kind="no_teams_mode" value="0" />
+				<setting kind="teams_ready_players_diff" value="1" />
+				<setting kind="min_players_ready" value="4" />
+			</settings>
+
+			<restrictions>
+				<restriction kind="dead_can_chat" option="only" />
+				<restriction kind="auto_team_balance" option="only" />
+				<restriction kind="enemy_outlines" option="only" />
+				<restriction kind="friendly_fire" option="only" />
+				<restriction kind="join_in_the_process" option="only" />
+				<restriction kind="max_players" option="default" />
+				<restriction kind="inventory_slot" option="all" />
+
+				<restriction kind="class_rifleman" option="only" />
+				<restriction kind="class_medic" option="only" />
+				<restriction kind="class_engineer" option="only" />
+				<restriction kind="class_sniper" option="only" />
+			</restrictions>
+
+			<room type="PvP_ClanWar">
+				<restrictions>
+					<restriction kind="auto_team_balance" option="force_disabled" />
+				</restrictions>
+			</room>
+			
+			<room type="PvP_Autostart">
+				<restrictions>
+					<restriction kind="auto_team_balance" option="force_enabled" />
+					<restriction kind="dead_can_chat" option="force_enabled" />
+					<restriction kind="enemy_outlines" option="force_disabled" />
+					<restriction kind="friendly_fire" option="force_disabled" />
+					<restriction kind="join_in_the_process" option="force_enabled" />
+					<restriction kind="max_players" option="default" />
+					<restriction kind="inventory_slot" option="only_all" />
+
+					<restriction kind="class_rifleman" option="force_enabled" />
+					<restriction kind="class_medic" option="force_enabled" />
+					<restriction kind="class_engineer" option="force_enabled" />
+					<restriction kind="class_sniper" option="force_enabled" />
+				</restrictions>
+			</room>
+		</for>
+		
+		<for mode="stm">
+			<settings>
+				<setting kind="no_teams_mode" value="0" />
+				<setting kind="teams_ready_players_diff" value="1" />
+				<setting kind="min_players_ready" value="4" />
+			</settings>
+
+			<restrictions>
+				<restriction kind="dead_can_chat" option="only" />
+				<restriction kind="auto_team_balance" option="only" />
+				<restriction kind="enemy_outlines" option="only" />
+				<restriction kind="friendly_fire" option="only" />
+				<restriction kind="join_in_the_process" option="only" />
+				<restriction kind="max_players" option="default" />
+				<restriction kind="inventory_slot" option="all" />
+
+				<restriction kind="class_rifleman" option="only" />
+				<restriction kind="class_medic" option="only" />
+				<restriction kind="class_engineer" option="only" />
+				<restriction kind="class_sniper" option="only" />
+			</restrictions>
+
+			<room type="PvP_ClanWar">
+				<restrictions>
+					<restriction kind="auto_team_balance" option="force_disabled" />
+				</restrictions>
+			</room>
+			
+			<room type="PvP_Autostart">
+				<restrictions>
+					<restriction kind="auto_team_balance" option="force_enabled" />
+					<restriction kind="dead_can_chat" option="force_enabled" />
+					<restriction kind="enemy_outlines" option="force_disabled" />
+					<restriction kind="friendly_fire" option="force_disabled" />
+					<restriction kind="join_in_the_process" option="force_enabled" />
+					<restriction kind="max_players" option="default" />
+					<restriction kind="inventory_slot" option="only_all" />
+
+					<restriction kind="class_rifleman" option="force_enabled" />
+					<restriction kind="class_medic" option="force_enabled" />
+					<restriction kind="class_engineer" option="force_enabled" />
+					<restriction kind="class_sniper" option="force_enabled" />
+				</restrictions>
+			</room>
+		</for>
+		
+		<for mode="tdm">
+			<settings>
+				<setting kind="no_teams_mode" value="0" />
+				<setting kind="teams_ready_players_diff" value="1" />
+				<setting kind="min_players_ready" value="4" />
+			</settings>
+
+			<restrictions>
+				<restriction kind="dead_can_chat" option="only" />
+				<restriction kind="auto_team_balance" option="only" />
+				<restriction kind="enemy_outlines" option="only" />
+				<restriction kind="friendly_fire" option="only" />
+				<restriction kind="join_in_the_process" option="only" />
+				<restriction kind="max_players" option="default" />
+				<restriction kind="inventory_slot" option="all" />
+
+				<restriction kind="class_rifleman" option="only" />
+				<restriction kind="class_medic" option="only" />
+				<restriction kind="class_engineer" option="only" />
+				<restriction kind="class_sniper" option="only" />
+			</restrictions>
+
+			<room type="PvP_ClanWar">
+				<restrictions>
+					<restriction kind="auto_team_balance" option="force_disabled" />
+				</restrictions>
+			</room>
+			
+			<room type="PvP_Autostart">
+				<restrictions>
+					<restriction kind="auto_team_balance" option="force_enabled" />
+					<restriction kind="dead_can_chat" option="force_enabled" />
+					<restriction kind="enemy_outlines" option="force_disabled" />
+					<restriction kind="friendly_fire" option="force_disabled" />
+					<restriction kind="join_in_the_process" option="force_enabled" />
+					<restriction kind="max_players" option="default" />
+					<restriction kind="inventory_slot" option="only_all" />
+
+					<restriction kind="class_rifleman" option="force_enabled" />
+					<restriction kind="class_medic" option="force_enabled" />
+					<restriction kind="class_engineer" option="force_enabled" />
+					<restriction kind="class_sniper" option="force_enabled" />
+				</restrictions>
+			</room>
+		</for>
+
+		<for mode="dst">
+			<settings>
+				<setting kind="no_teams_mode" value="0" />
+				<setting kind="teams_ready_players_diff" value="1" />
+				<setting kind="min_players_ready" value="4" />
+			</settings>
+
+			<restrictions>
+				<restriction kind="dead_can_chat" option="only" />
+				<restriction kind="auto_team_balance" option="only" />
+				<restriction kind="enemy_outlines" option="only" />
+				<restriction kind="friendly_fire" option="only" />
+				<restriction kind="join_in_the_process" option="only" />
+				<restriction kind="max_players" option="default" />
+				<restriction kind="inventory_slot" option="all" />
+
+				<restriction kind="class_rifleman" option="only" />
+				<restriction kind="class_medic" option="only" />
+				<restriction kind="class_engineer" option="only" />
+				<restriction kind="class_sniper" option="only" />
+			</restrictions>
+
+			<room type="PvP_ClanWar">
+				<restrictions>
+					<restriction kind="auto_team_balance" option="force_disabled" />
+				</restrictions>
+			</room>
+			
+			<room type="PvP_Autostart">
+				<restrictions>
+					<restriction kind="auto_team_balance" option="force_enabled" />
+					<restriction kind="dead_can_chat" option="force_enabled" />
+					<restriction kind="enemy_outlines" option="force_disabled" />
+					<restriction kind="friendly_fire" option="force_disabled" />
+					<restriction kind="join_in_the_process" option="force_enabled" />
+					<restriction kind="max_players" option="default" />
+					<restriction kind="inventory_slot" option="only_all" />
+
+					<restriction kind="class_rifleman" option="force_enabled" />
+					<restriction kind="class_medic" option="force_enabled" />
+					<restriction kind="class_engineer" option="force_enabled" />
+					<restriction kind="class_sniper" option="force_enabled" />
+				</restrictions>
+			</room>
+		</for>
+	</game_modes>
+
+	<restriction_options>
+		<restriction kind="class_rifleman" channels="pvp_skilled, pvp_pro">
+			<display_tokens>
+				<on value="0" token="@restriction_off" />
+				<on value="1" token="@restriction_on" />
+			</display_tokens>
+			<option id="only" default="1">
+				<allowed value="0"/>
+				<allowed value="1"/>
+			</option>
+			<option id="force_enabled" default="1">
+				<allowed value="1"/>
+			</option>
+		</restriction>
+
+		<restriction kind="class_engineer" channels="pvp_skilled, pvp_pro">
+			<display_tokens>
+				<on value="0" token="@restriction_off" />
+				<on value="1" token="@restriction_on" />
+			</display_tokens>
+			<option id="only" default="1">
+				<allowed value="0"/>
+				<allowed value="1"/>
+			</option>
+			<option id="force_enabled" default="1">
+				<allowed value="1"/>
+			</option>
+		</restriction>
+
+		<restriction kind="class_medic" channels="pvp_skilled, pvp_pro">
+			<display_tokens>
+				<on value="0" token="@restriction_off" />
+				<on value="1" token="@restriction_on" />
+			</display_tokens>
+			<option id="only" default="1">
+				<allowed value="0"/>
+				<allowed value="1"/>
+			</option>
+			<option id="force_enabled" default="1">
+				<allowed value="1"/>
+			</option>
+		</restriction>
+
+		<restriction kind="class_sniper" channels="pvp_skilled, pvp_pro">
+			<display_tokens>
+				<on value="0" token="@restriction_off" />
+				<on value="1" token="@restriction_on" />
+			</display_tokens>
+			<option id="only" default="1">
+				<allowed value="0"/>
+				<allowed value="1"/>
+			</option>
+			<option id="force_enabled" default="1">
+				<allowed value="1"/>
+			</option>
+		</restriction>
+
+		<restriction kind="dead_can_chat">
+			<display_tokens>
+				<on value="0" token="@restriction_off" />
+				<on value="1" token="@restriction_on" />
+			</display_tokens>
+			<option id="only" default="1">
+				<allowed value="0"/>
+				<allowed value="1"/>
+			</option>
+			<option id="force_enabled" default="1">
+				<allowed value="1"/>
+			</option>
+		</restriction>
+		
+		<restriction kind="auto_team_balance">
+			<display_tokens>
+				<on value="0" token="@restriction_off" />
+				<on value="1" token="@restriction_on" />
+			</display_tokens>
+			<option id="only" default="1">
+				<allowed value="0"/>
+				<allowed value="1"/>
+			</option>
+			<option id="force_disabled" default="0">
+				<allowed value="0"/>
+			</option>
+			<option id="force_enabled" default="1">
+				<allowed value="1"/>
+			</option>
+		</restriction>
+
+		<restriction kind="friendly_fire">
+			<display_tokens>
+				<on value="0" token="@mission_badge_friendly_fire_off" />
+				<on value="1" token="@mission_badge_friendly_fire_on" />
+			</display_tokens>
+			<option id="only" default="0">
+				<allowed value="0"/>
+				<allowed value="1"/>
+			</option>
+			<option id="force_disabled" default="0">
+				<allowed value="0"/>
+			</option>
+		</restriction>
+		
+		<restriction kind="enemy_outlines">
+			<display_tokens>
+				<on value="0" token="@mission_badge_enemy_outlines_off" />
+				<on value="1" token="@mission_badge_enemy_outlines_on" />
+			</display_tokens>
+			<option id="only" default="0">
+				<allowed value="0"/>
+				<allowed value="1"/>
+			</option>
+			<option id="pve" default="1">
+				<allowed value="1"/>
+			</option>
+			<option id="force_disabled" default="0">
+				<allowed value="0"/>
+			</option>
+		</restriction>
+		
+		<restriction kind="inventory_slot">
+			<display_tokens>
+				<on value="2147483647" token="@ui_restriction_any" />
+				<on value="2143289293" token="@ui_restriction_pistols" />
+				<on value="2143289301" token="@ui_restriction_melee" />
+			</display_tokens>
+			<option id="all" default="2147483647">
+				<allowed value="2147483647"/>
+				<allowed value="2143289293"/>
+				<allowed value="2143289301"/>
+			</option>
+			<option id="only_all" default="2147483647">
+				<allowed value="2147483647"/>
+			</option>
+			<option id="melee_only" default="2143289301">
+				<allowed value="2143289301"/>
+			</option>
+			<option id="pistols_only" default="2143289293">
+				<allowed value="2143289293"/>
+			</option>
+		</restriction>
+		
+		<restriction kind="time_limit" on_room_creation_only="1">
+			<display_tokens>
+				<on value="5" token="@5_minutes" />
+				<on value="10" token="@10_minutes" />
+				<on value="15" token="@15_minutes" />
+				<on value="30" token="@30_minutes" />
+				<on value="45" token="@45_minutes" />
+				<on value="60" token="@60_minutes" />
+			</display_tokens>
+			<option id="short" default="10">
+				<allowed value="5"/>
+				<allowed value="10"/>
+			</option>
+			<option id="medium" default="15">
+				<allowed value="15"/>
+				<allowed value="30"/>
+			</option>
+			<option id="long" default="45	">
+				<allowed value="45"/>
+				<allowed value="60"/>
+			</option>
+		</restriction>
+		
+		<restriction kind="join_in_the_process">
+			<display_tokens>
+				<on value="0" token="@mission_badge_join_in_the_process_on" />
+				<on value="1" token="@mission_badge_join_in_the_process_off" />
+			</display_tokens>
+			<option id="only" default="1">
+				<allowed value="0"/>
+				<allowed value="1"/>
+			</option>
+			<option id="force_enabled" default="1">
+				<allowed value="1"/>
+			</option>
+		</restriction>
+		
+		<restriction kind="max_players">
+			<display_tokens>
+				<on value="4" token="@4_players" />
+				<on value="5" token="" />
+				<on value="6" token="@6_players" />
+				<on value="8" token="@8_players" />
+				<on value="10" token="@10_players" />
+				<on value="12" token="@12_players" />
+				<on value="14" token="@14_players" />
+				<on value="16" token="@16_players" />
+			</display_tokens>
+			<option id="default" default="16">
+				<allowed value="4"/>
+				<allowed value="6"/>
+				<allowed value="8"/>
+				<allowed value="10"/>
+				<allowed value="12"/>
+				<allowed value="14"/>
+				<allowed value="16"/>
+			</option>
+			<option id="pve" default="5">
+				<allowed value="5"/>
+			</option>
+			<option id="ffa" default="10">
+				<allowed value="4"/>
+				<allowed value="6"/>
+				<allowed value="8"/>
+				<allowed value="10"/>
+			</option>
+		</restriction>
+	</restriction_options>
+	
+</game_modes_config>

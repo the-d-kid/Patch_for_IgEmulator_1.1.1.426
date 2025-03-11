@@ -1,0 +1,5 @@
+<MissionObjectives> 
+  <Objective id="Path03_checkpoint1" name="@Path03_checkpoint1" description="Path03_checkpoint1" type="checkpoint" team="tan" /> 
+  <Objective id="Path03_checkpoint2" name="@Path03_checkpoint2" description="Path03_checkpoint2" type="checkpoint" team="tan" /> 
+  <Objective id="Path03_EvacuationPoint" name="@Path03_EvacuationPoint" description="Path03_EvacuationPoint" type="evacuation" team="tan"/>  
+</MissionObjectives>

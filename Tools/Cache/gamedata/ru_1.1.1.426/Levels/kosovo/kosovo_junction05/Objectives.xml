@@ -1,0 +1,8 @@
+<MissionObjectives> 
+  <Objective id="kosovo_j05_checkpoint1" name="@kosovo_j05_checkpoint1" description="kosovo_j05_checkpoint1" type="checkpoint" team="tan" />
+  <Objective id="kosovo_j05_checkpoint2" name="@kosovo_j05_checkpoint2" description="kosovo_j05_checkpoint2" type="checkpoint" team="tan" />
+  <Objective id="kj05_gateway" name="@kj05_gateway" description="empty" type="activate" team="tan"/>  
+
+  <Objective id="kj05_evac" name="@kj05_evac" description="kj05_evac" type="evacuation" team="tan"/>
+  <Objective id="kj05_ironman" name="@kj05_ironman" description="kj05_ironman" type="danger" team="tan"/> 
+</MissionObjectives>

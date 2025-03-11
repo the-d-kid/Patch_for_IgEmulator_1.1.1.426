@@ -1,0 +1,34 @@
+<MissionObjectives> 
+  
+  <Objective id="Checkpoint" name="@Checkpoint" description="Out Checkpoint Text" type="printer5sec" team="tan" > 
+  		<Activate message="@checkpoint_done" sound="" />
+  </Objective>
+  <Objective id="Evacuation" name="@evacuation" description="evacuation" type="evacuation" team="tan"/>
+  
+  <Objective id="GateOpen1" name="" description="empty" type="danger" team="tan"/>
+  <Objective id="GateOpen2" name="" description="empty" type="danger" team="tan"/>
+  <Objective id="GateOpen3" name="" description="empty" type="danger" team="tan"/>
+  <Objective id="GateOpen4" name="" description="empty" type="danger" team="tan"/>
+  
+  <Objective id="Wavestart_5sec" name="" description="empty" type="printer1sec" team="tan">
+	<Activate message="@arena_wavestart_5sec"  sound="sounds/ui:menu:count_down" message_lifetime="1" />
+  </Objective>  
+  <Objective id="Wavestart_4sec" name="" description="empty" type="printer1sec" team="tan">
+  	<Activate message="@arena_wavestart_4sec"  sound="sounds/ui:menu:count_down" message_lifetime="1" />  
+  </Objective>  
+  <Objective id="Wavestart_3sec" name="" description="empty" type="printer1sec" team="tan">
+	<Activate message="@arena_wavestart_3sec"  sound="sounds/ui:menu:count_down" message_lifetime="1" />
+  </Objective>  
+  <Objective id="Wavestart_2sec" name="" description="empty" type="printer1sec" team="tan">
+	<Activate message="@arena_wavestart_2sec"  sound="sounds/ui:menu:count_down" message_lifetime="1" />
+  </Objective>  
+  <Objective id="Wavestart_1sec" name="" description="empty" type="printer1sec" team="tan">
+	<Activate message="@arena_wavestart_1sec"  sound="sounds/ui:menu:count_down" message_lifetime="1" />
+  </Objective>
+
+
+  
+  <Objective id="killzone_warning" name="@killzone_warning" description="killzone_warning" type="printer5sec" team="tan" > 
+  		<Activate message="@arena_killzone_warning" sound="" />
+  </Objective>         
+</MissionObjectives>

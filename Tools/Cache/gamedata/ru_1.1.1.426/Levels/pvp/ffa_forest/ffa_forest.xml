@@ -1,0 +1,6 @@
+<MetaData>
+ <Setting name="ffa/ffa_forest"/>
+ <MiniMap Filename="ffa_forest.tif" startX="80.953415" startY="75.194595" endX="202.953415" endY="197.194595"/>
+ <DescriptionText text="@ffa_forest_descr"/>
+ <Display Name="forest"/>
+</MetaData>
